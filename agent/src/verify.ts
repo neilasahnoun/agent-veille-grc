@@ -51,8 +51,9 @@ export function verifierExigence(ex: ExigenceExtraite, article: Article, texteCo
     facteur *= 0.4;
   }
 
-  const numeroCite = ex.article.match(/\d+/)?.[0];
-  if (numeroCite === article.numero) motifs.push(`article ${article.numero} cohérent`);
+  const numeroCite = article.numero.startsWith("S") ? article.numero : ex.article.match(/\d+/)?.[0];
+  if (article.numero.startsWith("S")) motifs.push(`document sans articles : ${article.titre.toLowerCase()}`);
+  else if (numeroCite === article.numero) motifs.push(`article ${article.numero} cohérent`);
   else {
     motifs.push(`article cité (${ex.article}) ≠ article analysé (${article.numero})`);
     facteur *= 0.7;

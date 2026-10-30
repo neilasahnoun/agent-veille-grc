@@ -52,12 +52,14 @@ export function lireFichier(chemin: string, opts: { id?: string; titre?: string 
   }
 
   const { meta, corps } = lireEnTete(brut);
+  const titre = opts.titre || meta.titre || titreOfficiel(corps) || nom;
+  const celex = meta.reference ? undefined : celexDepuisTitre(titre);
   return {
     id: opts.id || meta.id || `TXT-${nom.toUpperCase()}`,
-    titre: opts.titre || meta.titre || nom,
-    source: meta.source || "Fichier local",
-    reference: meta.reference || nom,
-    url: meta.url || "",
+    titre,
+    source: meta.source || (celex ? "EUR-Lex" : "Fichier local"),
+    reference: meta.reference || (celex ? `CELEX ${celex}` : nom),
+    url: meta.url || (celex ? `https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:${celex}` : ""),
     date_publication: meta.date_publication,
     nature: "texte",
     contenu: corps,

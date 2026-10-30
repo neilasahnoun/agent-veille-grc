@@ -135,6 +135,7 @@ npm run matrices    # recalcul ponctuel après des validations
 
 | Vue | Contenu |
 |---|---|
+| 💬 Assistant | **Chatbot** qui répond en direct aux questions sur l'analyse, en citant articles et exigences, et **dépôt d'un document** (PDF, HTML, texte) que l'agent lit et analyse aussitôt |
 | 📡 Fil de veille | Textes analysés (version, applicabilité, lien officiel) et signaux détectés |
 | 📑 Textes et matrices | Raisonnement d'applicabilité, matrices M1 à M5, export Excel |
 | ✅ Validation humaine | Citation officielle, contrôle automatique, confiance, puis **Valider / Corriger / Rejeter** avec commentaire. La décision est enregistrée dans Notion ou en local |
@@ -146,7 +147,7 @@ npm run matrices    # recalcul ponctuel après des validations
 |---|---|
 | Agent de veille | `agent/src/` (voir `docs/comment-ca-marche.md`) |
 | Base Notion et intégration MCP / worker | `agent/src/storage/`, `agent/src/notion-setup.ts`, `agent/src/worker.ts`, `.mcp.json` |
-| Cockpit Streamlit | `cockpit/app.py` |
+| Cockpit Streamlit et chatbot | `cockpit/app.py`, `cockpit/assistant.py` |
 | 5 matrices GRC | `outputs/matrices/*.csv`, `outputs/matrices_grc.xlsx` |
 | Plan de gouvernance | `docs/plan-gouvernance.md` (analyse) et `outputs/plan-gouvernance.md` (généré) |
 | Résultats et limites | `docs/resultats-et-limites.md` |

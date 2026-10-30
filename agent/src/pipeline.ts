@@ -9,7 +9,7 @@ import { cleCache, ecrireCache, lireCache } from "./cache.js";
 import { analyserApplicabilite, extraireExigencesLot, QuotaJournalierError } from "./llm.js";
 import { calculerRisque, construireLots, exigencesActives, exporterMatrices } from "./matrices.js";
 import type { Organisation } from "./organisation.js";
-import { decouperArticles, empreinte, type Article } from "./parse.js";
+import { decouperArticles, decouperSections, empreinte, type Article } from "./parse.js";
 import type { Applicabilite, Exigence, ExigenceExtraite, Store, Texte, Theme } from "./schemas.js";
 import { rechercherJurisprudence } from "./sources/judilibre.js";
 import { pisteConfiguree } from "./sources/piste.js";
@@ -46,8 +46,12 @@ export interface OptionsAnalyse {
 
 /** Analyse un texte juridique complet et fusionne les résultats dans le store. */
 export async function analyserDocument(doc: DocumentRecupere, org: Organisation, store: Store, version = 1, opts: OptionsAnalyse = {}): Promise<Texte> {
-  const articles = decouperArticles(doc.contenu);
-  if (articles.length === 0) throw new Error(`Aucun article détecté dans « ${doc.titre} » (le texte doit contenir des lignes « Article N »).`);
+  let articles = decouperArticles(doc.contenu);
+  if (articles.length === 0) {
+    articles = decouperSections(doc.contenu);
+    if (articles.length === 0) throw new Error(`Le document « ${doc.titre} » est vide ou illisible.`);
+    console.log(`   (pas d'« Article N » dans ce document : découpage en ${articles.length} section(s))`);
+  }
   const nums = articles.map((a) => a.numero);
   console.log(`\n📄 ${doc.titre}\n   ${articles.length} article(s) détecté(s) (${nums[0]} à ${nums[nums.length - 1]}) — modèle : ${config.fournisseur}${config.modele ? ` / ${config.modele}` : ""}`);
 
@@ -79,7 +83,7 @@ export async function analyserDocument(doc: DocumentRecupere, org: Organisation,
   for (const article of articles) {
     const exigences = extraites.get(article.numero) ?? [];
     exigences.forEach((ex, i) => {
-      const id = `REQ-${court(doc.id)}-${article.numero.padStart(3, "0")}-${String(i + 1).padStart(2, "0")}`;
+      const id = `REQ-${court(doc.id)}-${article.numero.padStart(3, "0")}-${String(i + 1).padStart(2, "0")}`; // ex. REQ-NIS2-021-03 ou REQ-GUIDE-0S2-01
       const verif = verifierExigence(ex, article, doc.contenu);
       const ancienne = anciennes.get(id);
       // Une décision humaine est conservée tant que la citation (donc le texte) n'a pas changé.

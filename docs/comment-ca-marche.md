@@ -94,6 +94,15 @@ Chaque thème est rattaché à **TOGAF** (architecture : gouvernance, risques, f
 - **Cockpit :** il affiche la citation, le résultat de la vérification et la confiance. L'humain **valide**, **corrige** (en modifiant l'obligation) ou **rejette** (avec une justification obligatoire).
 - **Worker :** il récupère ces décisions dans Notion, recalcule les risques, les lots et les matrices, puis met Notion à jour.
 
+### 9. Assistant : chatbot et dépôt de document (`cockpit/assistant.py`)
+- **Dépôt de document :** l'utilisateur dépose un PDF, une page HTML ou un fichier texte dans le cockpit. Un PDF est converti en texte avec `pypdf`. L'agent lance ensuite la même chaîne que `npm run analyse` (étapes 3 à 7) et les onglets se mettent à jour. Un document sans « Article N » (guide, recommandation) est découpé en sections.
+- **Chatbot (approche RAG).** À chaque question :
+  1. on **retrouve** les exigences les plus proches (mots communs, article ou identifiant cité, synonymes comme « urgent » → critique) ;
+  2. on les envoie au modèle avec la synthèse (risques, lots, gouvernance) ;
+  3. le modèle **rédige** une réponse qui cite les identifiants REQ-… et les articles.
+
+  La réponse s'affiche **en direct**, mot par mot (streaming). Le modèle n'a accès qu'aux résultats de l'agent, ce qui limite les inventions. En mode démo, le chatbot liste simplement les exigences pertinentes, sans IA.
+
 ## Pourquoi ces choix techniques ?
 
 | Choix | Raison |
@@ -104,3 +113,4 @@ Chaque thème est rattaché à **TOGAF** (architecture : gouvernance, risques, f
 | Calculs déterministes après l'IA | Résultats explicables et auditables, sans « boîte noire » |
 | Vérification des citations | L'IA peut halluciner, donc tout doit être recoupé avec le texte officiel |
 | Notion | Base partagée par l'équipe, lisible sans outil technique |
+| Chatbot RAG avec streaming | Réponses immédiates et fondées sur les exigences vérifiées, pas sur la mémoire du modèle |

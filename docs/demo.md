@@ -24,6 +24,12 @@ Montrer la capture ou relancer l'analyse et commenter :
 
 Ouvrir `agent/src/schemas.ts` : *« le modèle doit remplir ce schéma Zod, il ne répond pas en texte libre »*.
 
+**3 bis. L'assistant (2 min)**
+Onglet 💬 :
+- poser au chatbot « Quelles sont nos obligations de notification et leurs délais ? ». La réponse arrive en direct, avec les identifiants REQ-NIS2-023-05 (24 h), 023-06 (72 h) et 023-08 (1 mois) ;
+- poser une question piège, « Que dit NIS 2 sur les cryptomonnaies ? ». L'assistant répond que ce n'est pas dans l'analyse : il n'invente pas ;
+- montrer le dépôt de document : glisser un PDF (par exemple une recommandation CNIL ou le règlement 2024/2690), puis « Analyser ». Attention au quota gratuit : préparer le fichier à l'avance et éviter de le relancer plusieurs fois.
+
 **4. Le fil de veille (1 min)**
 Onglet 📡 : le texte analysé avec son lien officiel et sa version, puis les signaux. Expliquer l'empreinte SHA-256 : un texte modifié est détecté et ses exigences repassent « À valider ».
 

@@ -106,3 +106,22 @@ export function htmlVersTexte(html: string): string {
     .replace(/\n([a-z]{1,2}\)|[ivx]+\)|\d+\.|\(\d+\))\n+/g, "\n$1 ")
     .trim();
 }
+
+/**
+ * Pour un document qui n'est pas découpé en articles (guide, recommandation, politique interne),
+ * on crée des « sections » d'environ 5 000 caractères, coupées entre deux paragraphes.
+ */
+export function decouperSections(corps: string, taille = 5_000): Article[] {
+  const paragraphes = corps.split(/\n\s*\n|\n(?=\S)/).map((p) => p.trim()).filter(Boolean);
+  const sections: Article[] = [];
+  let courant = "";
+  for (const p of paragraphes) {
+    if (courant && courant.length + p.length > taille) {
+      sections.push({ numero: `S${sections.length + 1}`, titre: `Section ${sections.length + 1}`, contenu: courant.trim() });
+      courant = "";
+    }
+    courant += `${p}\n`;
+  }
+  if (courant.trim()) sections.push({ numero: `S${sections.length + 1}`, titre: `Section ${sections.length + 1}`, contenu: courant.trim() });
+  return sections;
+}

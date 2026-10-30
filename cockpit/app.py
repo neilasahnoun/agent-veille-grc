@@ -3,7 +3,8 @@ Cockpit de l'agent de veille GRC — interface de consultation et de validation 
 
     streamlit run cockpit/app.py
 
-Quatre vues (Module 5 du TP) :
+Un assistant et quatre vues (Module 5 du TP) :
+  0. Assistant              — déposer un document à analyser + chatbot qui répond en direct
   1. Fil de veille          — ce que l'agent a détecté
   2. Textes et matrices     — applicabilité + matrices M1 à M5
   3. Validation humaine     — valider, corriger ou rejeter chaque exigence (enregistré dans Notion ou en local)
@@ -20,6 +21,7 @@ import streamlit as st
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from backend import MODE, PLAN, backend, charger_matrices, recalculer_matrices  # noqa: E402
 from export_xlsx import TITRES, classeur_matrices  # noqa: E402
+import assistant  # noqa: E402
 
 st.set_page_config(page_title="Agent de veille GRC — NIS 2", page_icon="🛡️", layout="wide")
 
@@ -34,6 +36,42 @@ def pastille(v: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Dépôt d'un document à analyser (utilisé dans l'onglet Assistant)
+# ---------------------------------------------------------------------------
+def bloc_depot() -> None:
+    st.markdown("#### 📄 Donner un document à l'agent")
+    st.caption("Loi, directive, règlement, recommandation CNIL/ANSSI… au format PDF, HTML ou texte. "
+               "L'agent le lit, extrait les obligations, les vérifie et met à jour les matrices.")
+    fichier = st.file_uploader("Document", type=["pdf", "html", "htm", "txt", "md"], label_visibility="collapsed")
+    if fichier is None:
+        return
+    c1, c2 = st.columns(2)
+    identifiant = c1.text_input("Identifiant du texte", value=assistant.identifiant_depuis_nom(fichier.name),
+                                help="Sert à nommer les exigences (REQ-...). Réutiliser le même identifiant met à jour le texte au lieu d'en créer un nouveau.")
+    titre = c2.text_input("Titre (facultatif)", value="", help="Laisser vide : l'agent retrouve le titre officiel tout seul.")
+    if st.button("🔍 Analyser ce document", type="primary"):
+        try:
+            chemin = assistant.enregistrer_document(fichier.name, fichier.getvalue())
+        except Exception as err:  # noqa: BLE001
+            st.error(str(err))
+            return
+        journal: list[str] = []
+        with st.status("L'agent lit et analyse le document…", expanded=True) as statut:
+            zone = st.empty()
+            try:
+                for ligne in assistant.analyser_document(chemin, identifiant.strip() or "TXT-DOC", titre):
+                    journal.append(ligne)
+                    zone.code("\n".join(journal[-25:]))
+                statut.update(label="Analyse terminée ✅ — les onglets sont à jour", state="complete")
+                st.session_state["analyse_ok"] = True
+            except Exception as err:  # noqa: BLE001
+                statut.update(label="L'analyse s'est arrêtée", state="error")
+                st.error(str(err))
+        if st.session_state.pop("analyse_ok", False):
+            st.button("Afficher les résultats", on_click=lambda: None)
+
+
+# ---------------------------------------------------------------------------
 # Chargement
 # ---------------------------------------------------------------------------
 try:
@@ -45,7 +83,8 @@ except Exception as err:  # noqa: BLE001
 
 if not store or not store.get("exigences"):
     st.title("🛡️ Agent de veille GRC")
-    st.warning("Aucune analyse pour l'instant. Lancez d'abord l'agent : `cd agent && npm run demo` (démo hors ligne) ou `npm run veille`.")
+    st.info("Aucune analyse pour l'instant : déposez un texte ci-dessous, ou lancez `cd agent && npm run demo` (démo hors ligne).")
+    bloc_depot()
     st.stop()
 
 exigences = store["exigences"]
@@ -71,9 +110,51 @@ with st.sidebar:
     st.markdown("**Légende**\n\n🟡 À valider · 🟢 Validée · 🔵 Corrigée · ⚪ Rejetée")
     st.caption("L'IA propose, l'humain décide : aucune exigence n'est considérée comme acquise sans validation.")
 
-vue_veille, vue_matrices, vue_validation, vue_pilotage = st.tabs(
-    ["📡 Fil de veille", "📑 Textes et matrices", "✅ Validation humaine", "📊 Pilotage et échéances"]
+vue_assistant, vue_veille, vue_matrices, vue_validation, vue_pilotage = st.tabs(
+    ["💬 Assistant", "📡 Fil de veille", "📑 Textes et matrices", "✅ Validation humaine", "📊 Pilotage et échéances"]
 )
+
+# ---------------------------------------------------------------------------
+# 0. Assistant : chatbot + dépôt de document
+# ---------------------------------------------------------------------------
+with vue_assistant:
+    st.markdown("#### 💬 Poser une question à l'agent")
+    st.caption("L'agent répond à partir des exigences extraites du texte officiel, en citant les articles et les identifiants. "
+               "Exemples : « Quelles sont nos obligations de notification et leurs délais ? » · « Qu'est-ce qui est le plus urgent ? » · « Que risque la direction ? »")
+    if "conversation" not in st.session_state:
+        st.session_state.conversation = []
+    suggestions = ["Quelles sont nos obligations de notification et leurs délais ?", "Qu'est-ce qui est le plus urgent pour Hydréa ?",
+                   "Que risquent les dirigeants ?", "Quelles exigences l'IA n'a pas su vérifier ?"]
+    cols = st.columns(len(suggestions))
+    question_rapide = None
+    for col, texte_suggestion in zip(cols, suggestions):
+        if col.button(texte_suggestion, use_container_width=True):
+            question_rapide = texte_suggestion
+    zone_chat = st.container(height=480)
+    with zone_chat:
+        for message in st.session_state.conversation:
+            with st.chat_message(message["role"], avatar="🧑" if message["role"] == "user" else "🛡️"):
+                st.markdown(message["content"])
+    question = st.chat_input("Votre question sur l'analyse NIS 2…") or question_rapide
+    if question:
+        with zone_chat:
+            with st.chat_message("user", avatar="🧑"):
+                st.markdown(question)
+            with st.chat_message("assistant", avatar="🛡️"):
+                try:
+                    reponse = st.write_stream(assistant.repondre(question, st.session_state.conversation, store, matrices))
+                except assistant.ErreurIA as err:
+                    reponse = f"⚠️ {err}"
+                    st.warning(reponse)
+                except Exception as err:  # noqa: BLE001
+                    reponse = f"⚠️ Erreur inattendue : {err}"
+                    st.error(reponse)
+        st.session_state.conversation += [{"role": "user", "content": question}, {"role": "assistant", "content": str(reponse)}]
+    if st.session_state.conversation and st.button("🗑️ Effacer la conversation"):
+        st.session_state.conversation = []
+        st.rerun()
+    st.divider()
+    bloc_depot()
 
 # ---------------------------------------------------------------------------
 # 1. Fil de veille

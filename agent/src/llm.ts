@@ -143,7 +143,7 @@ export async function extraireExigencesLot(
     for (const a of articles) resultat.set(a.numero, toutes[a.numero]?.exigences ?? []);
     return resultat;
   }
-  const corps = articles.map((a) => `### Article ${a.numero} — ${a.titre}\n"""\n${a.contenu}\n"""`).join("\n\n");
+  const corps = articles.map((a) => `### ${a.numero.startsWith("S") ? a.titre : `Article ${a.numero}`} — ${a.numero.startsWith("S") ? "" : a.titre}\n"""\n${a.contenu}\n"""`).join("\n\n");
   const reponse = ReponseAnalyseSchema.parse(
     await genererObjet(
       ReponseAnalyseSchema,
@@ -152,7 +152,9 @@ export async function extraireExigencesLot(
   );
   for (const ex of reponse.exigences) {
     const numero = ex.article.match(/\d+/)?.[0];
-    const cible = numero && resultat.has(numero) ? numero : articles[0].numero; // un article inconnu sera signalé par la vérification
+    // Sections (documents sans articles) : on rattache l'exigence à la section dont le texte contient la citation.
+    const section = articles.find((a) => a.numero.startsWith("S") && a.contenu.includes(ex.citation.slice(0, 40)));
+    const cible = section?.numero ?? (numero && resultat.has(numero) ? numero : articles[0].numero); // un article inconnu sera signalé par la vérification
     resultat.get(cible)!.push(ex);
   }
   return resultat;

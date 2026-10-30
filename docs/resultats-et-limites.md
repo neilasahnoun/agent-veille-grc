@@ -17,6 +17,7 @@
 | Lots d'action | 12 lots priorisés (6 P1, 4 P2, 2 P3), avec responsable et échéance |
 | Gouvernance | Hybride TOGAF + ITIL (51 % / 49 %) ; décision humaine à saisir dans le cockpit |
 | Notion | 6 bases reliées créées automatiquement et alimentées (133 exigences, 13 contrôles, risques, lots) |
+| Assistant | Chatbot qui répond en direct (streaming) à partir des exigences extraites ; dépôt d'un document (PDF/HTML/texte) analysé depuis le cockpit |
 
 ### Erreurs de l'IA repérées, à corriger par la validation humaine
 C'est l'enseignement principal du projet : **l'IA produit une première analyse rapide, mais elle se trompe, d'où la validation humaine.**
@@ -68,6 +69,8 @@ Avec l'extrait de travail `data/sources/nis2-extrait.md` et des réponses enregi
 - La recommandation TOGAF / ITIL est un **outil d'aide à la décision**. Le choix appartient à la direction.
 
 **Sur la technique**
+- Le chatbot retrouve les exigences par mots-clés, sans recherche sémantique : une question formulée avec des mots très différents du texte peut passer à côté. Chaque question consomme une requête du quota gratuit.
+- Un PDF scanné (image) ne contient pas de texte : il faut utiliser la version HTML ou texte.
 - Le découpage repose sur les lignes « Article N » : un format de texte inhabituel peut nécessiter d'adapter `parse.ts`.
 - Le format des réponses des API Légifrance et Judilibre peut évoluer. Les connecteurs lisent les champs de façon défensive, mais doivent être testés avec de vrais identifiants PISTE.
 - La synchronisation Notion respecte la limite d'environ 3 requêtes par seconde. Le premier envoi prend environ une minute.
