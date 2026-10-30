@@ -80,6 +80,14 @@ export function empreinte(contenu: string): string {
   return createHash("sha256").update(normaliser(contenu)).digest("hex");
 }
 
+const ENTITES: Record<string, string> = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", rsquo: "'", lsquo: "'", laquo: "«", raquo: "»", ldquo: "“", rdquo: "”",
+  hellip: "…", ndash: "–", mdash: "—", euro: "€", deg: "°", sect: "§", middot: "·", shy: "",
+  eacute: "é", egrave: "è", ecirc: "ê", euml: "ë", agrave: "à", acirc: "â", auml: "ä", ccedil: "ç", icirc: "î", iuml: "ï",
+  ocirc: "ô", ouml: "ö", ugrave: "ù", ucirc: "û", uuml: "ü", oelig: "œ", aelig: "æ",
+  Eacute: "É", Egrave: "È", Ecirc: "Ê", Agrave: "À", Acirc: "Â", Ccedil: "Ç", Icirc: "Î", Ocirc: "Ô", Ugrave: "Ù", Ucirc: "Û", OElig: "Œ",
+};
+
 /** Convertit une page HTML (EUR-Lex, Légifrance) en texte brut avec retours à la ligne. */
 export function htmlVersTexte(html: string): string {
   return html
@@ -88,13 +96,9 @@ export function htmlVersTexte(html: string): string {
     .replace(/<(br|\/p|\/div|\/tr|\/li|\/h\d|\/table)[^>]*>/gi, "\n")
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;|&#160;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&rsquo;/g, "'")
-    .replace(/&laquo;/g, "«")
-    .replace(/&raquo;/g, "»")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&([a-z]+);/gi, (m, nom) => ENTITES[nom] ?? m)
     .replace(/[ \t]+/g, " ")
     .replace(/\n\s+/g, "\n")
     .replace(/\n{3,}/g, "\n\n")

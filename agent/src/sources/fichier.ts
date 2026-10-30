@@ -18,6 +18,14 @@ export function titreOfficiel(texte: string): string | null {
   return `${lignes[i]}${suite}`.replace(/\s+/g, " ").slice(0, 250);
 }
 
+/** « DIRECTIVE (UE) 2022/2555 » → 32022L2555 ; « RÈGLEMENT (UE) 2024/2690 » → 32024R2690. */
+export function celexDepuisTitre(titre: string): string | undefined {
+  const m = titre.match(/^(DIRECTIVE|R[ÈE]GLEMENT|D[ÉE]CISION)\b.*?\b(\d{4})\/(\d{1,4})\b/i);
+  if (!m) return undefined;
+  const type = /^DIR/i.test(m[1]) ? "L" : /^R/i.test(m[1]) ? "R" : "D";
+  return `3${m[2]}${type}${m[3].padStart(4, "0")}`;
+}
+
 export function lireFichier(chemin: string, opts: { id?: string; titre?: string } = {}): DocumentRecupere {
   const complet = isAbsolute(chemin) ? chemin : resolve(ROOT, chemin);
   const brut = readFileSync(complet, "utf8");
@@ -25,13 +33,17 @@ export function lireFichier(chemin: string, opts: { id?: string; titre?: string 
 
   if (/\.html?$/i.test(complet)) {
     const texte = htmlVersTexte(brut);
-    const celex = brut.match(/CELEX[:%3A]+(\d{5}[A-Z]\d{4})/i)?.[1] ?? texte.match(/CELEX[:\s]+(\d{5}[A-Z]\d{4})/i)?.[1];
-    const eurlex = /eur-lex\.europa\.eu/i.test(brut);
+    const titre = opts.titre || titreOfficiel(texte) || brut.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim() || nom;
+    const celex =
+      brut.match(/CELEX[:%3A]+(\d{5}[A-Z]\d{4})/i)?.[1] ??
+      texte.match(/CELEX[:\s]+(\d{5}[A-Z]\d{4})/i)?.[1] ??
+      celexDepuisTitre(titre);
+    const eurlex = /eur-lex\.europa\.eu/i.test(brut) || Boolean(celex);
     const legifrance = /legifrance\.gouv\.fr/i.test(brut);
     return {
       id: opts.id || `TXT-${nom.toUpperCase()}`,
-      titre: opts.titre || titreOfficiel(texte) || brut.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim() || nom,
-      source: eurlex ? "EUR-Lex" : legifrance ? "Légifrance" : "Fichier local",
+      titre,
+      source: legifrance && !eurlex ? "Légifrance" : eurlex ? "EUR-Lex" : "Fichier local",
       reference: celex ? `CELEX ${celex}` : nom,
       url: celex ? `https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:${celex}` : "",
       nature: "texte",

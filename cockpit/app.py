@@ -210,12 +210,15 @@ with vue_pilotage:
     with g1:
         st.markdown("**Couverture par les contrôles existants**")
         if not couverture.empty:
-            st.bar_chart(couverture["Statut"].value_counts().reindex(["Couverte", "Partielle", "Non couverte"], fill_value=0))
+            ordre = ["Couverte", "Partielle", "Non couverte"]
+            comptes = couverture["Statut"].value_counts().reindex(ordre, fill_value=0)
+            st.bar_chart(pd.DataFrame({"Statut": [f"{i + 1}. {o}" for i, o in enumerate(ordre)], "Exigences": comptes.values}), x="Statut", y="Exigences")
     with g2:
         st.markdown("**Risques résiduels par niveau**")
         if risques:
-            niveaux = pd.Series([r.get("niveau") for r in risques]).value_counts().reindex(["Faible", "Modéré", "Élevé", "Critique"], fill_value=0)
-            st.bar_chart(niveaux)
+            ordre = ["Faible", "Modéré", "Élevé", "Critique"]
+            niveaux = pd.Series([r.get("niveau") for r in risques]).value_counts().reindex(ordre, fill_value=0)
+            st.bar_chart(pd.DataFrame({"Niveau": [f"{i + 1}. {o}" for i, o in enumerate(ordre)], "Risques": niveaux.values}), x="Niveau", y="Risques")
 
     st.subheader("Lots d'action et échéances")
     lots = pd.DataFrame(store.get("lots", []))

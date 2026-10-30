@@ -40,7 +40,21 @@ cd ..
 pip install -r cockpit/requirements.txt
 ```
 
+## Résultats obtenus
+
+Analyse du **texte officiel** de NIS 2 (46 articles) par Gemini pour Hydréa :
+- 133 exigences extraites, dont 51 jugées applicables ;
+- 122 citations retrouvées mot pour mot dans le texte (92 %) ;
+- 17 risques critiques et 12 lots d'action ;
+- une recommandation hybride TOGAF + ITIL.
+
+L'IA a aussi commis des erreurs, repérées grâce à la validation humaine (par exemple, l'article 33 appliqué à tort à une entité essentielle) : voir [`docs/resultats-et-limites.md`](docs/resultats-et-limites.md).
+
+Les résultats sont déjà dans le dépôt : `py -m streamlit run cockpit/app.py` suffit pour les consulter.
+
 ## 2. Démo en 2 minutes (aucune clé nécessaire)
+
+> ⚠️ `npm run demo` **remplace** les résultats présents dans `data/store.json` par ceux de la démo. Pour revenir aux résultats réels : `git checkout data/store.json outputs/`.
 
 ```bash
 cd agent
@@ -70,6 +84,11 @@ Ce qu'on obtient :
    cd agent
    npm run analyse -- --celex 32022L2555 --id TXT-NIS2
    ```
+   Si EUR-Lex renvoie une page anti-robot, ouvrir le texte dans le navigateur, l'enregistrer (Ctrl+S, « Page Web, HTML uniquement ») dans `data/sources/`, puis :
+   ```bash
+   npm run analyse -- --fichier data/sources/nis2-officiel.html --id TXT-NIS2
+   ```
+   Les articles sont envoyés par lots (une douzaine de requêtes pour NIS 2). Si le quota gratuit est atteint, relancer la même commande plus tard, ou avec un autre modèle (`LLM_MODEL=gemini-flash-lite-latest`) : les articles déjà analysés sont repris du cache.
 
 Les offres gratuites limitent le nombre de requêtes par minute. L'agent fait une pause entre deux appels (`LLM_DELAY_MS`) et réessaie automatiquement en cas de limite atteinte.
 

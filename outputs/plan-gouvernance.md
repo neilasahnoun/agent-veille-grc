@@ -14,7 +14,7 @@
 
 Scores (part des thèmes d'exigences) : TOGAF 51 % — ITIL 49 %
 
-Compte tenu du score équilibré entre TOGAF (51%) et ITIL (49%) et de la nature de l'organisation Hydr&eacute;a qui combine des infrastructures industrielles critiques et complexes (SCADA, PLC, IoT, réseaux d'eau) et des processus de service de grande envergure (gestion de crise, relation abonnés, maintenance, chaîne d'approvisionnement), un cadre hybride est indispensable pour couvrir à la fois la structuration architecturale et la gestion opérationnelle des services de sécurité.
+Compte tenu du score équilibré entre TOGAF (51%) et ITIL (49%) et de la nature de l'organisation Hydréa qui combine des infrastructures industrielles critiques et complexes (SCADA, PLC, IoT, réseaux d'eau) et des processus de service de grande envergure (gestion de crise, relation abonnés, maintenance, chaîne d'approvisionnement), un cadre hybride est indispensable pour couvrir à la fois la structuration architecturale et la gestion opérationnelle des services de sécurité.
 
 ### Ce qu'apporte TOGAF
 - Alignement stratégique des exigences de gouvernance et de gestion des risques (REQ-NIS2-020-01, REQ-NIS2-021-02)

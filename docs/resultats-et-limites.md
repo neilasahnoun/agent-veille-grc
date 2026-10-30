@@ -2,18 +2,36 @@
 
 ## Résultats
 
+### Analyse réelle : texte officiel de NIS 2 avec Gemini
+
 | Élément | Résultat |
 |---|---|
-| Parcours complet | Chargement du texte → extraction → exigences structurées avec articles → matrices → Notion → validation dans Streamlit |
-| Texte | Directive NIS 2 (articles 3, 20, 21, 23, 32, 34 en démo ; texte intégral via EUR-Lex) |
-| Exigences extraites (démo) | 23, dont 22 applicables à Hydréa et 1 non applicable (art. 21 §5, qui vise la Commission) |
-| Vérification automatique | 22 citations retrouvées mot pour mot ; 1 citation reformulée repérée et marquée « à contrôler » |
-| Couverture (M3) | 3 exigences couvertes, 15 partielles, 4 non couvertes |
-| Risques résiduels (M4) | 9 critiques (surtout la notification art. 23, la MFA et les accès), 6 élevés, 7 modérés |
-| Lots d'action | 10 lots priorisés (4 P1, 4 P2, 2 P3), avec responsable et échéance |
-| Gouvernance | Recommandation d'un hybride TOGAF + ITIL (44 % / 56 %) ; décision humaine saisie dans le cockpit |
-| Sources | EUR-Lex, Légifrance (PISTE), Judilibre (PISTE), RSS CNIL et CERT-FR, fichier local |
-| Veille | Empreinte SHA-256, versionnement, déduplication, exécution planifiée (GitHub Actions), worker de synchronisation |
+| Parcours complet | Texte officiel → IA → exigences structurées avec articles → matrices → Notion → validation dans Streamlit |
+| Texte | Directive (UE) 2022/2555, version française officielle (EUR-Lex), **46 articles** |
+| Modèle | Google Gemini (offre gratuite), 12 requêtes grâce au regroupement des articles par lots |
+| Applicabilité | Hydréa qualifiée d'**entité essentielle** (annexe I, eau potable) |
+| Exigences extraites | **133**, dont **51 jugées applicables** à Hydréa ; les autres visent les États membres, la Commission ou l'ENISA |
+| Vérification automatique | **122 citations retrouvées** dans le texte officiel (92 %) ; **11 signalées « à contrôler »**, dont 6 applicables |
+| Couverture (M3) | 5 exigences couvertes, 40 partielles, 6 non couvertes |
+| Risques résiduels (M4) | **17 critiques** (dont 9 sur la notification de l'art. 23), 16 élevés, 18 modérés |
+| Lots d'action | 12 lots priorisés (6 P1, 4 P2, 2 P3), avec responsable et échéance |
+| Gouvernance | Hybride TOGAF + ITIL (51 % / 49 %) ; décision humaine à saisir dans le cockpit |
+| Notion | 6 bases reliées créées automatiquement et alimentées (133 exigences, 13 contrôles, risques, lots) |
+
+### Erreurs de l'IA repérées, à corriger par la validation humaine
+C'est l'enseignement principal du projet : **l'IA produit une première analyse rapide, mais elle se trompe, d'où la validation humaine.**
+
+| Erreur | Exigences concernées | Décision humaine attendue |
+|---|---|---|
+| **Contradiction de qualification.** Hydréa est classée entité *essentielle*, mais l'IA lui applique l'article 33, qui ne vise que les entités *importantes* | REQ-NIS2-033-01 à 033-13 | **Rejeter** (Hydréa relève de l'art. 32) |
+| Amende prévue pour les entités importantes, alors que celle des entités essentielles est plus élevée (art. 34 §4 : 10 M€ ou 2 % du CA) | REQ-NIS2-034-01 | **Corriger** |
+| Dispositions de champ d'application ou d'objet présentées comme des obligations | REQ-NIS2-001-03, 001-04, 002-01, 004-01 | **Rejeter** |
+| Citations non retrouvées dans le texte (reformulations de l'IA) | REQ-NIS2-023-08, 029-01, 029-02, 032-02, 032-03, 032-04 | **Vérifier dans le texte**, puis valider ou corriger |
+
+Une fois ces décisions prises dans le cockpit, `npm run matrices` (ou le worker) recalcule les matrices : le nombre d'exigences applicables et de risques critiques baisse en conséquence.
+
+### Mode démo (sans clé)
+Avec l'extrait de travail `data/sources/nis2-extrait.md` et des réponses enregistrées, on obtient 23 exigences, dont 22 applicables et 1 citation volontairement reformulée, détectée par la vérification. Ce mode sert à présenter le projet sans connexion et à tester le code.
 
 ## Ce qui a été fait pendant l'atelier, et ce qui a été ajouté ensuite
 
@@ -32,7 +50,8 @@
 ## Limites
 
 **Sur le fond juridique**
-- L'extrait utilisé en mode démo (`data/sources/nis2-extrait.md`) est une **reconstitution de travail**, qui peut s'écarter légèrement du texte officiel. L'analyse réelle se fait sur le texte téléchargé depuis EUR-Lex.
+- L'extrait utilisé en mode démo (`data/sources/nis2-extrait.md`) est une **reconstitution de travail**, qui peut s'écarter légèrement du texte officiel. L'analyse réelle a été faite sur le texte officiel (`data/sources/nis2-officiel.html`).
+- EUR-Lex bloque les téléchargements automatiques par une page anti-robot. Le connecteur essaie d'abord le service de diffusion de l'Office des publications ; en cas d'échec, il faut enregistrer la page depuis le navigateur.
 - NIS 2 est une **directive** : en France, les obligations précises et les échéances dépendent de la **loi de transposition** et de ses décrets d'application, à suivre via Légifrance. Les échéances indiquées « dépend de la loi de transposition » sont à compléter.
 - Le règlement d'exécution (UE) 2024/2690 et les référentiels de l'ANSSI ne sont pas encore analysés : la source est prévue mais désactivée dans `sources.json`.
 - **Jurisprudence (M5) :** les décisions de justice portant directement sur NIS 2 sont encore rares. Judilibre renvoie surtout des décisions voisines (obligation de sécurité, fraude informatique). En mode démo, M5 ne contient que les requêtes préparées, sans aucune décision inventée.
@@ -40,7 +59,8 @@
 **Sur l'IA**
 - Le modèle peut **halluciner** ou mal découper une obligation. La vérification des citations réduit ce risque sans le supprimer : une citation exacte peut être mal interprétée. C'est pourquoi chaque exigence passe par une **validation humaine**.
 - La **confiance** est une auto-évaluation du modèle, corrigée par des règles simples. Ce n'est pas une probabilité calibrée.
-- Les offres gratuites (Gemini, Mistral) limitent le débit. Un texte long comme le règlement 2024/2690 prend plusieurs minutes, et les requêtes peuvent servir à améliorer les modèles du fournisseur. C'est acceptable pour des textes publics, à proscrire pour des documents internes.
+- L'IA peut **se contredire** : voir le tableau des erreurs ci-dessus. Les règles déterministes en aval (couverture, risques) héritent de ces erreurs tant qu'elles ne sont pas corrigées.
+- Les offres gratuites (Gemini, Mistral) limitent le débit. Pendant le projet, Gemini limitait certains modèles à 20 requêtes par jour, d'où le regroupement des articles par lots et le cache de reprise (`data/cache-ia.json`). Un texte long comme le règlement 2024/2690 prend plusieurs minutes, et les requêtes peuvent servir à améliorer les modèles du fournisseur. C'est acceptable pour des textes publics, à proscrire pour des documents internes.
 
 **Sur la méthode GRC**
 - La couverture et le risque reposent sur des **règles volontairement simples** : correspondance de thèmes, maturité de 0 à 5, probabilité × impact. Elles sont explicables, mais elles ne remplacent pas une analyse EBIOS RM.
