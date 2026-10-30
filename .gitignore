@@ -1,0 +1,16 @@
+# Secrets : ne JAMAIS publier le .env (clés API)
+.env
+.env.*
+!.env.example
+
+# Dépendances et caches
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Système
+.DS_Store
+Thumbs.db
