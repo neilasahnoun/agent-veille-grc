@@ -1,0 +1,406 @@
+{
+  "3": {
+    "exigences": []
+  },
+  "20": {
+    "exigences": [
+      {
+        "article": "Art. 20 §1",
+        "intitule": "Approbation et supervision des mesures par la direction",
+        "obligation": "Faire approuver par l'organe de direction (conseil d'administration, direction générale) les mesures de gestion des risques cyber prises au titre de l'article 21, et organiser leur supervision ; la direction peut être tenue responsable des manquements.",
+        "citation": "les organes de direction des entités essentielles et importantes approuvent les mesures de gestion des risques en matière de cybersécurité prises par ces entités afin de se conformer à l'article 21, supervisent sa mise en œuvre",
+        "destinataire": "Organes de direction",
+        "type": "gouvernance",
+        "themes": [
+          "gouvernance",
+          "gestion-risques"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": null,
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.95
+      },
+      {
+        "article": "Art. 20 §2",
+        "intitule": "Formation obligatoire des dirigeants",
+        "obligation": "Former les membres de l'organe de direction à l'identification des risques et à l'évaluation des pratiques de gestion des risques cyber.",
+        "citation": "les membres des organes de direction des entités essentielles et importantes soient tenus de suivre une formation",
+        "destinataire": "Organes de direction",
+        "type": "gouvernance",
+        "themes": [
+          "gouvernance",
+          "cyberhygiene-formation"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": null,
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.92
+      },
+      {
+        "article": "Art. 20 §2",
+        "intitule": "Formation régulière du personnel",
+        "obligation": "Proposer régulièrement au personnel une formation similaire à celle des dirigeants.",
+        "citation": "encouragent les entités essentielles et importantes à offrir régulièrement une formation similaire aux membres de leur personnel",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "organisationnelle",
+        "themes": [
+          "cyberhygiene-formation"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": null,
+        "applicable": true,
+        "justification_applicabilite": "Le texte « encourage » cette formation : c'est une incitation forte plutôt qu'une obligation stricte, mais elle est attendue lors des contrôles.",
+        "confiance": 0.72
+      }
+    ]
+  },
+  "21": {
+    "exigences": [
+      {
+        "article": "Art. 21 §1",
+        "intitule": "Mesures de gestion des risques appropriées et proportionnées",
+        "obligation": "Mettre en place des mesures techniques, opérationnelles et organisationnelles proportionnées pour gérer les risques pesant sur les réseaux et systèmes d'information (IT et OT), selon une approche « tous risques ».",
+        "citation": "prennent les mesures techniques, opérationnelles et organisationnelles appropriées et proportionnées pour gérer les risques qui menacent la sécurité des réseaux et des systèmes d'information",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "organisationnelle",
+        "themes": [
+          "gestion-risques",
+          "gouvernance"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.93
+      },
+      {
+        "article": "Art. 21 §2 a)",
+        "intitule": "Politiques d'analyse des risques et de sécurité des SI",
+        "obligation": "Disposer d'une politique d'analyse des risques et d'une politique de sécurité des systèmes d'information à jour couvrant l'ensemble du périmètre.",
+        "citation": "les politiques relatives à l'analyse des risques et à la sécurité des systèmes d'information",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "documentaire",
+        "themes": [
+          "gestion-risques",
+          "gouvernance"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.95
+      },
+      {
+        "article": "Art. 21 §2 b)",
+        "intitule": "Gestion des incidents",
+        "obligation": "Organiser la détection, le traitement et le suivi des incidents de sécurité.",
+        "citation": "b) la gestion des incidents ;",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "technique",
+        "themes": [
+          "gestion-incidents"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.94
+      },
+      {
+        "article": "Art. 21 §2 c)",
+        "intitule": "Continuité d'activité, sauvegardes et gestion de crise",
+        "obligation": "Assurer la continuité des activités : sauvegardes, reprise après sinistre et gestion de crise.",
+        "citation": "la continuité des activités, par exemple la gestion des sauvegardes et la reprise des activités, et la gestion des crises",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "organisationnelle",
+        "themes": [
+          "continuite"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.94
+      },
+      {
+        "article": "Art. 21 §2 d)",
+        "intitule": "Sécurité de la chaîne d'approvisionnement",
+        "obligation": "Encadrer la sécurité des relations avec chaque fournisseur et prestataire direct (exigences contractuelles, évaluation, suivi).",
+        "citation": "la sécurité de la chaîne d'approvisionnement, y compris les aspects liés à la sécurité concernant les relations entre chaque entité et ses fournisseurs ou prestataires de services directs",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "organisationnelle",
+        "themes": [
+          "chaine-approvisionnement"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.93
+      },
+      {
+        "article": "Art. 21 §2 e)",
+        "intitule": "Sécurité de l'acquisition, du développement et de la maintenance",
+        "obligation": "Intégrer la sécurité dans l'achat, le développement et la maintenance des systèmes, y compris le traitement et la divulgation des vulnérabilités.",
+        "citation": "la sécurité de l'acquisition, du développement et de la maintenance des réseaux et des systèmes d'information, y compris le traitement et la divulgation des vulnérabilités",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "technique",
+        "themes": [
+          "developpement-securise",
+          "vulnerabilites"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.92
+      },
+      {
+        "article": "Art. 21 §2 f)",
+        "intitule": "Évaluation de l'efficacité des mesures",
+        "obligation": "Définir des politiques et procédures pour mesurer régulièrement l'efficacité des mesures de sécurité.",
+        "citation": "des politiques et des procédures pour évaluer l'efficacité des mesures de gestion des risques en matière de cybersécurité",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "documentaire",
+        "themes": [
+          "evaluation-efficacite"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.91
+      },
+      {
+        "article": "Art. 21 §2 g)",
+        "intitule": "Cyberhygiène et formation",
+        "obligation": "Appliquer les pratiques de base de cyberhygiène et former le personnel à la cybersécurité.",
+        "citation": "les pratiques de base en matière de cyberhygiène et la formation à la cybersécurité",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "organisationnelle",
+        "themes": [
+          "cyberhygiene-formation"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.93
+      },
+      {
+        "article": "Art. 21 §2 h)",
+        "intitule": "Cryptographie et chiffrement",
+        "obligation": "Définir des politiques et procédures d'usage de la cryptographie et, si nécessaire, du chiffrement.",
+        "citation": "des politiques et des procédures relatives à l'utilisation de la cryptographie et, le cas échéant, du chiffrement",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "technique",
+        "themes": [
+          "cryptographie"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.9
+      },
+      {
+        "article": "Art. 21 §2 i)",
+        "intitule": "Sécurité RH, contrôle d'accès et gestion des actifs",
+        "obligation": "Sécuriser le cycle de vie RH, contrôler les accès et tenir un inventaire des actifs (y compris industriels).",
+        "citation": "la sécurité des ressources humaines, des politiques de contrôle d'accès et la gestion des actifs",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "organisationnelle",
+        "themes": [
+          "rh-securite",
+          "controle-acces",
+          "gestion-actifs"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.9
+      },
+      {
+        "article": "Art. 21 §2 j)",
+        "intitule": "Authentification multifacteur et communications sécurisées",
+        "obligation": "Utiliser, selon les besoins, l'authentification multifacteur ou continue, des communications sécurisées et des moyens de communication d'urgence sécurisés.",
+        "citation": "l'utilisation de solutions d'authentification à plusieurs facteurs ou d'authentification continue, de communications vocales, vidéo et textuelles sécurisées et de systèmes de communication d'urgence sécurisés",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "technique",
+        "themes": [
+          "authentification-mfa",
+          "communications-securisees"
+        ],
+        "echeance": "Non fixée par l'article : dépend de la loi française de transposition",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Applicable « selon les besoins » : la mention laisse une marge d'appréciation, mais l'accès distant au SCADA justifie la MFA.",
+        "confiance": 0.82
+      },
+      {
+        "article": "Art. 21 §4",
+        "intitule": "Mesures correctives sans retard",
+        "obligation": "En cas de non-conformité constatée, prendre sans retard injustifié les mesures correctives nécessaires.",
+        "citation": "prenne, sans retard injustifié, toutes les mesures correctives nécessaires, appropriées et proportionnées",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "gouvernance",
+        "themes": [
+          "evaluation-efficacite",
+          "gouvernance"
+        ],
+        "echeance": "Sans retard injustifié après constat du manquement",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.88
+      },
+      {
+        "article": "Art. 21 §5",
+        "intitule": "Actes d'exécution de la Commission",
+        "obligation": "La Commission adopte des actes d'exécution précisant les exigences techniques pour certains fournisseurs (DNS, cloud, centres de données).",
+        "citation": "La Commission adopte des actes d'exécution établissant les exigences techniques et méthodologiques",
+        "destinataire": "Commission européenne",
+        "type": "documentaire",
+        "themes": [
+          "gestion-risques"
+        ],
+        "echeance": null,
+        "sanction": null,
+        "applicable": false,
+        "justification_applicabilite": "Disposition visant la Commission et des fournisseurs numériques : Hydréa n'est pas directement visée (à surveiller pour l'état de l'art).",
+        "confiance": 0.86
+      }
+    ]
+  },
+  "23": {
+    "exigences": [
+      {
+        "article": "Art. 23 §1",
+        "intitule": "Notification des incidents importants",
+        "obligation": "Notifier au CSIRT ou à l'autorité compétente (ANSSI en France) tout incident ayant un impact important sur la fourniture des services.",
+        "citation": "notifient, sans retard injustifié, à son CSIRT ou, selon le cas, à son autorité compétente tout incident ayant un impact important sur la fourniture de leurs services",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "notification",
+        "themes": [
+          "notification",
+          "gestion-incidents"
+        ],
+        "echeance": "Sans retard injustifié",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.95
+      },
+      {
+        "article": "Art. 23 §1",
+        "intitule": "Information des destinataires des services",
+        "obligation": "Informer, le cas échéant, les abonnés et collectivités des incidents importants susceptibles d'affecter le service de l'eau.",
+        "citation": "informer sans délai les usagers des incidents importants affectant le service",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "notification",
+        "themes": [
+          "notification"
+        ],
+        "echeance": "Sans retard injustifié",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.85
+      },
+      {
+        "article": "Art. 23 §4 a)",
+        "intitule": "Alerte précoce sous 24 heures",
+        "obligation": "Envoyer une alerte précoce au CSIRT dans les 24 heures suivant la prise de connaissance d'un incident important.",
+        "citation": "dans les 24 heures après avoir eu connaissance de l'incident important, une alerte précoce",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "notification",
+        "themes": [
+          "notification",
+          "gestion-incidents"
+        ],
+        "echeance": "24 heures après la prise de connaissance",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.96
+      },
+      {
+        "article": "Art. 23 §4 b)",
+        "intitule": "Notification d'incident sous 72 heures",
+        "obligation": "Transmettre une notification d'incident complète dans les 72 heures.",
+        "citation": "dans les 72 heures après avoir eu connaissance de l'incident important, une notification d'incident",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "notification",
+        "themes": [
+          "notification",
+          "gestion-incidents"
+        ],
+        "echeance": "72 heures après la prise de connaissance",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.96
+      },
+      {
+        "article": "Art. 23 §4 c)",
+        "intitule": "Rapport intermédiaire sur demande",
+        "obligation": "Fournir un rapport intermédiaire sur l'évolution de l'incident si le CSIRT ou l'autorité le demande.",
+        "citation": "à la demande d'un CSIRT ou, selon le cas, de l'autorité compétente, un rapport intermédiaire sur les progrès pertinents",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "notification",
+        "themes": [
+          "notification"
+        ],
+        "echeance": "À la demande de l'autorité",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.9
+      },
+      {
+        "article": "Art. 23 §4 d)",
+        "intitule": "Rapport final sous un mois",
+        "obligation": "Remettre un rapport final au plus tard un mois après la notification d'incident.",
+        "citation": "un rapport final au plus tard un mois après la présentation de la notification d'incident",
+        "destinataire": "Entités essentielles et importantes",
+        "type": "notification",
+        "themes": [
+          "notification",
+          "gestion-incidents"
+        ],
+        "echeance": "1 mois après la notification d'incident",
+        "sanction": "Amende administrative d'au moins 10 000 000 EUR ou 2 % du chiffre d'affaires annuel mondial, le montant le plus élevé étant retenu (art. 34 §4)",
+        "applicable": true,
+        "justification_applicabilite": "Hydréa est une entité essentielle (eau potable, annexe I, au-delà des plafonds PME) : l'obligation la vise directement.",
+        "confiance": 0.95
+      }
+    ]
+  },
+  "32": {
+    "exigences": [
+      {
+        "article": "Art. 32 §2 a) et b)",
+        "intitule": "Se préparer aux inspections et audits de l'autorité",
+        "obligation": "Être en mesure de se soumettre à des inspections sur place, des supervisions à distance et des audits de sécurité réguliers et ciblés réalisés par un organisme indépendant ou l'autorité.",
+        "citation": "des audits de sécurité réguliers et ciblés réalisés par un organisme indépendant ou une autorité compétente",
+        "destinataire": "Entités essentielles",
+        "type": "gouvernance",
+        "themes": [
+          "supervision-audit",
+          "evaluation-efficacite"
+        ],
+        "echeance": "Sur décision de l'autorité compétente",
+        "sanction": null,
+        "applicable": true,
+        "justification_applicabilite": "Régime de supervision ex ante réservé aux entités essentielles, dont Hydréa fait partie.",
+        "confiance": 0.84
+      }
+    ]
+  },
+  "34": {
+    "exigences": []
+  }
+}

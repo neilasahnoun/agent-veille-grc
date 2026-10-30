@@ -1,0 +1,33 @@
+{
+  "name": "agent-veille-grc",
+  "version": "1.0.0",
+  "description": "Agent de veille continue GRC et législative (NIS 2) — atelier EPITA",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "tsx src/cli.ts demo",
+    "veille": "tsx src/cli.ts veille",
+    "analyse": "tsx src/cli.ts analyse",
+    "ingest": "tsx src/cli.ts ingest",
+    "matrices": "tsx src/cli.ts matrices",
+    "notion:setup": "tsx src/notion-setup.ts",
+    "notion:push": "tsx src/cli.ts push",
+    "worker": "tsx src/worker.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.19",
+    "@ai-sdk/mistral": "^1.2.8",
+    "@notionhq/client": "^2.3.0",
+    "ai": "^4.3.16",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

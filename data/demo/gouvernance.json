@@ -1,0 +1,21 @@
+{
+  "cadre_recommande": "Hybride TOGAF + ITIL",
+  "justification": "Les exigences NIS 2 applicables à Hydréa se répartissent en deux familles de poids comparable. D'un côté, la gouvernance (art. 20), l'analyse des risques, la chaîne d'approvisionnement et la sécurité des acquisitions (art. 21 §2 a, d, e) demandent de revoir l'architecture d'entreprise : cartographie IT/OT, principes de sécurité, exigences fournisseurs. C'est le terrain de TOGAF (ADM, phases A à F). De l'autre, la gestion des incidents, la notification en 24 h / 72 h / 1 mois (art. 23), la continuité et le contrôle d'accès relèvent de l'exploitation quotidienne des services : c'est le terrain d'ITIL 4 (pratiques de gestion des incidents, de la continuité, de la sécurité de l'information). Un hybride permet d'utiliser TOGAF pour concevoir la cible et la feuille de route, et ITIL pour faire fonctionner et mesurer les processus au quotidien.",
+  "apports_togaf": [
+    "Phase A (vision) et B–D (architectures métier, données, applications, technologie) : cartographie complète IT et OT, aujourd'hui partielle",
+    "Principes d'architecture de sécurité opposables aux projets et aux achats (art. 21 §2 d et e)",
+    "Phase F (planification de la migration) : transformer les lots d'action en feuille de route budgétée validée par la direction (art. 20)",
+    "Gouvernance de l'architecture : comité qui approuve les écarts et trace les décisions"
+  ],
+  "apports_itil": [
+    "Pratique « gestion des incidents » étendue au volet réglementaire : circuit d'alerte précoce sous 24 h et notification sous 72 h vers l'ANSSI (art. 23)",
+    "Pratique « gestion de la continuité des services » : tests de restauration et exercices de crise réguliers (art. 21 §2 c)",
+    "Pratique « gestion de la sécurité de l'information » et « gestion des fournisseurs » : suivi opérationnel des prestataires SCADA et infogérance",
+    "Amélioration continue et indicateurs : mesure de l'efficacité des mesures (art. 21 §2 f)"
+  ],
+  "points_de_vigilance": [
+    "Ne pas créer deux gouvernances concurrentes : un seul comité cyber, rattaché à la direction générale, arbitre TOGAF et ITIL",
+    "Inclure l'OT (SCADA, automates) dans les deux cadres : c'est le principal angle mort actuel",
+    "La recommandation est produite par un agent automatisé : elle doit être validée par la direction et le RSSI avant toute mise en œuvre"
+  ]
+}

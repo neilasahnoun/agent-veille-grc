@@ -1,0 +1,62 @@
+{
+  "_avertissement": "Organisation FICTIVE créée pour l'atelier. Toute ressemblance avec une entreprise existante serait fortuite.",
+  "id": "ORG-HYDREA",
+  "nom": "Hydréa",
+  "forme": "Société d'économie mixte (SEM) de distribution d'eau potable",
+  "pays": "France",
+  "region": "Hauts-de-France",
+  "effectif": 600,
+  "chiffre_affaires_meur": 95,
+  "secteur_nis2": "Eau potable (annexe I, point 6)",
+  "taille": "Grande entreprise (au-delà des plafonds PME de la recommandation 2003/361/CE)",
+  "description": "Hydréa produit et distribue l'eau potable pour 420 000 habitants : 3 usines de traitement, 48 stations de pompage pilotées par un SCADA, 6 500 km de réseau et 180 000 compteurs en télérelève.",
+  "processus": [
+    { "id": "P01", "nom": "Production et traitement de l'eau", "criticite": 5, "themes": ["continuite", "gestion-incidents", "gestion-actifs", "vulnerabilites"] },
+    { "id": "P02", "nom": "Distribution et télérelève des compteurs", "criticite": 4, "themes": ["continuite", "chaine-approvisionnement", "communications-securisees"] },
+    { "id": "P03", "nom": "Gestion de crise et astreinte d'exploitation", "criticite": 5, "themes": ["continuite", "gestion-incidents", "notification", "communications-securisees"] },
+    { "id": "P04", "nom": "Relation abonnés et facturation", "criticite": 3, "themes": ["notification", "controle-acces", "cryptographie"] },
+    { "id": "P05", "nom": "Achats et sous-traitance", "criticite": 3, "themes": ["chaine-approvisionnement", "developpement-securise"] },
+    { "id": "P06", "nom": "Ressources humaines", "criticite": 2, "themes": ["rh-securite", "cyberhygiene-formation"] },
+    { "id": "P07", "nom": "Gouvernance et direction générale", "criticite": 3, "themes": ["gouvernance", "gestion-risques", "evaluation-efficacite", "supervision-audit"] },
+    { "id": "P08", "nom": "Maintenance des installations", "criticite": 4, "themes": ["developpement-securise", "vulnerabilites", "gestion-actifs", "chaine-approvisionnement"] }
+  ],
+  "systemes": [
+    { "id": "S01", "nom": "SCADA de supervision des usines (OT)", "criticite": 5, "themes": ["vulnerabilites", "gestion-actifs", "authentification-mfa", "continuite", "gestion-incidents"] },
+    { "id": "S02", "nom": "Automates (PLC) des stations de pompage", "criticite": 5, "themes": ["vulnerabilites", "gestion-actifs", "developpement-securise"] },
+    { "id": "S03", "nom": "ERP finance et achats", "criticite": 3, "themes": ["controle-acces", "chaine-approvisionnement"] },
+    { "id": "S04", "nom": "CRM abonnés et portail web", "criticite": 3, "themes": ["controle-acces", "cryptographie", "developpement-securise", "vulnerabilites"] },
+    { "id": "S05", "nom": "Messagerie et collaboration (cloud)", "criticite": 3, "themes": ["authentification-mfa", "communications-securisees", "cryptographie"] },
+    { "id": "S06", "nom": "Annuaire et gestion des identités (AD / IAM)", "criticite": 4, "themes": ["controle-acces", "authentification-mfa", "rh-securite"] },
+    { "id": "S07", "nom": "Plateforme de sauvegarde", "criticite": 4, "themes": ["continuite", "cryptographie"] },
+    { "id": "S08", "nom": "Télérelève des compteurs (IoT + réseau radio)", "criticite": 3, "themes": ["communications-securisees", "chaine-approvisionnement", "vulnerabilites"] },
+    { "id": "S09", "nom": "GMAO (gestion de la maintenance)", "criticite": 2, "themes": ["gestion-actifs", "developpement-securise"] }
+  ],
+  "donnees": [
+    { "id": "D01", "nom": "Mesures de qualité de l'eau", "sensibilite": 4, "themes": ["continuite", "gestion-incidents", "notification"] },
+    { "id": "D02", "nom": "Données personnelles des abonnés", "sensibilite": 4, "themes": ["cryptographie", "controle-acces", "notification"] },
+    { "id": "D03", "nom": "Données de télérelève", "sensibilite": 3, "themes": ["communications-securisees", "cryptographie"] },
+    { "id": "D04", "nom": "Plans et schémas du réseau (sensibles)", "sensibilite": 5, "themes": ["controle-acces", "gestion-actifs", "cryptographie"] },
+    { "id": "D05", "nom": "Données RH", "sensibilite": 3, "themes": ["rh-securite", "controle-acces"] }
+  ],
+  "contrats": [
+    { "id": "C01", "nom": "Infogérance du SI de gestion (prestataire InfoGest, fictif)", "themes": ["chaine-approvisionnement", "gestion-incidents", "notification"] },
+    { "id": "C02", "nom": "Maintenance du SCADA (prestataire AutomaTech, fictif)", "themes": ["chaine-approvisionnement", "vulnerabilites", "developpement-securise", "authentification-mfa"] },
+    { "id": "C03", "nom": "Abonnement messagerie cloud", "themes": ["chaine-approvisionnement", "communications-securisees"] },
+    { "id": "C04", "nom": "Opérateur télécom de la télérelève", "themes": ["chaine-approvisionnement", "communications-securisees", "continuite"] }
+  ],
+  "controles": [
+    { "id": "CTL-01", "nom": "PSSI approuvée en 2021, jamais révisée", "themes": ["gouvernance", "gestion-risques"], "maturite": 2, "proprietaire": "RSSI" },
+    { "id": "CTL-02", "nom": "Analyse de risques EBIOS RM limitée au SI de gestion (OT exclu)", "themes": ["gestion-risques"], "maturite": 2, "proprietaire": "RSSI" },
+    { "id": "CTL-03", "nom": "Procédure de gestion des incidents IT (sans volet notification réglementaire)", "themes": ["gestion-incidents"], "maturite": 3, "proprietaire": "DSI" },
+    { "id": "CTL-04", "nom": "Plan de gestion de crise d'exploitation et astreinte 24/7", "themes": ["continuite", "gestion-incidents"], "maturite": 3, "proprietaire": "Direction exploitation" },
+    { "id": "CTL-05", "nom": "Sauvegardes quotidiennes, test de restauration annuel", "themes": ["continuite"], "maturite": 3, "proprietaire": "DSI" },
+    { "id": "CTL-06", "nom": "Clauses de sécurité dans le seul contrat d'infogérance", "themes": ["chaine-approvisionnement"], "maturite": 1, "proprietaire": "Achats" },
+    { "id": "CTL-07", "nom": "Scans de vulnérabilités trimestriels (IT uniquement)", "themes": ["vulnerabilites"], "maturite": 2, "proprietaire": "DSI" },
+    { "id": "CTL-08", "nom": "Campagne annuelle de sensibilisation à l'hameçonnage", "themes": ["cyberhygiene-formation"], "maturite": 2, "proprietaire": "RSSI" },
+    { "id": "CTL-09", "nom": "Chiffrement des postes portables", "themes": ["cryptographie"], "maturite": 3, "proprietaire": "DSI" },
+    { "id": "CTL-10", "nom": "MFA sur la messagerie et le VPN (pas sur le SCADA)", "themes": ["authentification-mfa"], "maturite": 3, "proprietaire": "DSI" },
+    { "id": "CTL-11", "nom": "Revue annuelle des droits d'accès de l'annuaire", "themes": ["controle-acces", "rh-securite"], "maturite": 2, "proprietaire": "DSI" },
+    { "id": "CTL-12", "nom": "Inventaire partiel des actifs IT (OT absent)", "themes": ["gestion-actifs"], "maturite": 1, "proprietaire": "DSI" },
+    { "id": "CTL-13", "nom": "Audit interne SSI tous les deux ans", "themes": ["evaluation-efficacite", "supervision-audit"], "maturite": 2, "proprietaire": "Audit interne" }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_aide": "Sources surveillées par `npm run veille`. Mettre \"actif\": false pour désactiver une source. Types : fichier, eurlex, legifrance (identifiants PISTE requis), rss.",
+  "sources": [
+    {
+      "type": "eurlex",
+      "celex": "32022L2555",
+      "id": "TXT-NIS2",
+      "_note": "Directive NIS 2 — texte officiel en français"
+    },
+    {
+      "type": "eurlex",
+      "celex": "32024R2690",
+      "id": "TXT-NIS2-CIR",
+      "actif": false,
+      "_note": "Règlement d'exécution (UE) 2024/2690 (exigences techniques NIS 2). Long : à activer une fois le premier texte validé."
+    },
+    {
+      "type": "legifrance",
+      "recherche": "cybersécurité résilience infrastructures critiques",
+      "fond": "JORF",
+      "_note": "Suivi de la transposition française de NIS 2 au Journal officiel"
+    },
+    {
+      "type": "rss",
+      "nom": "CNIL",
+      "url": "https://www.cnil.fr/fr/rss.xml",
+      "motsCles": ["sécurité", "cyber", "violation", "incident", "sanction", "NIS"]
+    },
+    {
+      "type": "rss",
+      "nom": "CERT-FR (ANSSI)",
+      "url": "https://www.cert.ssi.gouv.fr/feed/",
+      "motsCles": ["SCADA", "industriel", "eau", "rançongiciel", "critique", "NIS"]
+    },
+    {
+      "type": "rss",
+      "nom": "Assemblée nationale / Sénat",
+      "url": "A_COMPLETER_avec_l_URL_d_un_flux_RSS_de_dossiers_legislatifs",
+      "motsCles": ["cybersécurité", "résilience"],
+      "actif": false,
+      "_note": "Coller ici l'URL du flux RSS du dossier législatif suivi (page du dossier sur assemblee-nationale.fr ou senat.fr)."
+    }
+  ]
+}
