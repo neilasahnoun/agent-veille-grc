@@ -1,0 +1,54 @@
+# Exécution planifiée de la veille (Module 1 : « exécution planifiée »).
+# Tous les jours à 6 h 15 (heure de Paris en hiver), GitHub lance `npm run veille`,
+# met à jour Notion et enregistre les nouveaux résultats dans le dépôt.
+#
+# À configurer une fois : Settings → Secrets and variables → Actions → « New repository secret »
+#   GOOGLE_GENERATIVE_AI_API_KEY, NOTION_TOKEN, NOTION_DB_TEXTES, NOTION_DB_EXIGENCES,
+#   NOTION_DB_CONTROLES, NOTION_DB_RISQUES, NOTION_DB_JURISPRUDENCE, NOTION_DB_LOTS
+#   (optionnel) PISTE_CLIENT_ID, PISTE_CLIENT_SECRET
+name: Veille GRC quotidienne
+
+on:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_dispatch: {} # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    env:
+      LLM_PROVIDER: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY != '' && 'google' || 'mock' }}
+      GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
+      STORAGE: ${{ secrets.NOTION_TOKEN != '' && 'notion' || 'local' }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DB_TEXTES: ${{ secrets.NOTION_DB_TEXTES }}
+      NOTION_DB_EXIGENCES: ${{ secrets.NOTION_DB_EXIGENCES }}
+      NOTION_DB_CONTROLES: ${{ secrets.NOTION_DB_CONTROLES }}
+      NOTION_DB_RISQUES: ${{ secrets.NOTION_DB_RISQUES }}
+      NOTION_DB_JURISPRUDENCE: ${{ secrets.NOTION_DB_JURISPRUDENCE }}
+      NOTION_DB_LOTS: ${{ secrets.NOTION_DB_LOTS }}
+      PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
+      PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Installer l'agent
+        working-directory: agent
+        run: npm install
+      - name: Lancer la veille
+        working-directory: agent
+        run: npm run veille
+      - name: Exporter les matrices en Excel
+        run: pip install openpyxl && python cockpit/export_xlsx.py
+      - name: Enregistrer les résultats dans le dépôt
+        run: |
+          git config user.name "agent-veille-grc"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/store.json data/etat-veille.json data/sources outputs || true
+          git diff --cached --quiet || git commit -m "Veille du $(date +%F)"
+          git push
