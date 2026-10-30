@@ -1,5 +1,5 @@
 # 🛡️ Agent de veille continue GRC et législative — NIS 2
-
+   **🔗 Base Notion en ligne (lecture seule) :** [Veille GRC — 6 bases reliées](https://petite-resolution-107.notion.site/Veille-GRC-409fe7ba810c80709939cbf1d7bc0aa8)
 Atelier EPITA (MSc1) : un agent IA qui **surveille** les textes juridiques, **extrait** les obligations applicables à une organisation, **vérifie** chaque obligation dans le texte officiel, produit **5 matrices GRC** et un **plan de gouvernance TOGAF / ITIL**, avec une **validation humaine** dans un cockpit Streamlit et un stockage dans **Notion**.
 
 - **Texte analysé :** directive (UE) 2022/2555, dite **NIS 2**
