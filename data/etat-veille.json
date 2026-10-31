@@ -3,28 +3,161 @@
     "id": "TXT-NIS2",
     "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555",
     "empreinte": "eef39f2bf7cf0c9697af8d28ce7cc3ee5ebd7cf5379a1916aba97946ee17a525",
-    "vu_le": "2026-10-31T10:57:03.655Z",
+    "vu_le": "2026-10-31T13:12:33.650Z",
     "version": 1
   },
   "RSS-CNIL-78518a37f7": {
     "id": "RSS-CNIL-78518a37f7",
     "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
     "empreinte": "8fdc609444789239ab915f2546d2df8b9fc9a8ab3cce357d4e09220388d9215a",
-    "vu_le": "2026-10-31T10:57:05.309Z",
+    "vu_le": "2026-10-31T13:12:35.483Z",
     "version": 1
   },
   "RSS-CNIL-a01afdef5b": {
     "id": "RSS-CNIL-a01afdef5b",
     "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
     "empreinte": "6bcda10230a77a80f9f1e7c4fb97166cf16ddb66d7dff67e7c29410aea0e01a1",
-    "vu_le": "2026-10-31T10:57:05.309Z",
+    "vu_le": "2026-10-31T13:12:35.483Z",
     "version": 1
   },
   "RSS-CNIL-71fad79684": {
     "id": "RSS-CNIL-71fad79684",
     "url": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
     "empreinte": "d9e54920940053db865b2dfbedcd329e21d2075b278b5b29722b0d262e534d02",
-    "vu_le": "2026-10-31T10:57:05.309Z",
+    "vu_le": "2026-10-31T13:12:35.483Z",
+    "version": 1
+  },
+  "RSS-SNAT-4c0ef79bdf": {
+    "id": "RSS-SNAT-4c0ef79bdf",
+    "url": "http://www.senat.fr/leg/pjl26-072.html",
+    "empreinte": "f4b78b556b02d42d0253abd74d800755922b0aa286af3b178ba5ba41bcb2d372",
+    "vu_le": "2026-10-31T13:32:07.799Z",
+    "version": 1
+  },
+  "RSS-SNAT-be0b2e9c62": {
+    "id": "RSS-SNAT-be0b2e9c62",
+    "url": "http://www.senat.fr/leg/ppl26-032.html",
+    "empreinte": "b3f07e39004d4fdf9ae40f8f67854a01d4620c2896bdd2439e3607f7d8cee8e0",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "RSS-SNAT-52a1acb070": {
+    "id": "RSS-SNAT-52a1acb070",
+    "url": "http://www.senat.fr/leg/pjl26-071.html",
+    "empreinte": "f6c9b8d1147d0776ce9fa8de1d9e75ae82f6167d8ae08e79a5a6ff05914dc267",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "RSS-SNAT-4278dc9cfb": {
+    "id": "RSS-SNAT-4278dc9cfb",
+    "url": "http://www.senat.fr/leg/ppl26-062.html",
+    "empreinte": "a17e63e6b9701327ae96aeb278efef36acdea0253aae0a85b1cc47287e66a7ab",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "RSS-SNAT-8bf414b705": {
+    "id": "RSS-SNAT-8bf414b705",
+    "url": "http://www.senat.fr/leg/ppl26-060.html",
+    "empreinte": "efebcc244f674fe655b0b9cb72f61593d3c0b331cf1a8aebc7412ecce457e1b7",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "RSS-SNAT-7c806aa264": {
+    "id": "RSS-SNAT-7c806aa264",
+    "url": "http://www.senat.fr/leg/ppl26-019.html",
+    "empreinte": "1ca1593024bcf890c8812e2a6cd592f274349df4ffe0e31cc5c57d4bd22eda48",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-8fddbabcd3": {
+    "id": "PAGE-ASSEMBLENATIONALE-8fddbabcd3",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/ameliorer_efficacite_etat_local_17e",
+    "empreinte": "b3a74e9b6fcb724a0ea2105f13b4d573336f7dfbb317b4c4848ec2d88651e487",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-ae765c92af": {
+    "id": "PAGE-ASSEMBLENATIONALE-ae765c92af",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/adapter_code_penal_enjeux_numerique_17e",
+    "empreinte": "aabecb0c2b188ac568042bf6a895e2d7cb7bdd9313e127af85fa05f74edd8814",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-ce69fa148a": {
+    "id": "PAGE-ASSEMBLENATIONALE-ce69fa148a",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/potentiel_viticole_francais_17e",
+    "empreinte": "7a1b147888fb077d4e0d3229e480b9db8a2ed05ee22e1b889b78ee6c863ab9ed",
+    "vu_le": "2026-10-31T13:32:07.800Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000054694832_01-01-2999": {
+    "id": "LF-JORFTEXT000054694832_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054694832_01-01-2999",
+    "empreinte": "38aee650693f4f9a0acfb6fea359a893b1b6a7b8c579a1dd6f78dba4a5b2b916",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000054415410_01-01-2999": {
+    "id": "LF-JORFTEXT000054415410_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054415410_01-01-2999",
+    "empreinte": "b2387d3bfc72e186ae1a036453e2d98a246331e2bd88e6c91e731f58197ca039",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000053417291_01-01-2999": {
+    "id": "LF-JORFTEXT000053417291_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053417291_01-01-2999",
+    "empreinte": "0fb803290ce124e4f71a2c15410db12452af674a1d419ea774c108d5cb8579d5",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000053403284_01-01-2999": {
+    "id": "LF-JORFTEXT000053403284_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053403284_01-01-2999",
+    "empreinte": "86178bad0fa3627dbacca9687b10b873f8ba07046cf3aa2c5a2ec0a72814c88f",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000052229271_01-01-2999": {
+    "id": "LF-JORFTEXT000052229271_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052229271_01-01-2999",
+    "empreinte": "318338ffed1258be9241a6df19a23d512bb9722f6ff8a2f28eb38ac06cb95c9a",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000051894987_01-01-2999": {
+    "id": "LF-JORFTEXT000051894987_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051894987_01-01-2999",
+    "empreinte": "f560b05f95f0d3ccc30179049f18d06949102d39b9592f6d9609f25b53399d16",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000051698644_01-01-2999": {
+    "id": "LF-JORFTEXT000051698644_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051698644_01-01-2999",
+    "empreinte": "11b19c647102bb586debad22a209ada823aa72e494d0e6b4ca6534954640c49b",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000051058973_01-01-2999": {
+    "id": "LF-JORFTEXT000051058973_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051058973_01-01-2999",
+    "empreinte": "49f5978398c47655516e424e9ed8a6551fbfa6bc333b4dc4f20778f71c66a1a3",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000050997871_01-01-2999": {
+    "id": "LF-JORFTEXT000050997871_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050997871_01-01-2999",
+    "empreinte": "d06702bd95ca3ad7c1e3e7ac7dfac5a5461b2051b206c475e8bc9dfebb2e91f1",
+    "vu_le": "2026-10-31T13:58:30.931Z",
+    "version": 1
+  },
+  "LF-JORFTEXT000049309790_01-01-2999": {
+    "id": "LF-JORFTEXT000049309790_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049309790_01-01-2999",
+    "empreinte": "f8e6cf1c50c30935c6e9a8e8954f358fddf9944d0700acda663460ffaafecdc8",
+    "vu_le": "2026-10-31T13:58:30.931Z",
     "version": 1
   }
 }

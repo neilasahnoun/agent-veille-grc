@@ -1,6 +1,66 @@
 {
   "M1_tracabilite": [
     {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "Texte": "politique-fournisseurs",
+      "Article": "Section 1",
+      "Intitulé": "Authentification multifacteur accès distant SCADA",
+      "Obligation": "Tout prestataire ayant un accès distant au SCADA doit utiliser une authentification multifacteur.",
+      "Citation (texte officiel)": "Tout prestataire ayant un accès distant au SCADA doit utiliser une authentification multifacteur.",
+      "Destinataire": "Entités essentielles et importantes",
+      "Échéance": "—",
+      "Applicable": "Oui",
+      "Vérifiée": "Oui",
+      "Confiance": 1,
+      "Statut validation": "À valider",
+      "URL officielle": ""
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "Texte": "politique-fournisseurs",
+      "Article": "Section 1",
+      "Intitulé": "Clause de notification d'incident fournisseurs critiques",
+      "Obligation": "Inclure dans les contrats avec les fournisseurs critiques une clause de notification de tout incident de sécurité sous 24 heures.",
+      "Citation (texte officiel)": "Les contrats avec les fournisseurs critiques doivent inclure une clause de notification de tout incident de sécurité sous 24 heures.",
+      "Destinataire": "Entités essentielles et importantes",
+      "Échéance": "24 heures",
+      "Applicable": "Oui",
+      "Vérifiée": "Oui",
+      "Confiance": 1,
+      "Statut validation": "À valider",
+      "URL officielle": ""
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "Texte": "politique-fournisseurs",
+      "Article": "Section 1",
+      "Intitulé": "Audit annuel des fournisseurs critiques",
+      "Obligation": "Le RSSI doit réaliser un audit de sécurité de chaque fournisseur critique au moins une fois par an.",
+      "Citation (texte officiel)": "Le RSSI réalise un audit de sécurité de chaque fournisseur critique au moins une fois par an.",
+      "Destinataire": "Entités essentielles et importantes",
+      "Échéance": "Une fois par an",
+      "Applicable": "Oui",
+      "Vérifiée": "Oui",
+      "Confiance": 1,
+      "Statut validation": "À valider",
+      "URL officielle": ""
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "Texte": "politique-fournisseurs",
+      "Article": "Section 1",
+      "Intitulé": "Révocation des accès prestataires",
+      "Obligation": "Révoquer les accès des prestataires dans les 48 heures suivant la fin de leur mission.",
+      "Citation (texte officiel)": "Les accès des prestataires sont révoqués dans les 48 heures suivant la fin de leur mission.",
+      "Destinataire": "Entités essentielles et importantes",
+      "Échéance": "48 heures",
+      "Applicable": "Oui",
+      "Vérifiée": "Oui",
+      "Confiance": 1,
+      "Statut validation": "À valider",
+      "URL officielle": ""
+    },
+    {
       "ID exigence": "REQ-NIS2-001-01",
       "Texte": "DIRECTIVE (UE) 2022/2555 DU PARLEMENT EUROPÉEN ET DU CONSEIL du 14 décembre 2022",
       "Article": "Art. 1 §1",
@@ -87,7 +147,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 1,
-      "Statut validation": "À valider",
+      "Statut validation": "Rejetée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -942,7 +1002,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 1,
-      "Statut validation": "À valider",
+      "Statut validation": "Validée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -987,7 +1047,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 1,
-      "Statut validation": "À valider",
+      "Statut validation": "Validée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1257,7 +1317,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 1,
-      "Statut validation": "À valider",
+      "Statut validation": "Validée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1272,7 +1332,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 1,
-      "Statut validation": "À valider",
+      "Statut validation": "Validée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1295,14 +1355,14 @@
       "Texte": "DIRECTIVE (UE) 2022/2555 DU PARLEMENT EUROPÉEN ET DU CONSEIL du 14 décembre 2022",
       "Article": "Art. 23 §4 d)",
       "Intitulé": "Soumission du rapport final d'incident",
-      "Obligation": "Soumettre un rapport final au plus tard un mois après la présentation de la notification d'incident, comprenant description, cause, mesures et impact transfrontière.",
+      "Obligation": "Remettre au CSIRT (ANSSI) ou à l'autorité compétente un rapport final au plus tard un mois après la présentation de la notification d'incident (art. 23 §4 d) : description détaillée de l'incident, type de menace ou cause probable, mesures d'atténuation appliquées et, le cas échéant, impact transfrontière.",
       "Citation (texte officiel)": "un rapport final au plus tard un mois après la présentation de la notification d’incident visée au point b), comprenant les éléments suivants: i) une description détaillée de l’incident... ii) le type de menace... iii) les mesures d’atténuation... iv) l’impact transfrontière",
       "Destinataire": "Entités essentielles et importantes",
       "Échéance": "Au plus tard un mois après la présentation de la notification d'incident",
       "Applicable": "Oui",
       "Vérifiée": "Non",
       "Confiance": 0.4,
-      "Statut validation": "À valider",
+      "Statut validation": "Corrigée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1737,7 +1797,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 0.95,
-      "Statut validation": "À valider",
+      "Statut validation": "Rejetée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1752,7 +1812,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 0.95,
-      "Statut validation": "À valider",
+      "Statut validation": "Rejetée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1767,7 +1827,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 0.95,
-      "Statut validation": "À valider",
+      "Statut validation": "Rejetée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1932,7 +1992,7 @@
       "Applicable": "Oui",
       "Vérifiée": "Oui",
       "Confiance": 0.95,
-      "Statut validation": "À valider",
+      "Statut validation": "Rejetée",
       "URL officielle": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555"
     },
     {
@@ -1998,6 +2058,42 @@
   ],
   "M2_impact": [
     {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "Intitulé": "Authentification multifacteur accès distant SCADA",
+      "Processus": "P02 Distribution et télérelève des compteurs ; P04 Relation abonnés et facturation ; P05 Achats et sous-traitance ; P08 Maintenance des installations",
+      "Systèmes": "S01 SCADA de supervision des usines (OT) ; S03 ERP finance et achats ; S04 CRM abonnés et portail web ; S05 Messagerie et collaboration (cloud) ; S06 Annuaire et gestion des identités (AD / IAM) ; S08 Télérelève des compteurs (IoT + réseau radio)",
+      "Données": "D02 Données personnelles des abonnés ; D04 Plans et schémas du réseau (sensibles) ; D05 Données RH",
+      "Contrats": "C01 Infogérance du SI de gestion (prestataire InfoGest, fictif) ; C02 Maintenance du SCADA (prestataire AutomaTech, fictif) ; C03 Abonnement messagerie cloud ; C04 Opérateur télécom de la télérelève",
+      "Criticité max": 5
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "Intitulé": "Clause de notification d'incident fournisseurs critiques",
+      "Processus": "P01 Production et traitement de l'eau ; P02 Distribution et télérelève des compteurs ; P03 Gestion de crise et astreinte d'exploitation ; P04 Relation abonnés et facturation ; P05 Achats et sous-traitance ; P08 Maintenance des installations",
+      "Systèmes": "S01 SCADA de supervision des usines (OT) ; S03 ERP finance et achats ; S08 Télérelève des compteurs (IoT + réseau radio)",
+      "Données": "D01 Mesures de qualité de l'eau ; D02 Données personnelles des abonnés",
+      "Contrats": "C01 Infogérance du SI de gestion (prestataire InfoGest, fictif) ; C02 Maintenance du SCADA (prestataire AutomaTech, fictif) ; C03 Abonnement messagerie cloud ; C04 Opérateur télécom de la télérelève",
+      "Criticité max": 5
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "Intitulé": "Audit annuel des fournisseurs critiques",
+      "Processus": "P02 Distribution et télérelève des compteurs ; P05 Achats et sous-traitance ; P07 Gouvernance et direction générale ; P08 Maintenance des installations",
+      "Systèmes": "S03 ERP finance et achats ; S08 Télérelève des compteurs (IoT + réseau radio)",
+      "Données": "",
+      "Contrats": "C01 Infogérance du SI de gestion (prestataire InfoGest, fictif) ; C02 Maintenance du SCADA (prestataire AutomaTech, fictif) ; C03 Abonnement messagerie cloud ; C04 Opérateur télécom de la télérelève",
+      "Criticité max": 4
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "Intitulé": "Révocation des accès prestataires",
+      "Processus": "P02 Distribution et télérelève des compteurs ; P04 Relation abonnés et facturation ; P05 Achats et sous-traitance ; P06 Ressources humaines ; P08 Maintenance des installations",
+      "Systèmes": "S03 ERP finance et achats ; S04 CRM abonnés et portail web ; S06 Annuaire et gestion des identités (AD / IAM) ; S08 Télérelève des compteurs (IoT + réseau radio)",
+      "Données": "D02 Données personnelles des abonnés ; D04 Plans et schémas du réseau (sensibles) ; D05 Données RH",
+      "Contrats": "C01 Infogérance du SI de gestion (prestataire InfoGest, fictif) ; C02 Maintenance du SCADA (prestataire AutomaTech, fictif) ; C03 Abonnement messagerie cloud ; C04 Opérateur télécom de la télérelève",
+      "Criticité max": 4
+    },
+    {
       "ID exigence": "REQ-NIS2-001-03",
       "Intitulé": "Gestion des risques et information",
       "Processus": "P03 Gestion de crise et astreinte d'exploitation ; P04 Relation abonnés et facturation ; P07 Gouvernance et direction générale",
@@ -2009,15 +2105,6 @@
     {
       "ID exigence": "REQ-NIS2-001-04",
       "Intitulé": "Partage d'informations",
-      "Processus": "P07 Gouvernance et direction générale",
-      "Systèmes": "",
-      "Données": "",
-      "Contrats": "",
-      "Criticité max": 3
-    },
-    {
-      "ID exigence": "REQ-NIS2-002-01",
-      "Intitulé": "Champ d'application général",
       "Processus": "P07 Gouvernance et direction générale",
       "Systèmes": "",
       "Données": "",
@@ -2331,33 +2418,6 @@
       "Criticité max": 3
     },
     {
-      "ID exigence": "REQ-NIS2-033-01",
-      "Intitulé": "Soumission aux mesures de contrôle ex post",
-      "Processus": "P07 Gouvernance et direction générale",
-      "Systèmes": "",
-      "Données": "",
-      "Contrats": "",
-      "Criticité max": 3
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-02",
-      "Intitulé": "Inspections sur place et contrôles à distance",
-      "Processus": "P07 Gouvernance et direction générale",
-      "Systèmes": "",
-      "Données": "",
-      "Contrats": "",
-      "Criticité max": 3
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-03",
-      "Intitulé": "Audits de sécurité ciblés",
-      "Processus": "P07 Gouvernance et direction générale",
-      "Systèmes": "",
-      "Données": "",
-      "Contrats": "",
-      "Criticité max": 3
-    },
-    {
       "ID exigence": "REQ-NIS2-033-04",
       "Intitulé": "Scans de sécurité",
       "Processus": "P01 Production et traitement de l'eau ; P07 Gouvernance et direction générale ; P08 Maintenance des installations",
@@ -2446,18 +2506,41 @@
       "Données": "",
       "Contrats": "",
       "Criticité max": 3
-    },
-    {
-      "ID exigence": "REQ-NIS2-034-01",
-      "Intitulé": "Exposition aux amendes administratives (Entités importantes)",
-      "Processus": "P07 Gouvernance et direction générale",
-      "Systèmes": "",
-      "Données": "",
-      "Contrats": "",
-      "Criticité max": 3
     }
   ],
   "M3_couverture": [
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "Intitulé": "Authentification multifacteur accès distant SCADA",
+      "Contrôles existants": "CTL-10 MFA sur la messagerie et le VPN (pas sur le SCADA) ; CTL-06 Clauses de sécurité dans le seul contrat d'infogérance ; CTL-11 Revue annuelle des droits d'accès de l'annuaire",
+      "Taux de couverture": 0.4,
+      "Statut": "Partielle",
+      "Écart": "À renforcer : Sécurité de la chaîne d'approvisionnement (maturité 1/5), Contrôle d'accès (maturité 2/5)"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "Intitulé": "Clause de notification d'incident fournisseurs critiques",
+      "Contrôles existants": "CTL-06 Clauses de sécurité dans le seul contrat d'infogérance ; CTL-03 Procédure de gestion des incidents IT (sans volet notification réglementaire) ; CTL-04 Plan de gestion de crise d'exploitation et astreinte 24/7",
+      "Taux de couverture": 0.27,
+      "Statut": "Non couverte",
+      "Écart": "À renforcer : Sécurité de la chaîne d'approvisionnement (maturité 1/5), Notification des incidents (maturité 0/5)"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "Intitulé": "Audit annuel des fournisseurs critiques",
+      "Contrôles existants": "CTL-06 Clauses de sécurité dans le seul contrat d'infogérance ; CTL-13 Audit interne SSI tous les deux ans",
+      "Taux de couverture": 0.3,
+      "Statut": "Partielle",
+      "Écart": "À renforcer : Sécurité de la chaîne d'approvisionnement (maturité 1/5), Supervision par l'autorité et audits (maturité 2/5)"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "Intitulé": "Révocation des accès prestataires",
+      "Contrôles existants": "CTL-06 Clauses de sécurité dans le seul contrat d'infogérance ; CTL-11 Revue annuelle des droits d'accès de l'annuaire",
+      "Taux de couverture": 0.33,
+      "Statut": "Partielle",
+      "Écart": "À renforcer : Sécurité de la chaîne d'approvisionnement (maturité 1/5), Contrôle d'accès (maturité 2/5), Sécurité des ressources humaines (maturité 2/5)"
+    },
     {
       "ID exigence": "REQ-NIS2-001-03",
       "Intitulé": "Gestion des risques et information",
@@ -2469,14 +2552,6 @@
     {
       "ID exigence": "REQ-NIS2-001-04",
       "Intitulé": "Partage d'informations",
-      "Contrôles existants": "CTL-01 PSSI approuvée en 2021, jamais révisée",
-      "Taux de couverture": 0.4,
-      "Statut": "Partielle",
-      "Écart": "À renforcer : Gouvernance et responsabilité de la direction (maturité 2/5)"
-    },
-    {
-      "ID exigence": "REQ-NIS2-002-01",
-      "Intitulé": "Champ d'application général",
       "Contrôles existants": "CTL-01 PSSI approuvée en 2021, jamais révisée",
       "Taux de couverture": 0.4,
       "Statut": "Partielle",
@@ -2755,30 +2830,6 @@
       "Écart": "À renforcer : Gouvernance et responsabilité de la direction (maturité 2/5)"
     },
     {
-      "ID exigence": "REQ-NIS2-033-01",
-      "Intitulé": "Soumission aux mesures de contrôle ex post",
-      "Contrôles existants": "CTL-13 Audit interne SSI tous les deux ans",
-      "Taux de couverture": 0.4,
-      "Statut": "Partielle",
-      "Écart": "À renforcer : Supervision par l'autorité et audits (maturité 2/5), Évaluation de l'efficacité des mesures (maturité 2/5)"
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-02",
-      "Intitulé": "Inspections sur place et contrôles à distance",
-      "Contrôles existants": "CTL-13 Audit interne SSI tous les deux ans",
-      "Taux de couverture": 0.4,
-      "Statut": "Partielle",
-      "Écart": "À renforcer : Supervision par l'autorité et audits (maturité 2/5)"
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-03",
-      "Intitulé": "Audits de sécurité ciblés",
-      "Contrôles existants": "CTL-13 Audit interne SSI tous les deux ans",
-      "Taux de couverture": 0.4,
-      "Statut": "Partielle",
-      "Écart": "À renforcer : Supervision par l'autorité et audits (maturité 2/5), Évaluation de l'efficacité des mesures (maturité 2/5)"
-    },
-    {
       "ID exigence": "REQ-NIS2-033-04",
       "Intitulé": "Scans de sécurité",
       "Contrôles existants": "CTL-07 Scans de vulnérabilités trimestriels (IT uniquement) ; CTL-13 Audit interne SSI tous les deux ans",
@@ -2857,17 +2908,57 @@
       "Taux de couverture": 0.4,
       "Statut": "Partielle",
       "Écart": "À renforcer : Supervision par l'autorité et audits (maturité 2/5)"
-    },
-    {
-      "ID exigence": "REQ-NIS2-034-01",
-      "Intitulé": "Exposition aux amendes administratives (Entités importantes)",
-      "Contrôles existants": "CTL-01 PSSI approuvée en 2021, jamais révisée ; CTL-02 Analyse de risques EBIOS RM limitée au SI de gestion (OT exclu)",
-      "Taux de couverture": 0.4,
-      "Statut": "Partielle",
-      "Écart": "À renforcer : Gouvernance et responsabilité de la direction (maturité 2/5), Analyse et gestion des risques (maturité 2/5)"
     }
   ],
   "M4_risque": [
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "ID risque": "RSK-POLITIQUE-FOURNISSEU-0S1-01",
+      "Risque": "Non-conformité : Authentification multifacteur accès distant SCADA",
+      "Probabilité (1-5)": 4,
+      "Impact (1-5)": 5,
+      "Risque inhérent": 20,
+      "Couverture": 0.4,
+      "Risque résiduel": 14,
+      "Niveau": "Élevé",
+      "Conséquences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Distribution et télérelève des compteurs, Relation abonnés et facturation, Achats et sous-traitance"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "ID risque": "RSK-POLITIQUE-FOURNISSEU-0S1-02",
+      "Risque": "Non-conformité : Clause de notification d'incident fournisseurs critiques",
+      "Probabilité (1-5)": 4,
+      "Impact (1-5)": 5,
+      "Risque inhérent": 20,
+      "Couverture": 0.27,
+      "Risque résiduel": 16,
+      "Niveau": "Critique",
+      "Conséquences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Production et traitement de l'eau, Distribution et télérelève des compteurs, Gestion de crise et astreinte d'exploitation"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "ID risque": "RSK-POLITIQUE-FOURNISSEU-0S1-03",
+      "Risque": "Non-conformité : Audit annuel des fournisseurs critiques",
+      "Probabilité (1-5)": 4,
+      "Impact (1-5)": 4,
+      "Risque inhérent": 16,
+      "Couverture": 0.3,
+      "Risque résiduel": 12,
+      "Niveau": "Élevé",
+      "Conséquences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Distribution et télérelève des compteurs, Achats et sous-traitance, Gouvernance et direction générale"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "ID risque": "RSK-POLITIQUE-FOURNISSEU-0S1-04",
+      "Risque": "Non-conformité : Révocation des accès prestataires",
+      "Probabilité (1-5)": 4,
+      "Impact (1-5)": 4,
+      "Risque inhérent": 16,
+      "Couverture": 0.33,
+      "Risque résiduel": 12,
+      "Niveau": "Élevé",
+      "Conséquences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Distribution et télérelève des compteurs, Relation abonnés et facturation, Achats et sous-traitance"
+    },
     {
       "ID exigence": "REQ-NIS2-001-03",
       "ID risque": "RSK-NIS2-001-03",
@@ -2890,18 +2981,6 @@
       "Couverture": 0.4,
       "Risque résiduel": 11,
       "Niveau": "Élevé",
-      "Conséquences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "ID exigence": "REQ-NIS2-002-01",
-      "ID risque": "RSK-NIS2-002-01",
-      "Risque": "Non-conformité : Champ d'application général",
-      "Probabilité (1-5)": 3,
-      "Impact (1-5)": 4,
-      "Risque inhérent": 12,
-      "Couverture": 0.4,
-      "Risque résiduel": 8,
-      "Niveau": "Modéré",
       "Conséquences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Gouvernance et direction générale"
     },
     {
@@ -3313,42 +3392,6 @@
       "Conséquences": "Sanction : Responsabilité personnelle pour manquement au devoir de surveillance — Atteinte possible à : Gouvernance et direction générale"
     },
     {
-      "ID exigence": "REQ-NIS2-033-01",
-      "ID risque": "RSK-NIS2-033-01",
-      "Risque": "Non-conformité : Soumission aux mesures de contrôle ex post",
-      "Probabilité (1-5)": 4,
-      "Impact (1-5)": 3,
-      "Risque inhérent": 12,
-      "Couverture": 0.4,
-      "Risque résiduel": 8,
-      "Niveau": "Modéré",
-      "Conséquences": "Sanction : Amendes administratives et mesures d'exécution — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-02",
-      "ID risque": "RSK-NIS2-033-02",
-      "Risque": "Non-conformité : Inspections sur place et contrôles à distance",
-      "Probabilité (1-5)": 4,
-      "Impact (1-5)": 3,
-      "Risque inhérent": 12,
-      "Couverture": 0.4,
-      "Risque résiduel": 8,
-      "Niveau": "Modéré",
-      "Conséquences": "Sanction : Amendes administratives et mesures d'exécution — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-03",
-      "ID risque": "RSK-NIS2-033-03",
-      "Risque": "Non-conformité : Audits de sécurité ciblés",
-      "Probabilité (1-5)": 4,
-      "Impact (1-5)": 3,
-      "Risque inhérent": 12,
-      "Couverture": 0.4,
-      "Risque résiduel": 8,
-      "Niveau": "Modéré",
-      "Conséquences": "Sanction : Prise en charge financière des audits et sanctions en cas de refus — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
       "ID exigence": "REQ-NIS2-033-04",
       "ID risque": "RSK-NIS2-033-04",
       "Risque": "Non-conformité : Scans de sécurité",
@@ -3467,377 +3510,358 @@
       "Risque résiduel": 8,
       "Niveau": "Modéré",
       "Conséquences": "Sanction : Amendes administratives — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "ID exigence": "REQ-NIS2-034-01",
-      "ID risque": "RSK-NIS2-034-01",
-      "Risque": "Non-conformité : Exposition aux amendes administratives (Entités importantes)",
-      "Probabilité (1-5)": 4,
-      "Impact (1-5)": 4,
-      "Risque inhérent": 16,
-      "Couverture": 0.4,
-      "Risque résiduel": 11,
-      "Niveau": "Élevé",
-      "Conséquences": "Sanction : Jusqu'à 7M€ ou 1,4% du CA mondial — Atteinte possible à : Gouvernance et direction générale"
     }
   ],
   "M5_jurisprudence": [
     {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "Intitulé": "Authentification multifacteur accès distant SCADA",
+      "Requête Judilibre": "authentification forte fraude responsabilité",
+      "Décisions": "Cour de cassation — Chambre commerciale financière et économique 2023-08-30 n° 22-11.707 ; Cour de cassation — Première chambre civile 2017-06-09 n° 16-19.097 ; Cour de cassation — Chambre criminelle 2022-02-23 n° 21-85.050",
+      "Liens": "https://www.courdecassation.fr/decision/64eee09d01e49dd969c48aa0 ; https://www.courdecassation.fr/decision/5fd90028b149c896a51b6381 ; https://www.courdecassation.fr/decision/6215dbd208b2bd79007cc1f6"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "Intitulé": "Clause de notification d'incident fournisseurs critiques",
+      "Requête Judilibre": "prestataire informatique obligation de sécurité sous-traitant",
+      "Décisions": "Cour de cassation — Chambre sociale 2013-02-27 n° 12-14.415 ; Cour de cassation — Chambre sociale 2016-12-07 n° 15-16.769 ; Cour de cassation — Chambre sociale 2020-01-15 n° 18-15.095",
+      "Liens": "https://www.courdecassation.fr/decision/6079c1769ba5988459c572d6 ; https://www.courdecassation.fr/decision/5fd91566fef7d8b07d554147 ; https://www.courdecassation.fr/decision/5fca5e0c25b4ce42a09751f0"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "Intitulé": "Audit annuel des fournisseurs critiques",
+      "Requête Judilibre": "prestataire informatique obligation de sécurité sous-traitant",
+      "Décisions": "Cour de cassation — Chambre sociale 2013-02-27 n° 12-14.415 ; Cour de cassation — Chambre sociale 2016-12-07 n° 15-16.769 ; Cour de cassation — Chambre sociale 2020-01-15 n° 18-15.095",
+      "Liens": "https://www.courdecassation.fr/decision/6079c1769ba5988459c572d6 ; https://www.courdecassation.fr/decision/5fd91566fef7d8b07d554147 ; https://www.courdecassation.fr/decision/5fca5e0c25b4ce42a09751f0"
+    },
+    {
+      "ID exigence": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "Intitulé": "Révocation des accès prestataires",
+      "Requête Judilibre": "prestataire informatique obligation de sécurité sous-traitant",
+      "Décisions": "Cour de cassation — Chambre sociale 2013-02-27 n° 12-14.415 ; Cour de cassation — Chambre sociale 2016-12-07 n° 15-16.769 ; Cour de cassation — Chambre sociale 2020-01-15 n° 18-15.095",
+      "Liens": "https://www.courdecassation.fr/decision/6079c1769ba5988459c572d6 ; https://www.courdecassation.fr/decision/5fd91566fef7d8b07d554147 ; https://www.courdecassation.fr/decision/5fca5e0c25b4ce42a09751f0"
+    },
+    {
       "ID exigence": "REQ-NIS2-001-03",
       "Intitulé": "Gestion des risques et information",
       "Requête Judilibre": "obligation de sécurité système d'information analyse des risques",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2017-04-20 n° 15-27.927 ; Cour de cassation — Chambre sociale 2015-03-03 n° 13-20.474 ; Cour de cassation — Première chambre civile 2018-11-14 n° 17-27.980",
+      "Liens": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6 ; https://www.courdecassation.fr/decision/6079c7829ba5988459c57576 ; https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78"
     },
     {
       "ID exigence": "REQ-NIS2-001-04",
       "Intitulé": "Partage d'informations",
       "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
-    },
-    {
-      "ID exigence": "REQ-NIS2-002-01",
-      "Intitulé": "Champ d'application général",
-      "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre criminelle 2020-09-08 n° 18-82.150 ; Cour de cassation — Chambre commerciale financière et économique 2006-03-07 n° 04-16.536 ; Cour de cassation — Chambre commerciale financière et économique 2025-06-12 n° 24-13.777",
+      "Liens": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590 ; https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc ; https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f"
     },
     {
       "ID exigence": "REQ-NIS2-003-02",
       "Intitulé": "Communication d'informations d'enregistrement",
       "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre criminelle 2020-09-08 n° 18-82.150 ; Cour de cassation — Chambre commerciale financière et économique 2006-03-07 n° 04-16.536 ; Cour de cassation — Chambre commerciale financière et économique 2025-06-12 n° 24-13.777",
+      "Liens": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590 ; https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc ; https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f"
     },
     {
       "ID exigence": "REQ-NIS2-004-01",
       "Intitulé": "Exemption pour actes sectoriels équivalents",
       "Requête Judilibre": "obligation de sécurité système d'information analyse des risques",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2017-04-20 n° 15-27.927 ; Cour de cassation — Chambre sociale 2015-03-03 n° 13-20.474 ; Cour de cassation — Première chambre civile 2018-11-14 n° 17-27.980",
+      "Liens": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6 ; https://www.courdecassation.fr/decision/6079c7829ba5988459c57576 ; https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78"
     },
     {
       "ID exigence": "REQ-NIS2-020-01",
       "Intitulé": "Approbation et supervision de la gestion des risques par la direction",
       "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre criminelle 2020-09-08 n° 18-82.150 ; Cour de cassation — Chambre commerciale financière et économique 2006-03-07 n° 04-16.536 ; Cour de cassation — Chambre commerciale financière et économique 2025-06-12 n° 24-13.777",
+      "Liens": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590 ; https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc ; https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f"
     },
     {
       "ID exigence": "REQ-NIS2-020-02",
       "Intitulé": "Formation obligatoire de la direction et du personnel",
       "Requête Judilibre": "hameçonnage salarié faute virement frauduleux",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre commerciale financière et économique 2018-03-28 n° 16-20.018 ; Cour de cassation — Chambre commerciale financière et économique 2020-11-12 n° 19-12.112 ; Cour de cassation — Chambre commerciale financière et économique 2020-07-01 n° 18-21.487",
+      "Liens": "https://www.courdecassation.fr/decision/5fca95aebedfb58a3b771616 ; https://www.courdecassation.fr/decision/5fca28cdc8c4b77eec00da46 ; https://www.courdecassation.fr/decision/5fca4c078df58966999a28c1"
     },
     {
       "ID exigence": "REQ-NIS2-021-01",
       "Intitulé": "Mise en place de mesures de gestion des risques",
       "Requête Judilibre": "obligation de sécurité système d'information analyse des risques",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2017-04-20 n° 15-27.927 ; Cour de cassation — Chambre sociale 2015-03-03 n° 13-20.474 ; Cour de cassation — Première chambre civile 2018-11-14 n° 17-27.980",
+      "Liens": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6 ; https://www.courdecassation.fr/decision/6079c7829ba5988459c57576 ; https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78"
     },
     {
       "ID exigence": "REQ-NIS2-021-02",
       "Intitulé": "Politiques d'analyse des risques et sécurité SI",
       "Requête Judilibre": "obligation de sécurité système d'information analyse des risques",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2017-04-20 n° 15-27.927 ; Cour de cassation — Chambre sociale 2015-03-03 n° 13-20.474 ; Cour de cassation — Première chambre civile 2018-11-14 n° 17-27.980",
+      "Liens": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6 ; https://www.courdecassation.fr/decision/6079c7829ba5988459c57576 ; https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78"
     },
     {
       "ID exigence": "REQ-NIS2-021-03",
       "Intitulé": "Gestion des incidents",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-021-04",
       "Intitulé": "Continuité des activités et gestion des crises",
       "Requête Judilibre": "interruption de service informatique continuité responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2000-01-26 n° 97-15.291 ; Cour de cassation — Chambre sociale 2008-12-16 n° 06-45.262 ; Cour de cassation — Troisième chambre civile 2010-01-13 n° 08-13.562",
+      "Liens": "https://www.courdecassation.fr/decision/6079b1a49ba5988459c52c3d ; https://www.courdecassation.fr/decision/6079b5d09ba5988459c56dca ; https://www.courdecassation.fr/decision/60795d169ba5988459c49556"
     },
     {
       "ID exigence": "REQ-NIS2-021-05",
       "Intitulé": "Sécurité de la chaîne d'approvisionnement",
       "Requête Judilibre": "prestataire informatique obligation de sécurité sous-traitant",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2013-02-27 n° 12-14.415 ; Cour de cassation — Chambre sociale 2016-12-07 n° 15-16.769 ; Cour de cassation — Chambre sociale 2020-01-15 n° 18-15.095",
+      "Liens": "https://www.courdecassation.fr/decision/6079c1769ba5988459c572d6 ; https://www.courdecassation.fr/decision/5fd91566fef7d8b07d554147 ; https://www.courdecassation.fr/decision/5fca5e0c25b4ce42a09751f0"
     },
     {
       "ID exigence": "REQ-NIS2-021-06",
       "Intitulé": "Sécurité d'acquisition et des vulnérabilités",
       "Requête Judilibre": "défaut de sécurité logiciel prestataire obligation de conseil",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2021-03-18 n° 19-24.239 ; Cour de cassation — Deuxième chambre civile 2023-01-05 n° 21-14.945 ; Cour de cassation — Première chambre civile 2016-04-06 n° 15-17.475",
+      "Liens": "https://www.courdecassation.fr/decision/6054bea170526d97cf3cc63b ; https://www.courdecassation.fr/decision/63b7c9da6b63637c907b7644 ; https://www.courdecassation.fr/decision/5fd93a5bf9e0a31fa5cd6462"
     },
     {
       "ID exigence": "REQ-NIS2-021-07",
       "Intitulé": "Évaluation de l'efficacité des mesures",
       "Requête Judilibre": "audit de sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-14 n° 18-13.887 ; Cour de cassation — Troisième chambre civile 2013-05-23 n° 11-26.095 ; Cour de cassation — Deuxième chambre civile 2009-03-12 n° 07-16.935",
+      "Liens": "https://www.courdecassation.fr/decision/5fca62cdbcb3a44ae3a25fc3 ; https://www.courdecassation.fr/decision/607972139ba5988459c49d94 ; https://www.courdecassation.fr/decision/607960d39ba5988459c496cc"
     },
     {
       "ID exigence": "REQ-NIS2-021-08",
       "Intitulé": "Cyberhygiène et formation",
       "Requête Judilibre": "hameçonnage salarié faute virement frauduleux",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre commerciale financière et économique 2018-03-28 n° 16-20.018 ; Cour de cassation — Chambre commerciale financière et économique 2020-11-12 n° 19-12.112 ; Cour de cassation — Chambre commerciale financière et économique 2020-07-01 n° 18-21.487",
+      "Liens": "https://www.courdecassation.fr/decision/5fca95aebedfb58a3b771616 ; https://www.courdecassation.fr/decision/5fca28cdc8c4b77eec00da46 ; https://www.courdecassation.fr/decision/5fca4c078df58966999a28c1"
     },
     {
       "ID exigence": "REQ-NIS2-021-09",
       "Intitulé": "Politiques de cryptographie et chiffrement",
       "Requête Judilibre": "chiffrement données personnelles sécurité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2023-03-16 n° 21-13.947 ; Cour de cassation — Deuxième chambre civile 2011-04-28 n° 10-17.187 ; Cour de cassation — Chambre commerciale financière et économique 2017-10-25 n° 16-11.644",
+      "Liens": "https://www.courdecassation.fr/decision/6412c72e314ae0a62152cdce ; https://www.courdecassation.fr/decision/60796c5b9ba5988459c49b56 ; https://www.courdecassation.fr/decision/5fd8f4e1c2fd5c88d1dafa29"
     },
     {
       "ID exigence": "REQ-NIS2-021-10",
       "Intitulé": "Sécurité RH, contrôle d'accès et actifs",
       "Requête Judilibre": "salarié accès système informatique licenciement données",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2009-06-17 n° 08-40.274 ; Cour de cassation — Chambre sociale 2012-06-26 n° 11-15.310 ; Cour de cassation — Chambre sociale 2021-11-10 n° 20-12.263",
+      "Liens": "https://www.courdecassation.fr/decision/6079b6de9ba5988459c56e4a ; https://www.courdecassation.fr/decision/6079bc3a9ba5988459c57096 ; https://www.courdecassation.fr/decision/618b6ee9e256c86ccc1b5098"
     },
     {
       "ID exigence": "REQ-NIS2-021-11",
       "Intitulé": "MFA et communications sécurisées",
       "Requête Judilibre": "authentification forte fraude responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre commerciale financière et économique 2023-08-30 n° 22-11.707 ; Cour de cassation — Première chambre civile 2017-06-09 n° 16-19.097 ; Cour de cassation — Chambre criminelle 2022-02-23 n° 21-85.050",
+      "Liens": "https://www.courdecassation.fr/decision/64eee09d01e49dd969c48aa0 ; https://www.courdecassation.fr/decision/5fd90028b149c896a51b6381 ; https://www.courdecassation.fr/decision/6215dbd208b2bd79007cc1f6"
     },
     {
       "ID exigence": "REQ-NIS2-021-12",
       "Intitulé": "Prise en compte des vulnérabilités fournisseurs",
       "Requête Judilibre": "prestataire informatique obligation de sécurité sous-traitant",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2013-02-27 n° 12-14.415 ; Cour de cassation — Chambre sociale 2016-12-07 n° 15-16.769 ; Cour de cassation — Chambre sociale 2020-01-15 n° 18-15.095",
+      "Liens": "https://www.courdecassation.fr/decision/6079c1769ba5988459c572d6 ; https://www.courdecassation.fr/decision/5fd91566fef7d8b07d554147 ; https://www.courdecassation.fr/decision/5fca5e0c25b4ce42a09751f0"
     },
     {
       "ID exigence": "REQ-NIS2-021-13",
       "Intitulé": "Mesures correctives en cas de non-conformité",
       "Requête Judilibre": "obligation de sécurité système d'information analyse des risques",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2017-04-20 n° 15-27.927 ; Cour de cassation — Chambre sociale 2015-03-03 n° 13-20.474 ; Cour de cassation — Première chambre civile 2018-11-14 n° 17-27.980",
+      "Liens": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6 ; https://www.courdecassation.fr/decision/6079c7829ba5988459c57576 ; https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78"
     },
     {
       "ID exigence": "REQ-NIS2-023-01",
       "Intitulé": "Notification d'incident important",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-02",
       "Intitulé": "Notification aux destinataires des services",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-03",
       "Intitulé": "Signalement d'impact transfrontière",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-04",
       "Intitulé": "Communication sur les cybermenaces importantes",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-05",
       "Intitulé": "Soumission d'une alerte précoce",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-06",
       "Intitulé": "Soumission d'une notification d'incident",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-07",
       "Intitulé": "Fourniture d'un rapport intermédiaire",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-08",
       "Intitulé": "Soumission du rapport final d'incident",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-023-09",
       "Intitulé": "Rapports pour incident en cours",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-024-01",
       "Intitulé": "Utilisation de produits et services certifiés",
       "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre criminelle 2020-09-08 n° 18-82.150 ; Cour de cassation — Chambre commerciale financière et économique 2006-03-07 n° 04-16.536 ; Cour de cassation — Chambre commerciale financière et économique 2025-06-12 n° 24-13.777",
+      "Liens": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590 ; https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc ; https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f"
     },
     {
       "ID exigence": "REQ-NIS2-029-01",
       "Intitulé": "Échange volontaire d'informations de cybersécurité",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-029-02",
       "Intitulé": "Participation à des communautés de partage d'informations",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-029-04",
       "Intitulé": "Notification de participation ou retrait d'accords de partage",
       "Requête Judilibre": "notification violation de données délai autorité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2011-12-16 n° 10-27.051 ; Cour de cassation — Chambre criminelle 1985-06-11 n° 85-91.776 ; Cour de cassation — Chambre criminelle 2001-06-13 n° 00-85.289",
+      "Liens": "https://www.courdecassation.fr/decision/6079688d9ba5988459c499d8 ; https://www.courdecassation.fr/decision/6079a84c9ba5988459c4c73e ; https://www.courdecassation.fr/decision/6079a8c09ba5988459c4eca6"
     },
     {
       "ID exigence": "REQ-NIS2-030-01",
       "Intitulé": "Transmission de notifications volontaires",
       "Requête Judilibre": "notification violation de données délai autorité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2011-12-16 n° 10-27.051 ; Cour de cassation — Chambre criminelle 1985-06-11 n° 85-91.776 ; Cour de cassation — Chambre criminelle 2001-06-13 n° 00-85.289",
+      "Liens": "https://www.courdecassation.fr/decision/6079688d9ba5988459c499d8 ; https://www.courdecassation.fr/decision/6079a84c9ba5988459c4c73e ; https://www.courdecassation.fr/decision/6079a8c09ba5988459c4eca6"
     },
     {
       "ID exigence": "REQ-NIS2-032-02",
       "Intitulé": "Pouvoirs de supervision des autorités",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     },
     {
       "ID exigence": "REQ-NIS2-032-03",
       "Intitulé": "Exécution des mesures correctives et injonctions",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     },
     {
       "ID exigence": "REQ-NIS2-032-04",
       "Intitulé": "Responsabilité des dirigeants",
       "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-01",
-      "Intitulé": "Soumission aux mesures de contrôle ex post",
-      "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-02",
-      "Intitulé": "Inspections sur place et contrôles à distance",
-      "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
-    },
-    {
-      "ID exigence": "REQ-NIS2-033-03",
-      "Intitulé": "Audits de sécurité ciblés",
-      "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre criminelle 2020-09-08 n° 18-82.150 ; Cour de cassation — Chambre commerciale financière et économique 2006-03-07 n° 04-16.536 ; Cour de cassation — Chambre commerciale financière et économique 2025-06-12 n° 24-13.777",
+      "Liens": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590 ; https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc ; https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f"
     },
     {
       "ID exigence": "REQ-NIS2-033-04",
       "Intitulé": "Scans de sécurité",
       "Requête Judilibre": "faille de sécurité informatique négligence",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2021-11-10 n° 20-12.263 ; Cour de cassation — Chambre criminelle 2009-10-27 n° 09-82.346 ; Cour de cassation — Chambre sociale 1984-06-20 n° 83-11.157",
+      "Liens": "https://www.courdecassation.fr/decision/618b6ee9e256c86ccc1b5098 ; https://www.courdecassation.fr/decision/61402fc50bd8f3cd37c0431f ; https://www.courdecassation.fr/decision/6079b0de9ba5988459c50994"
     },
     {
       "ID exigence": "REQ-NIS2-033-05",
       "Intitulé": "Communication des politiques et informations",
       "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre criminelle 2020-09-08 n° 18-82.150 ; Cour de cassation — Chambre commerciale financière et économique 2006-03-07 n° 04-16.536 ; Cour de cassation — Chambre commerciale financière et économique 2025-06-12 n° 24-13.777",
+      "Liens": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590 ; https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc ; https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f"
     },
     {
       "ID exigence": "REQ-NIS2-033-06",
       "Intitulé": "Accès aux données et documents",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     },
     {
       "ID exigence": "REQ-NIS2-033-07",
       "Intitulé": "Preuves de mise en œuvre des politiques",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     },
     {
       "ID exigence": "REQ-NIS2-033-08",
       "Intitulé": "Exécution des instructions contraignantes",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     },
     {
       "ID exigence": "REQ-NIS2-033-09",
       "Intitulé": "Cessation des comportements illicites",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     },
     {
       "ID exigence": "REQ-NIS2-033-10",
       "Intitulé": "Mise en conformité des mesures de gestion des risques",
       "Requête Judilibre": "obligation de sécurité système d'information analyse des risques",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2017-04-20 n° 15-27.927 ; Cour de cassation — Chambre sociale 2015-03-03 n° 13-20.474 ; Cour de cassation — Première chambre civile 2018-11-14 n° 17-27.980",
+      "Liens": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6 ; https://www.courdecassation.fr/decision/6079c7829ba5988459c57576 ; https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78"
     },
     {
       "ID exigence": "REQ-NIS2-033-11",
       "Intitulé": "Information des personnes concernées en cas de menace",
       "Requête Judilibre": "incident de sécurité informatique responsabilité",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-27 n° 18-13.790 ; Cour de cassation — Chambre commerciale financière et économique 1993-05-25 n° 90-21.744 ; Cour de cassation — Chambre commerciale financière et économique 1995-01-10 n° 92-21.975",
+      "Liens": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437 ; https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8 ; https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498"
     },
     {
       "ID exigence": "REQ-NIS2-033-12",
       "Intitulé": "Mise en œuvre des recommandations d'audit",
       "Requête Judilibre": "audit de sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Chambre sociale 2019-11-14 n° 18-13.887 ; Cour de cassation — Troisième chambre civile 2013-05-23 n° 11-26.095 ; Cour de cassation — Deuxième chambre civile 2009-03-12 n° 07-16.935",
+      "Liens": "https://www.courdecassation.fr/decision/5fca62cdbcb3a44ae3a25fc3 ; https://www.courdecassation.fr/decision/607972139ba5988459c49d94 ; https://www.courdecassation.fr/decision/607960d39ba5988459c496cc"
     },
     {
       "ID exigence": "REQ-NIS2-033-13",
       "Intitulé": "Publicité des violations",
       "Requête Judilibre": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
-    },
-    {
-      "ID exigence": "REQ-NIS2-034-01",
-      "Intitulé": "Exposition aux amendes administratives (Entités importantes)",
-      "Requête Judilibre": "responsabilité dirigeant sécurité informatique manquement",
-      "Décisions": "Aucune décision trouvée",
-      "Liens": ""
+      "Décisions": "Cour de cassation — Deuxième chambre civile 2009-10-08 n° 08-13.523 ; Cour de cassation — Deuxième chambre civile 2022-07-07 n° 20-21.365 ; Cour de cassation — Chambre commerciale financière et économique 2018-02-14 n° 16-10.636",
+      "Liens": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f ; https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb ; https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905"
     }
   ]
 }

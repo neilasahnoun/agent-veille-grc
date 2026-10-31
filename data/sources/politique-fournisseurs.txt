@@ -1,0 +1,9 @@
+ Politique de sécurité des fournisseurs - Hydréa
+
+   Tout prestataire ayant un accès distant au SCADA doit utiliser une authentification multifacteur.
+
+   Les contrats avec les fournisseurs critiques doivent inclure une clause de notification de tout incident de sécurité sous 24 heures.
+
+   Le RSSI réalise un audit de sécurité de chaque fournisseur critique au moins une fois par an.
+
+   Les accès des prestataires sont révoqués dans les 48 heures suivant la fin de leur mission.

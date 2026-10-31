@@ -1,14 +1,204 @@
 {
-  "genere_le": "2026-10-31T10:57:05.321Z",
+  "genere_le": "2026-10-31T13:58:30.941Z",
   "organisation": "Hydréa",
   "signaux": [
+    {
+      "id": "LF-JORFTEXT000049309790_01-01-2999",
+      "titre": "Arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet »",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049309790_01-01-2999",
+      "date_publication": "2024-03-22T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet »\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000050997871_01-01-2999",
+      "titre": "Arrêté du 10 janvier 2025 modifiant l'arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Stratégie de continuité et de reprise d'activité »",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050997871_01-01-2999",
+      "date_publication": "2025-01-18T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 10 janvier 2025 modifiant l'arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Stratégie de continuité et de reprise d'activité »\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000051058973_01-01-2999",
+      "titre": "Arrêté du 22 janvier 2025 modifiant l'arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet »",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051058973_01-01-2999",
+      "date_publication": "2025-01-30T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 22 janvier 2025 modifiant l'arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet »\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000051698644_01-01-2999",
+      "titre": "Arrêté du 22 mai 2025 portant codification de diverses dispositions relatives à la sûreté portuaire",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051698644_01-01-2999",
+      "date_publication": "2025-06-07T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 22 mai 2025 portant codification de diverses dispositions relatives à la sûreté portuaire\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000051894987_01-01-2999",
+      "titre": "Arrêté du 3 juillet 2025 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Stratégie de continuité et de reprise d'activité »",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051894987_01-01-2999",
+      "date_publication": "2025-07-16T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 3 juillet 2025 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Stratégie de continuité et de reprise d'activité »\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000052229271_01-01-2999",
+      "titre": "Arrêté du 8 septembre 2025 modifiant l'arrêté du 3 juillet 2025 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Stratégie de continuité et de reprise d'activité »",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052229271_01-01-2999",
+      "date_publication": "2025-09-11T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 8 septembre 2025 modifiant l'arrêté du 3 juillet 2025 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Stratégie de continuité et de reprise d'activité »\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000053403284_01-01-2999",
+      "titre": "Décret n° 2026-25 du 23 janvier 2026 portant publication du traité pour une coopération et une amitié renforcées entre la République française et la République de Pologne, signé à Nancy le 9 mai 2025 (1)",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053403284_01-01-2999",
+      "date_publication": "2026-01-27T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Décret n° 2026-25 du 23 janvier 2026 portant publication du traité pour une coopération et une amitié renforcées entre la République française et la République de Pologne, signé à Nancy le 9 mai 2025 (1)\nDECRET"
+    },
+    {
+      "id": "LF-JORFTEXT000053417291_01-01-2999",
+      "titre": "Arrêté du 27 janvier 2026 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet » - Périmètre complémentaire",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053417291_01-01-2999",
+      "date_publication": "2026-01-30T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 27 janvier 2026 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet » - Périmètre complémentaire\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000054415410_01-01-2999",
+      "titre": "Arrêté du 30 juin 2026 pris en application du décret n° 2021-1710 du 17 décembre 2021 relatif au contrat de chaire de professeur junior prévu par l'article L. 952-6-2 du code de l'éducation et par l'article L. 422-3 du code de la recherche",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054415410_01-01-2999",
+      "date_publication": "2026-07-11T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "Arrêté du 30 juin 2026 pris en application du décret n° 2021-1710 du 17 décembre 2021 relatif au contrat de chaire de professeur junior prévu par l'article L. 952-6-2 du code de l'éducation et par l'article L. 422-3 du code de la recherche\nARRETE"
+    },
+    {
+      "id": "LF-JORFTEXT000054694832_01-01-2999",
+      "titre": "LOI n° 2026-791 du 16 août 2026 actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (1)",
+      "source": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054694832_01-01-2999",
+      "date_publication": "2026-08-18T00:00:00.000+0000",
+      "detecte_le": "2026-10-31T13:58:30.931Z",
+      "statut": "nouveau",
+      "extrait": "LOI n° 2026-791 du 16 août 2026 actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense (1)\nLOI"
+    },
+    {
+      "id": "PAGE-ASSEMBLENATIONALE-ce69fa148a",
+      "titre": "Préserver le potentiel viticole français et donner de nouveaux outils aux élus locaux en matière de protection des espaces agricoles et d’aménagement du territoire",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/potentiel_viticole_francais_17e",
+      "date_publication": "",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Préserver le potentiel viticole français et donner de nouveaux outils aux élus locaux en matière de protection des espaces agricoles et d’aménagement du territoire"
+    },
+    {
+      "id": "PAGE-ASSEMBLENATIONALE-ae765c92af",
+      "titre": "Adapter le code pénal aux enjeux du numérique",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/adapter_code_penal_enjeux_numerique_17e",
+      "date_publication": "",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Adapter le code pénal aux enjeux du numérique"
+    },
+    {
+      "id": "PAGE-ASSEMBLENATIONALE-8fddbabcd3",
+      "titre": "Améliorer l’efficacité de l’État au niveau local",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/ameliorer_efficacite_etat_local_17e",
+      "date_publication": "",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Améliorer l’efficacité de l’État au niveau local"
+    },
+    {
+      "id": "RSS-SNAT-7c806aa264",
+      "titre": "Modernisation de la radio - texte de la commission N� 19",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/ppl26-019.html",
+      "date_publication": "Thu,08 Oct 2026 01:03:34 GMT",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Modernisation de la radio - texte de la commission N� 19\nProposition de loi relative � la modernisation de la radio : texte de la commission N� 19 d�pos� le 7 octobre 2026"
+    },
+    {
+      "id": "RSS-SNAT-8bf414b705",
+      "titre": "Contributions � l'ONF et composition de son conseil d'administration - texte de la commission N� 60",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/ppl26-060.html",
+      "date_publication": "Thu,15 Oct 2026 01:03:35 GMT",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Contributions � l'ONF et composition de son conseil d'administration - texte de la commission N� 60\nProposition de loi relative aux modalit�s de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle vers�es � l'ONF par les collectivit�s territoriales et personnes morales propri�taires de bois et for�ts relevant du r�gime forestier : texte de la commission N� 60 "
+    },
+    {
+      "id": "RSS-SNAT-4278dc9cfb",
+      "titre": "Reconna�tre une politique nationale d'adaptation au changement climatique - texte de la commission N� 62",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/ppl26-062.html",
+      "date_publication": "Thu,15 Oct 2026 01:03:35 GMT",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Reconna�tre une politique nationale d'adaptation au changement climatique - texte de la commission N� 62\nProposition de loi visant � reconna�tre une politique nationale d'adaptation au changement climatique et � adapter les m�canismes d'assurance : texte de la commission N� 62 d�pos� le 14 octobre 2026"
+    },
+    {
+      "id": "RSS-SNAT-52a1acb070",
+      "titre": "Divers ajustements du code des impositions sur les biens et services - texte N� 71",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/pjl26-071.html",
+      "date_publication": "Thu,15 Oct 2026 01:03:35 GMT",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Divers ajustements du code des impositions sur les biens et services - texte N� 71\nProjet de loi ratifiant l'ordonnance n� 2026-671 du 27 juillet 2026 portant divers ajustements du code des impositions sur les biens et services : texte N� 71 de M. Roland LESCURE, ministre de l'�conomie, des finances et de la souverainet� industrielle, �nerg�tique et num�rique, d�pos� au S�nat le 14 octobre 2026"
+    },
+    {
+      "id": "RSS-SNAT-be0b2e9c62",
+      "titre": "Moderniser et r��quilibrer le fonctionnement du titre-restaurant - texte N� 32",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/ppl26-032.html",
+      "date_publication": "Thu,15 Oct 2026 01:03:35 GMT",
+      "detecte_le": "2026-10-31T13:32:07.800Z",
+      "statut": "nouveau",
+      "extrait": "Moderniser et r��quilibrer le fonctionnement du titre-restaurant - texte N� 32\nProposition de loi visant � moderniser et r��quilibrer le fonctionnement du titre-restaurant : texte N� 32 transmis au S�nat le 13 octobre 2026"
+    },
+    {
+      "id": "RSS-SNAT-4c0ef79bdf",
+      "titre": "Diverses dispositions relatives au secteur nucl�aire - texte N� 72",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/pjl26-072.html",
+      "date_publication": "Sat,17 Oct 2026 01:03:46 GMT",
+      "detecte_le": "2026-10-31T13:32:07.799Z",
+      "statut": "nouveau",
+      "extrait": "Diverses dispositions relatives au secteur nucl�aire - texte N� 72\nProjet de loi portant diverses dispositions relatives au secteur nucl�aire : texte N� 72 de M. Roland LESCURE, ministre de l'�conomie, des finances et de la souverainet� industrielle, �nerg�tique et num�rique, d�pos� au S�nat le 14 octobre 2026"
+    },
     {
       "id": "RSS-CNIL-71fad79684",
       "titre": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?",
       "source": "CNIL",
       "url": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
       "date_publication": "Fri, 16 Oct 2026 14:00:00 +0200",
-      "detecte_le": "2026-10-31T10:57:05.309Z",
+      "detecte_le": "2026-10-31T13:12:35.483Z",
       "statut": "nouveau",
       "extrait": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\nLorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de la prospection. La reconstitution d’adresse électronique doit respecter le RGPD afin d’être légale. La CNIL fait le po"
     },
@@ -18,7 +208,7 @@
       "source": "CNIL",
       "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
       "date_publication": "Tue, 20 Oct 2026 14:00:00 +0200",
-      "detecte_le": "2026-10-31T10:57:05.309Z",
+      "detecte_le": "2026-10-31T13:12:35.483Z",
       "statut": "nouveau",
       "extrait": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données\nLa CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont confrontés les professionnels."
     },
@@ -28,7 +218,7 @@
       "source": "CNIL",
       "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
       "date_publication": "Thu, 29 Oct 2026 13:00:00 +0100",
-      "detecte_le": "2026-10-31T10:57:05.309Z",
+      "detecte_le": "2026-10-31T13:12:35.483Z",
       "statut": "nouveau",
       "extrait": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT\nLe 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7&amp;nbsp;millions d’euros pour non-respect des règles applicables en matière de traceurs (cookies)."
     },
@@ -55,13 +245,27 @@
   ],
   "textes": [
     {
+      "id": "TXT-POLITIQUE-FOURNISSEU",
+      "titre": "politique-fournisseurs",
+      "source": "Fichier local",
+      "reference": "politique-fournisseurs",
+      "url": "",
+      "empreinte": "fc49e06eee58b3ca9fd3f78b1b87298baf29bc74103080a0653e55a2caaf7b87",
+      "date_detection": "2026-10-30T21:21:14.695Z",
+      "applicable": true,
+      "qualification": "Entité essentielle (annexe I, eau potable)",
+      "raisonnement": "L'organisation Hydréa est une grande entreprise (plus de 250 salariés et 50 M€ de CA) exerçant dans le secteur de l'eau potable visé à l'annexe I, point 6, ce qui correspond à la qualification d'entité essentielle.",
+      "confiance": 0.95,
+      "version": 1
+    },
+    {
       "id": "TXT-NIS2",
       "titre": "DIRECTIVE (UE) 2022/2555 DU PARLEMENT EUROPÉEN ET DU CONSEIL du 14 décembre 2022",
       "source": "EUR-Lex",
       "reference": "CELEX 32022L2555",
       "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555",
       "empreinte": "eef39f2bf7cf0c9697af8d28ce7cc3ee5ebd7cf5379a1916aba97946ee17a525",
-      "date_detection": "2026-10-31T10:57:03.680Z",
+      "date_detection": "2026-10-31T13:12:33.736Z",
       "applicable": true,
       "qualification": "Entité essentielle (annexe I, eau potable)",
       "raisonnement": "Hydréa est une société d'eau potable relevant de l'annexe I et dépasse les seuils des moyennes entreprises (600 salariés, 95 M€ de CA), ce qui la qualifie comme entité essentielle en vertu combinée de l'article 2, paragraphe 1, et de l'article 3, paragraphe 1, point a).",
@@ -70,6 +274,117 @@
     }
   ],
   "exigences": [
+    {
+      "article": "Section 1",
+      "intitule": "Authentification multifacteur accès distant SCADA",
+      "obligation": "Tout prestataire ayant un accès distant au SCADA doit utiliser une authentification multifacteur.",
+      "citation": "Tout prestataire ayant un accès distant au SCADA doit utiliser une authentification multifacteur.",
+      "destinataire": "Entités essentielles et importantes",
+      "type": "technique",
+      "themes": [
+        "authentification-mfa",
+        "chaine-approvisionnement",
+        "controle-acces"
+      ],
+      "echeance": null,
+      "sanction": null,
+      "applicable": true,
+      "justification_applicabilite": "Hydréa exploite un SCADA (système S01) et recourt à des prestataires ayant des accès distants.",
+      "confiance": 1,
+      "id": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "texte_id": "TXT-POLITIQUE-FOURNISSEU",
+      "url_source": "",
+      "verifiee": true,
+      "verification_detail": "citation retrouvée mot pour mot ; document sans articles : section 1",
+      "confiance_finale": 1,
+      "statut_validation": "À valider",
+      "commentaire_validation": "",
+      "date_validation": null,
+      "valide_par": null
+    },
+    {
+      "article": "Section 1",
+      "intitule": "Clause de notification d'incident fournisseurs critiques",
+      "obligation": "Inclure dans les contrats avec les fournisseurs critiques une clause de notification de tout incident de sécurité sous 24 heures.",
+      "citation": "Les contrats avec les fournisseurs critiques doivent inclure une clause de notification de tout incident de sécurité sous 24 heures.",
+      "destinataire": "Entités essentielles et importantes",
+      "type": "organisationnelle",
+      "themes": [
+        "chaine-approvisionnement",
+        "notification",
+        "gestion-incidents"
+      ],
+      "echeance": "24 heures",
+      "sanction": null,
+      "applicable": true,
+      "justification_applicabilite": "En tant qu'entité gérant des sous-traitants et fournisseurs dans le cadre de ses activités, Hydréa doit contractualiser cette obligation de notification.",
+      "confiance": 1,
+      "id": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "texte_id": "TXT-POLITIQUE-FOURNISSEU",
+      "url_source": "",
+      "verifiee": true,
+      "verification_detail": "citation retrouvée mot pour mot ; document sans articles : section 1",
+      "confiance_finale": 1,
+      "statut_validation": "À valider",
+      "commentaire_validation": "",
+      "date_validation": null,
+      "valide_par": null
+    },
+    {
+      "article": "Section 1",
+      "intitule": "Audit annuel des fournisseurs critiques",
+      "obligation": "Le RSSI doit réaliser un audit de sécurité de chaque fournisseur critique au moins une fois par an.",
+      "citation": "Le RSSI réalise un audit de sécurité de chaque fournisseur critique au moins une fois par an.",
+      "destinataire": "Entités essentielles et importantes",
+      "type": "organisationnelle",
+      "themes": [
+        "chaine-approvisionnement",
+        "supervision-audit"
+      ],
+      "echeance": "Une fois par an",
+      "sanction": null,
+      "applicable": true,
+      "justification_applicabilite": "Hydréa dispose d'une fonction SSI et de fournisseurs critiques liés à ses activités d'infrastructure.",
+      "confiance": 1,
+      "id": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "texte_id": "TXT-POLITIQUE-FOURNISSEU",
+      "url_source": "",
+      "verifiee": true,
+      "verification_detail": "citation retrouvée mot pour mot ; document sans articles : section 1",
+      "confiance_finale": 1,
+      "statut_validation": "À valider",
+      "commentaire_validation": "",
+      "date_validation": null,
+      "valide_par": null
+    },
+    {
+      "article": "Section 1",
+      "intitule": "Révocation des accès prestataires",
+      "obligation": "Révoquer les accès des prestataires dans les 48 heures suivant la fin de leur mission.",
+      "citation": "Les accès des prestataires sont révoqués dans les 48 heures suivant la fin de leur mission.",
+      "destinataire": "Entités essentielles et importantes",
+      "type": "technique",
+      "themes": [
+        "chaine-approvisionnement",
+        "controle-acces",
+        "rh-securite"
+      ],
+      "echeance": "48 heures",
+      "sanction": null,
+      "applicable": true,
+      "justification_applicabilite": "Hydréa gère des prestataires intervenant sur ses systèmes et doit assurer la gestion des habilitations à leur terme.",
+      "confiance": 1,
+      "id": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "texte_id": "TXT-POLITIQUE-FOURNISSEU",
+      "url_source": "",
+      "verifiee": true,
+      "verification_detail": "citation retrouvée mot pour mot ; document sans articles : section 1",
+      "confiance_finale": 1,
+      "statut_validation": "À valider",
+      "commentaire_validation": "",
+      "date_validation": null,
+      "valide_par": null
+    },
     {
       "article": "Art. 1 §1",
       "intitule": "Niveau commun élevé de cybersécurité",
@@ -222,9 +537,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 2 cohérent",
       "confiance_finale": 1,
-      "statut_validation": "À valider",
-      "commentaire_validation": "",
-      "date_validation": null,
+      "statut_validation": "Rejetée",
+      "commentaire_validation": "Disposition de champ d'application, pas une obligation.",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -1715,9 +2030,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 20 cohérent",
       "confiance_finale": 1,
-      "statut_validation": "À valider",
-      "commentaire_validation": "Texte modifié : nouvelle validation nécessaire",
-      "date_validation": null,
+      "statut_validation": "Validée",
+      "commentaire_validation": "Vérifié dans l'art. 20 §1.",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -1794,9 +2109,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 21 cohérent",
       "confiance_finale": 1,
-      "statut_validation": "À valider",
-      "commentaire_validation": "Texte modifié : nouvelle validation nécessaire",
-      "date_validation": null,
+      "statut_validation": "Validée",
+      "commentaire_validation": "Vérifié dans l'art. 21 §2 a).",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -2272,9 +2587,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 23 cohérent",
       "confiance_finale": 1,
-      "statut_validation": "À valider",
-      "commentaire_validation": "Texte modifié : nouvelle validation nécessaire",
-      "date_validation": null,
+      "statut_validation": "Validée",
+      "commentaire_validation": "Alerte précoce sous 24 h, vérifiée dans l'art. 23 §4 a).",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -2299,9 +2614,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 23 cohérent",
       "confiance_finale": 1,
-      "statut_validation": "À valider",
-      "commentaire_validation": "Texte modifié : nouvelle validation nécessaire",
-      "date_validation": null,
+      "statut_validation": "Validée",
+      "commentaire_validation": "Notification sous 72 h, vérifiée dans l'art. 23 §4 b).",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -2334,7 +2649,7 @@
     {
       "article": "Art. 23 §4 d)",
       "intitule": "Soumission du rapport final d'incident",
-      "obligation": "Soumettre un rapport final au plus tard un mois après la présentation de la notification d'incident, comprenant description, cause, mesures et impact transfrontière.",
+      "obligation": "Remettre au CSIRT (ANSSI) ou à l'autorité compétente un rapport final au plus tard un mois après la présentation de la notification d'incident (art. 23 §4 d) : description détaillée de l'incident, type de menace ou cause probable, mesures d'atténuation appliquées et, le cas échéant, impact transfrontière.",
       "citation": "un rapport final au plus tard un mois après la présentation de la notification d’incident visée au point b), comprenant les éléments suivants: i) une description détaillée de l’incident... ii) le type de menace... iii) les mesures d’atténuation... iv) l’impact transfrontière",
       "destinataire": "Entités essentielles et importantes",
       "type": "notification",
@@ -2353,9 +2668,9 @@
       "verifiee": false,
       "verification_detail": "citation NON retrouvée dans le texte (66 % des mots) — à contrôler ; article 23 cohérent",
       "confiance_finale": 0.4,
-      "statut_validation": "À valider",
-      "commentaire_validation": "",
-      "date_validation": null,
+      "statut_validation": "Corrigée",
+      "commentaire_validation": "Citation de l'IA non retrouvée dans le texte : obligation reformulée et vérifiée manuellement dans l'art. 23 §4 d) de la directive.",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -3113,9 +3428,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 33 cohérent",
       "confiance_finale": 0.95,
-      "statut_validation": "À valider",
-      "commentaire_validation": "",
-      "date_validation": null,
+      "statut_validation": "Rejetée",
+      "commentaire_validation": "Hydréa est une entité essentielle : la supervision relève de l'art. 32, pas de l'art. 33 (entités importantes).",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -3139,9 +3454,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 33 cohérent",
       "confiance_finale": 0.95,
-      "statut_validation": "À valider",
-      "commentaire_validation": "",
-      "date_validation": null,
+      "statut_validation": "Rejetée",
+      "commentaire_validation": "Art. 33 réservé aux entités importantes.",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -3166,9 +3481,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 33 cohérent",
       "confiance_finale": 0.95,
-      "statut_validation": "À valider",
-      "commentaire_validation": "",
-      "date_validation": null,
+      "statut_validation": "Rejetée",
+      "commentaire_validation": "Art. 33 réservé aux entités importantes.",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -3459,9 +3774,9 @@
       "verifiee": true,
       "verification_detail": "citation retrouvée mot pour mot ; article 34 cohérent",
       "confiance_finale": 0.95,
-      "statut_validation": "À valider",
-      "commentaire_validation": "",
-      "date_validation": null,
+      "statut_validation": "Rejetée",
+      "commentaire_validation": "Vise les entités importantes ; pour une entité essentielle, l'amende est de 10 M€ ou 2 % du CA (art. 34 §4).",
+      "date_validation": "2026-10-31",
       "valide_par": null
     },
     {
@@ -3694,6 +4009,54 @@
   ],
   "risques": [
     {
+      "id": "RSK-POLITIQUE-FOURNISSEU-0S1-01",
+      "exigence_id": "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+      "intitule": "Non-conformité : Authentification multifacteur accès distant SCADA",
+      "probabilite": 4,
+      "impact": 5,
+      "score_inherent": 20,
+      "couverture": 0.4,
+      "score_residuel": 14,
+      "niveau": "Élevé",
+      "consequences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Distribution et télérelève des compteurs, Relation abonnés et facturation, Achats et sous-traitance"
+    },
+    {
+      "id": "RSK-POLITIQUE-FOURNISSEU-0S1-02",
+      "exigence_id": "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+      "intitule": "Non-conformité : Clause de notification d'incident fournisseurs critiques",
+      "probabilite": 4,
+      "impact": 5,
+      "score_inherent": 20,
+      "couverture": 0.27,
+      "score_residuel": 16,
+      "niveau": "Critique",
+      "consequences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Production et traitement de l'eau, Distribution et télérelève des compteurs, Gestion de crise et astreinte d'exploitation"
+    },
+    {
+      "id": "RSK-POLITIQUE-FOURNISSEU-0S1-03",
+      "exigence_id": "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+      "intitule": "Non-conformité : Audit annuel des fournisseurs critiques",
+      "probabilite": 4,
+      "impact": 4,
+      "score_inherent": 16,
+      "couverture": 0.3,
+      "score_residuel": 12,
+      "niveau": "Élevé",
+      "consequences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Distribution et télérelève des compteurs, Achats et sous-traitance, Gouvernance et direction générale"
+    },
+    {
+      "id": "RSK-POLITIQUE-FOURNISSEU-0S1-04",
+      "exigence_id": "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+      "intitule": "Non-conformité : Révocation des accès prestataires",
+      "probabilite": 4,
+      "impact": 4,
+      "score_inherent": 16,
+      "couverture": 0.33,
+      "score_residuel": 12,
+      "niveau": "Élevé",
+      "consequences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Distribution et télérelève des compteurs, Relation abonnés et facturation, Achats et sous-traitance"
+    },
+    {
       "id": "RSK-NIS2-001-03",
       "exigence_id": "REQ-NIS2-001-03",
       "intitule": "Non-conformité : Gestion des risques et information",
@@ -3715,18 +4078,6 @@
       "couverture": 0.4,
       "score_residuel": 11,
       "niveau": "Élevé",
-      "consequences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "id": "RSK-NIS2-002-01",
-      "exigence_id": "REQ-NIS2-002-01",
-      "intitule": "Non-conformité : Champ d'application général",
-      "probabilite": 3,
-      "impact": 4,
-      "score_inherent": 12,
-      "couverture": 0.4,
-      "score_residuel": 8,
-      "niveau": "Modéré",
       "consequences": "Mise en demeure ou injonction de l'autorité — Atteinte possible à : Gouvernance et direction générale"
     },
     {
@@ -4138,42 +4489,6 @@
       "consequences": "Sanction : Responsabilité personnelle pour manquement au devoir de surveillance — Atteinte possible à : Gouvernance et direction générale"
     },
     {
-      "id": "RSK-NIS2-033-01",
-      "exigence_id": "REQ-NIS2-033-01",
-      "intitule": "Non-conformité : Soumission aux mesures de contrôle ex post",
-      "probabilite": 4,
-      "impact": 3,
-      "score_inherent": 12,
-      "couverture": 0.4,
-      "score_residuel": 8,
-      "niveau": "Modéré",
-      "consequences": "Sanction : Amendes administratives et mesures d'exécution — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "id": "RSK-NIS2-033-02",
-      "exigence_id": "REQ-NIS2-033-02",
-      "intitule": "Non-conformité : Inspections sur place et contrôles à distance",
-      "probabilite": 4,
-      "impact": 3,
-      "score_inherent": 12,
-      "couverture": 0.4,
-      "score_residuel": 8,
-      "niveau": "Modéré",
-      "consequences": "Sanction : Amendes administratives et mesures d'exécution — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "id": "RSK-NIS2-033-03",
-      "exigence_id": "REQ-NIS2-033-03",
-      "intitule": "Non-conformité : Audits de sécurité ciblés",
-      "probabilite": 4,
-      "impact": 3,
-      "score_inherent": 12,
-      "couverture": 0.4,
-      "score_residuel": 8,
-      "niveau": "Modéré",
-      "consequences": "Sanction : Prise en charge financière des audits et sanctions en cas de refus — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
       "id": "RSK-NIS2-033-04",
       "exigence_id": "REQ-NIS2-033-04",
       "intitule": "Non-conformité : Scans de sécurité",
@@ -4292,24 +4607,645 @@
       "score_residuel": 8,
       "niveau": "Modéré",
       "consequences": "Sanction : Amendes administratives — Atteinte possible à : Gouvernance et direction générale"
-    },
-    {
-      "id": "RSK-NIS2-034-01",
-      "exigence_id": "REQ-NIS2-034-01",
-      "intitule": "Non-conformité : Exposition aux amendes administratives (Entités importantes)",
-      "probabilite": 4,
-      "impact": 4,
-      "score_inherent": 16,
-      "couverture": 0.4,
-      "score_residuel": 11,
-      "niveau": "Élevé",
-      "consequences": "Sanction : Jusqu'à 7M€ ou 1,4% du CA mondial — Atteinte possible à : Gouvernance et direction générale"
     }
   ],
-  "jurisprudence": [],
+  "jurisprudence": [
+    {
+      "id": "JUR-64eee09d01e49dd969c48aa0",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+        "REQ-NIS2-021-11"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2023-08-30",
+      "numero": "22-11.707",
+      "url": "https://www.courdecassation.fr/decision/64eee09d01e49dd969c48aa0",
+      "resume": "Il ressort de l'article L. 133-19, V, du code monétaire et financier, dans sa rédaction issue de l'ordonnance n° 2017-1252 du 9 août 2017, que, sauf agissement frauduleux de sa part, le payeur ne supporte aucune conséquence financière si l'opération de paiement non autorisée a été effectuée sans que le prestataire de services de paiement du payeur n'exige une authentification forte du payeur prévue par le second de ces textes. \nIl résulte de l'article 34, VIII, 3°, de l'ordonnance n° 2017-1252 du 9 août 2017, que l'article L. 133-44 du code monétaire et financier, dans sa rédaction issue de l'",
+      "requete": "authentification forte fraude responsabilité"
+    },
+    {
+      "id": "JUR-5fd90028b149c896a51b6381",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+        "REQ-NIS2-021-11"
+      ],
+      "juridiction": "Cour de cassation — Première chambre civile",
+      "date": "2017-06-09",
+      "numero": "16-19.097",
+      "url": "https://www.courdecassation.fr/decision/5fd90028b149c896a51b6381",
+      "resume": "Il résulte des articles 15, alinéa 6, de la loi n° 71-1130 du 31 décembre 1971 et 12, alinéas 1 et 2, du décret n° 91-1197 du 27 novembre 1991, que les élections du bâtonnier et des membres du conseil de l'ordre peuvent être déférées à la cour d'appel, par les avocats disposant du droit de vote, dans le délai de huit jours qui suivent ces élections. Et conformément à l'article 16, alinéa 4, du décret précité, qui édicte les règles de procédure applicables à tous les recours y compris ceux relatifs aux élections ordinales, la cour d'appel statue en audience solennelle et en la chambre du consei",
+      "requete": "authentification forte fraude responsabilité"
+    },
+    {
+      "id": "JUR-6215dbd208b2bd79007cc1f6",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+        "REQ-NIS2-021-11"
+      ],
+      "juridiction": "Cour de cassation — Chambre criminelle",
+      "date": "2022-02-23",
+      "numero": "21-85.050",
+      "url": "https://www.courdecassation.fr/decision/6215dbd208b2bd79007cc1f6",
+      "resume": "Il se déduit des articles 6 de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales et 60 du code des douanes, qu' en l'absence de toute garantie posée par la loi visant à s'assurer de l'authentification des recherches et découvertes effectuées, les dispositions du second de ces textes ne sauraient être interprétées comme autorisant les agents des douanes à procéder à la visite d'un véhicule stationné sur la voie publique ou dans un lieu accessible au public libre de tout occupant.\t\nEncourt la cassation, l'arrêt qui, après avoir constaté que les agents des douanes on",
+      "requete": "authentification forte fraude responsabilité"
+    },
+    {
+      "id": "JUR-6079c1769ba5988459c572d6",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+        "REQ-NIS2-021-05",
+        "REQ-NIS2-021-12"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2013-02-27",
+      "numero": "12-14.415",
+      "url": "https://www.courdecassation.fr/decision/6079c1769ba5988459c572d6",
+      "resume": "Selon les articles R. 2314-9 et R. 2324-5 du code du travail, le système de vote électronique retenu doit assurer la confidentialité des données transmises, notamment de celles des fichiers constitués pour établir les listes électorales des collèges électoraux, ainsi que la sécurité de l'adressage des moyens d'authentification, de l'émargement, de l'enregistrement et du dépouillement des votes.\nViole ces textes et les principes généraux du droit électoral, le tribunal d'instance qui valide des élections, alors que l'envoi de leurs codes personnels d'authentification sur la messagerie professio",
+      "requete": "prestataire informatique obligation de sécurité sous-traitant"
+    },
+    {
+      "id": "JUR-5fd91566fef7d8b07d554147",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+        "REQ-NIS2-021-05",
+        "REQ-NIS2-021-12"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2016-12-07",
+      "numero": "15-16.769",
+      "url": "https://www.courdecassation.fr/decision/5fd91566fef7d8b07d554147",
+      "resume": "Il résulte des articles L. 4111-5, L. 4612-1, R. 4511-1 et R. 4511-5 du code du travail, interprétés à la lumière de la directive 89/391/CEE du Conseil du 12 juin 1989 concernant la mise en oeuvre de mesures visant à promouvoir l'amélioration de la sécurité et de la santé des travailleurs au travail, que le comité d'hygiène, de sécurité et des conditions de travail (CHSCT) est compétent, pour exercer ses prérogatives, à l'égard de toute personne placée à quelque titre que ce soit sous l'autorité de l'employeur.\nDoit dès lors être approuvé l'arrêt qui déclare recevable l'action du CHSCT d'une s",
+      "requete": "prestataire informatique obligation de sécurité sous-traitant"
+    },
+    {
+      "id": "JUR-5fca5e0c25b4ce42a09751f0",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+        "REQ-NIS2-021-05",
+        "REQ-NIS2-021-12"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2020-01-15",
+      "numero": "18-15.095",
+      "url": "https://www.courdecassation.fr/decision/5fca5e0c25b4ce42a09751f0",
+      "resume": "entreprise donneur d'ordre, à transférer une partie de sa fabrication à une autre entreprise dénommée sous-traitante … La rémunération du sous-traitant doit être fixée au départ forfaitairement ... .. ./. ...... .Le sous-traitant … autorité....../........Les matériels nécessaires à l'exécution des travaux doivent être fournis par le sous-traitant … collectif de travail, est interdit » ; que le préjudice est caractérisé dès lors que les salariés du sous-traitant … La rémunération du sous-traitant doit être fixée au départ forfaitairement....../........Le sous-traitant",
+      "requete": "prestataire informatique obligation de sécurité sous-traitant"
+    },
+    {
+      "id": "JUR-5fd906a2200cd49e8e6e6bb6",
+      "exigence_ids": [
+        "REQ-NIS2-001-03",
+        "REQ-NIS2-004-01",
+        "REQ-NIS2-021-01",
+        "REQ-NIS2-021-02",
+        "REQ-NIS2-021-13",
+        "REQ-NIS2-033-10"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2017-04-20",
+      "numero": "15-27.927",
+      "url": "https://www.courdecassation.fr/decision/5fd906a2200cd49e8e6e6bb6",
+      "resume": "Il résulte des alinéas 1 et 2 de l'article L. 1110-4 du code de la santé publique que toute personne prise en charge par un établissement de santé a droit au respect de sa vie privée et du secret des informations la concernant, que ce secret couvre l'ensemble des informations concernant la personne, venues à la connaissance de tout membre du personnel de ces établissements et de toute autre personne en relation, de par ses activités, avec ces établissements, qu'il s'impose également à tous les professionnels intervenant dans le système de santé. Doit être approuvé l'arrêt qui en déduit que l'e",
+      "requete": "obligation de sécurité système d'information analyse des risques"
+    },
+    {
+      "id": "JUR-6079c7829ba5988459c57576",
+      "exigence_ids": [
+        "REQ-NIS2-001-03",
+        "REQ-NIS2-004-01",
+        "REQ-NIS2-021-01",
+        "REQ-NIS2-021-02",
+        "REQ-NIS2-021-13",
+        "REQ-NIS2-033-10"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2015-03-03",
+      "numero": "13-20.474",
+      "url": "https://www.courdecassation.fr/decision/6079c7829ba5988459c57576",
+      "resume": "Le salarié qui a travaillé dans l'un des établissements mentionnés à l'article 41 de la loi n° 98-1194 du 23 décembre 1998 et figurant sur une liste établie par arrêté ministériel pendant une période où y étaient fabriqués ou traités l'amiante ou des matériaux contenant de l'amiante, et se trouve, par le fait de l'employeur, dans une situation d'inquiétude permanente face au risque de déclaration à tout moment d'une maladie liée à l'amiante, qu'il se soumette ou non à des contrôles et examens médicaux réguliers, subit un préjudice spécifique d'anxiété dont l'indemnisation répare l'ensemble des",
+      "requete": "obligation de sécurité système d'information analyse des risques"
+    },
+    {
+      "id": "JUR-5fca80a4d739fc7044e50d78",
+      "exigence_ids": [
+        "REQ-NIS2-001-03",
+        "REQ-NIS2-004-01",
+        "REQ-NIS2-021-01",
+        "REQ-NIS2-021-02",
+        "REQ-NIS2-021-13",
+        "REQ-NIS2-033-10"
+      ],
+      "juridiction": "Cour de cassation — Première chambre civile",
+      "date": "2018-11-14",
+      "numero": "17-27.980",
+      "url": "https://www.courdecassation.fr/decision/5fca80a4d739fc7044e50d78",
+      "resume": "Une partie à une instance au cours de laquelle une expertise judiciaire a été réalisée a la possibilité de faire sanctionner une méconnaissance par l'expert du principe de l'impartialité ou du principe de la contradiction en sollicitant sa nullité conformément aux dispositions de l'article 175 du code de procédure civile qui régissent la nullité des actes de procédure, sans que les conditions posées méconnaissent son droit à un procès équitable",
+      "requete": "obligation de sécurité système d'information analyse des risques"
+    },
+    {
+      "id": "JUR-5fca4888a2aaa508f2a42590",
+      "exigence_ids": [
+        "REQ-NIS2-001-04",
+        "REQ-NIS2-003-02",
+        "REQ-NIS2-020-01",
+        "REQ-NIS2-024-01",
+        "REQ-NIS2-032-04",
+        "REQ-NIS2-033-05"
+      ],
+      "juridiction": "Cour de cassation — Chambre criminelle",
+      "date": "2020-09-08",
+      "numero": "18-82.150",
+      "url": "https://www.courdecassation.fr/decision/5fca4888a2aaa508f2a42590",
+      "resume": "Sont coupables d'homicide involontaire les prévenus qui ont commis des violations manifestement délibérées d'obligations de prudence ou de sécurité imposées par la loi ou le règlement, en l'espèce l'arrêté du 12 mai 1997,   l'OPS 1.945 et son appendice 1 que le manuel d'exploitation (MANEX) se borne à reprendre en les adaptant à l'entreprise",
+      "requete": "responsabilité dirigeant sécurité informatique manquement"
+    },
+    {
+      "id": "JUR-6079d3bd9ba5988459c598dc",
+      "exigence_ids": [
+        "REQ-NIS2-001-04",
+        "REQ-NIS2-003-02",
+        "REQ-NIS2-020-01",
+        "REQ-NIS2-024-01",
+        "REQ-NIS2-032-04",
+        "REQ-NIS2-033-05"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2006-03-07",
+      "numero": "04-16.536",
+      "url": "https://www.courdecassation.fr/decision/6079d3bd9ba5988459c598dc",
+      "resume": "La recevabilité d'une action en responsabilité personnelle engagée par un créancier à l'encontre du dirigeant d'une société mise en procédure collective, pour des faits antérieurs au jugement d'ouverture, est subordonnée à l'allégation d'un préjudice personnel distinct de celui des autres créanciers résultant d'une faute du dirigeant séparable de ses fonctions.",
+      "requete": "responsabilité dirigeant sécurité informatique manquement"
+    },
+    {
+      "id": "JUR-684a6c103ec57bb95fcfd57f",
+      "exigence_ids": [
+        "REQ-NIS2-001-04",
+        "REQ-NIS2-003-02",
+        "REQ-NIS2-020-01",
+        "REQ-NIS2-024-01",
+        "REQ-NIS2-032-04",
+        "REQ-NIS2-033-05"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2025-06-12",
+      "numero": "24-13.777",
+      "url": "https://www.courdecassation.fr/decision/684a6c103ec57bb95fcfd57f",
+      "resume": "Ne commet pas de négligence grave dans la conservation et l'utilisation de ses données personnelles de sécurité une société dont la salariée effectue des opérations sur le service de paiement en ligne pour reconstituer des écritures, à la demande d'une personne qui, par téléphone, se faisant passer pour un technicien de la banque dont il a usurpé le numéro, lui donne des informations de nature à conforter la thèse d'une panne informatique",
+      "requete": "responsabilité dirigeant sécurité informatique manquement"
+    },
+    {
+      "id": "JUR-5fca95aebedfb58a3b771616",
+      "exigence_ids": [
+        "REQ-NIS2-020-02",
+        "REQ-NIS2-021-08"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2018-03-28",
+      "numero": "16-20.018",
+      "url": "https://www.courdecassation.fr/decision/5fca95aebedfb58a3b771616",
+      "resume": "Manque, par négligence grave, à son obligation de prendre toute mesure raisonnable pour préserver la sécurité de ses dispositifs de sécurité personnalisés l'utilisateur d'un service de paiement qui communique les données personnelles de ce dispositif de sécurité en réponse à un courriel qui contient des indices permettant à un utilisateur normalement attentif de douter de sa provenance, peu important qu'il soit, ou non, avisé des risques d'hameçonnage",
+      "requete": "hameçonnage salarié faute virement frauduleux"
+    },
+    {
+      "id": "JUR-5fca28cdc8c4b77eec00da46",
+      "exigence_ids": [
+        "REQ-NIS2-020-02",
+        "REQ-NIS2-021-08"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2020-11-12",
+      "numero": "19-12.112",
+      "url": "https://www.courdecassation.fr/decision/5fca28cdc8c4b77eec00da46",
+      "resume": "Il résulte des articles L. 133-19, IV, et L. 133-23 du code monétaire et financier, dans leur rédaction issue de l'ordonnance n° 2009-866 du 15 juillet 2009, que s'il entend faire supporter à l'utilisateur d'un instrument de paiement doté d'un dispositif de sécurité personnalisé les pertes occasionnées par une opération de paiement non autorisée rendue possible par un manquement de cet utilisateur, intentionnel ou par négligence grave, aux obligations mentionnées aux articles L. 133-16 et L. 133-17 de ce code, le prestataire de services de paiement doit aussi prouver que l'opération en cause a",
+      "requete": "hameçonnage salarié faute virement frauduleux"
+    },
+    {
+      "id": "JUR-5fca4c078df58966999a28c1",
+      "exigence_ids": [
+        "REQ-NIS2-020-02",
+        "REQ-NIS2-021-08"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2020-07-01",
+      "numero": "18-21.487",
+      "url": "https://www.courdecassation.fr/decision/5fca4c078df58966999a28c1",
+      "resume": "Il résulte de l'article L. 133-19, IV, du code monétaire et financier, dans sa rédaction antérieure à celle issue de l'ordonnance n° 2017-1252 du 9 août 2017, que le payeur supporte toutes les pertes occasionnées par des opérations de paiement non autorisées s'il n'a pas satisfait par négligence grave, exclusive de toute appréciation de sa bonne foi, à l'obligation, imposée à l'utilisateur de services de paiement par l'article L. 133-16 du même code, dans sa rédaction antérieure à celle issue de la même ordonnance, de prendre toute mesure raisonnable pour préserver la sécurité du dispositif de",
+      "requete": "hameçonnage salarié faute virement frauduleux"
+    },
+    {
+      "id": "JUR-5fca61cceb012b49a0aa0437",
+      "exigence_ids": [
+        "REQ-NIS2-021-03",
+        "REQ-NIS2-023-01",
+        "REQ-NIS2-023-02",
+        "REQ-NIS2-023-03",
+        "REQ-NIS2-023-04",
+        "REQ-NIS2-023-05",
+        "REQ-NIS2-023-06",
+        "REQ-NIS2-023-07",
+        "REQ-NIS2-023-08",
+        "REQ-NIS2-023-09",
+        "REQ-NIS2-029-01",
+        "REQ-NIS2-029-02",
+        "REQ-NIS2-033-11"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2019-11-27",
+      "numero": "18-13.790",
+      "url": "https://www.courdecassation.fr/decision/5fca61cceb012b49a0aa0437",
+      "resume": "Il résulte du droit international coutumier, tel que reflété par l' article 11, § 2, d, de la Convention des Nations unies du 2 décembre 2004 sur l'immunité juridictionnelle des Etats et de leurs biens,  et de l'article 6, § 1, de la Convention de sauvegarde des droits de l'homme et des libertés fondamentales que l'avis du chef de l'Etat, du chef du gouvernement ou du ministre des Affaires étrangères de l'Etat employeur, selon lequel l'action judiciaire ayant pour objet un licenciement ou la résiliation du contrat d'un employé risque d'interférer avec les intérêts de cet Etat en matière de séc",
+      "requete": "incident de sécurité informatique responsabilité"
+    },
+    {
+      "id": "JUR-6079d3499ba5988459c582f8",
+      "exigence_ids": [
+        "REQ-NIS2-021-03",
+        "REQ-NIS2-023-01",
+        "REQ-NIS2-023-02",
+        "REQ-NIS2-023-03",
+        "REQ-NIS2-023-04",
+        "REQ-NIS2-023-05",
+        "REQ-NIS2-023-06",
+        "REQ-NIS2-023-07",
+        "REQ-NIS2-023-08",
+        "REQ-NIS2-023-09",
+        "REQ-NIS2-029-01",
+        "REQ-NIS2-029-02",
+        "REQ-NIS2-033-11"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "1993-05-25",
+      "numero": "90-21.744",
+      "url": "https://www.courdecassation.fr/decision/6079d3499ba5988459c582f8",
+      "resume": "Les juges du fond ne sont pas tenus de se prononcer sur la part de responsabilité incombant à chacun des coauteurs d'un dommage dans leurs rapports réciproques dès lors qu'ils ne sont saisis d'aucune demande en ce sens.",
+      "requete": "incident de sécurité informatique responsabilité"
+    },
+    {
+      "id": "JUR-6079d34f9ba5988459c58498",
+      "exigence_ids": [
+        "REQ-NIS2-021-03",
+        "REQ-NIS2-023-01",
+        "REQ-NIS2-023-02",
+        "REQ-NIS2-023-03",
+        "REQ-NIS2-023-04",
+        "REQ-NIS2-023-05",
+        "REQ-NIS2-023-06",
+        "REQ-NIS2-023-07",
+        "REQ-NIS2-023-08",
+        "REQ-NIS2-023-09",
+        "REQ-NIS2-029-01",
+        "REQ-NIS2-029-02",
+        "REQ-NIS2-033-11"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "1995-01-10",
+      "numero": "92-21.975",
+      "url": "https://www.courdecassation.fr/decision/6079d34f9ba5988459c58498",
+      "resume": "C'est sans méconnaître la portée du contrat liant une banque à un titulaire de carte de crédit qu'une cour d'appel retient que l'obligation de prudence pesant sur celui-ci perdure tant qu'il reste détenteur de sa carte même après l'avoir déclarée défectueuse.",
+      "requete": "incident de sécurité informatique responsabilité"
+    },
+    {
+      "id": "JUR-6079b1a49ba5988459c52c3d",
+      "exigence_ids": [
+        "REQ-NIS2-021-04"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2000-01-26",
+      "numero": "97-15.291",
+      "url": "https://www.courdecassation.fr/decision/6079b1a49ba5988459c52c3d",
+      "resume": "Il résulte des constatations des juges du fond que le mouvement litigieux n'a pas comporté d'arrêt collectif et concerté du travail, mais a consisté en une série d'actions telles que : blocage de l'accès aux sites et du système d'information de l'entreprise, détournement de matériel, dégradation des locaux, coupures de courant, blocage du système de tarification heures pleines-heures creuses sur ce dernier tarif. Ces actions qui n'ont pas cessé malgré l'intervention de plusieurs ordonnances de référé tendant à la libération des sites et à la restitution du matériel, ne caractérisent ni l'exerc",
+      "requete": "interruption de service informatique continuité responsabilité"
+    },
+    {
+      "id": "JUR-6079b5d09ba5988459c56dca",
+      "exigence_ids": [
+        "REQ-NIS2-021-04"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2008-12-16",
+      "numero": "06-45.262",
+      "url": "https://www.courdecassation.fr/decision/6079b5d09ba5988459c56dca",
+      "resume": "Il résulte des dispositions de l'article L. 123-1 du code du travail devenu L. 1142-1 du même code, interprété à la lumière des articles 2, paragraphe 3, et 5, paragraphe 1, de la Directive n° 76-207-CEE du 9 février 1976 du Conseil des Communautés européennes relative à la mise en oeuvre du principe de l'égalité de traitement entre hommes et femmes en ce qui concerne l'accès à l'emploi, à la formation et à la promotion professionnelle et les conditions de travail, qu'une salariée, pour laquelle une promotion a été envisagée par l'employeur, ne peut se voir refuser celle-ci en raison de la sur",
+      "requete": "interruption de service informatique continuité responsabilité"
+    },
+    {
+      "id": "JUR-60795d169ba5988459c49556",
+      "exigence_ids": [
+        "REQ-NIS2-021-04"
+      ],
+      "juridiction": "Cour de cassation — Troisième chambre civile",
+      "date": "2010-01-13",
+      "numero": "08-13.562",
+      "url": "https://www.courdecassation.fr/decision/60795d169ba5988459c49556",
+      "resume": "Ne constituent pas la réparation d'un préjudice matériel les sommes accordées pour la construction de bâtiments provisoires, qui ne peut être assimilée à des travaux de réparation réalisés sur l'ouvrage affecté de désordres lui-même",
+      "requete": "interruption de service informatique continuité responsabilité"
+    },
+    {
+      "id": "JUR-6054bea170526d97cf3cc63b",
+      "exigence_ids": [
+        "REQ-NIS2-021-06"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2021-03-18",
+      "numero": "19-24.239",
+      "url": "https://www.courdecassation.fr/decision/6054bea170526d97cf3cc63b",
+      "resume": "Il résulte de l'article 1, § 2, alinéa 2, de la loi du 12 juillet 1937 modifiée instituant une caisse de retraite et d'assistance des clercs de notaire que l'affiliation au régime spécial des clercs et employés de notaires est obligatoire, dès leur entrée en fonction, pour tous les clercs et employés des études notariales et organismes mentionnés au premier alinéa de ce même texte.\nSelon l'article 2 du décret n° 90-1215 du 20 décembre 1990 modifié portant application de la loi du 12 juillet 1937, sont affiliés au régime spécial des clercs et employés de notaires les clercs et employés des étud",
+      "requete": "défaut de sécurité logiciel prestataire obligation de conseil"
+    },
+    {
+      "id": "JUR-63b7c9da6b63637c907b7644",
+      "exigence_ids": [
+        "REQ-NIS2-021-06"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2023-01-05",
+      "numero": "21-14.945",
+      "url": "https://www.courdecassation.fr/decision/63b7c9da6b63637c907b7644",
+      "resume": "Sont soumis à la contribution des entreprises assurant la fabrication, l'importation ou la distribution en France de dispositifs médicaux, de cellules et tissus de corps humains, de produits de santé et de prestations de services et d'adaptation associées, instituée par l'article L. 245-5-1 du code de la sécurité sociale, notamment, les prestataires délivrant des dispositifs médicaux, produits et prestations associées inscrits aux titres I et III de la liste des produits et prestations remboursables par l'assurance maladie prévue par l'article L. 165-1 du code de la sécurité sociale",
+      "requete": "défaut de sécurité logiciel prestataire obligation de conseil"
+    },
+    {
+      "id": "JUR-5fd93a5bf9e0a31fa5cd6462",
+      "exigence_ids": [
+        "REQ-NIS2-021-06"
+      ],
+      "juridiction": "Cour de cassation — Première chambre civile",
+      "date": "2016-04-06",
+      "numero": "15-17.475",
+      "url": "https://www.courdecassation.fr/decision/5fd93a5bf9e0a31fa5cd6462",
+      "resume": "Ne commet pas une faute grave justifiant la rupture immédiate de son contrat de collaboration libérale, l'avocate qui fait installer sur l'ordinateur mis à sa disposition tant pour les besoins de sa collaboration que pour le développement de sa clientèle personnelle, un logiciel professionnel par une société spécialisée, dans des conditions garantissant le secret professionnel et la confidentialité",
+      "requete": "défaut de sécurité logiciel prestataire obligation de conseil"
+    },
+    {
+      "id": "JUR-5fca62cdbcb3a44ae3a25fc3",
+      "exigence_ids": [
+        "REQ-NIS2-021-07",
+        "REQ-NIS2-033-12"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2019-11-14",
+      "numero": "18-13.887",
+      "url": "https://www.courdecassation.fr/decision/5fca62cdbcb3a44ae3a25fc3",
+      "resume": "Selon l'article L. 1235-7-1 du code du travail, l'accord collectif mentionné à l'article L. 1233-24-1, le document élaboré par l'employeur mentionné à l'article L. 1233-24-4, le contenu du plan de sauvegarde de l'emploi, les décisions prises par l'administration au titre de l'article L. 1233-57-5 et la régularité de la procédure de licenciement collectif ne peuvent faire l'objet d'un litige distinct de celui relatif à la décision de validation ou d'homologation mentionnée à l'article L. 1233-57-4. \nCes litiges relèvent de la compétence, en premier ressort, du tribunal administratif, à l'exclus",
+      "requete": "audit de sécurité informatique manquement"
+    },
+    {
+      "id": "JUR-607972139ba5988459c49d94",
+      "exigence_ids": [
+        "REQ-NIS2-021-07",
+        "REQ-NIS2-033-12"
+      ],
+      "juridiction": "Cour de cassation — Troisième chambre civile",
+      "date": "2013-05-23",
+      "numero": "11-26.095",
+      "url": "https://www.courdecassation.fr/decision/607972139ba5988459c49d94",
+      "resume": "L'article 1290 du code civil exige que les créances dont la compensation judiciaire est ordonnée soient préalablement chiffrées",
+      "requete": "audit de sécurité informatique manquement"
+    },
+    {
+      "id": "JUR-607960d39ba5988459c496cc",
+      "exigence_ids": [
+        "REQ-NIS2-021-07",
+        "REQ-NIS2-033-12"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2009-03-12",
+      "numero": "07-16.935",
+      "url": "https://www.courdecassation.fr/decision/607960d39ba5988459c496cc",
+      "resume": "Suivant l'article 4 du décret n° 94-662 du 27 juillet 1994, la comptabilité du groupement d'intérêt public pour l'informatisation du livre foncier d'Alsace et de Moselle est assurée selon les règles du droit public ; les dispositions du décret n° 62-1587 du 29 décembre 1962 modifié portant règlement général de la comptabilité publique sont applicables au groupement et l'agent comptable de celui-ci est nommé par arrêté du ministre chargé du budget. \nAyant fait ressortir que l'agent comptable du groupement demeure sous la seule autorité du trésorier payeur général, ce qui exclut tout lien de sub",
+      "requete": "audit de sécurité informatique manquement"
+    },
+    {
+      "id": "JUR-6412c72e314ae0a62152cdce",
+      "exigence_ids": [
+        "REQ-NIS2-021-09"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2023-03-16",
+      "numero": "21-13.947",
+      "url": "https://www.courdecassation.fr/decision/6412c72e314ae0a62152cdce",
+      "resume": "Selon l'article L. 651-1, 4°, du code de la sécurité sociale, dans sa rédaction issue de la loi n° 2007-1786 du 19 décembre 2007, applicable à la date d'exigibilité de la contribution litigieuse, la contribution sociale de solidarité des sociétés est à la charge, notamment, des personnes morales de droit public dans les limites de leur activité concurrentielle.\nConstitue une activité concurrentielle exercée par une personne morale de droit public, au sens de ce texte, à l'exclusion de l'activité se rattachant par sa nature, son objet et les règles auxquelles elle est soumise, à l'exercice de p",
+      "requete": "chiffrement données personnelles sécurité"
+    },
+    {
+      "id": "JUR-60796c5b9ba5988459c49b56",
+      "exigence_ids": [
+        "REQ-NIS2-021-09"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2011-04-28",
+      "numero": "10-17.187",
+      "url": "https://www.courdecassation.fr/decision/60796c5b9ba5988459c49b56",
+      "resume": "Il résulte, d'une part, des articles L. 382-4 et R. 382-17 du code de la sécurité sociale que la contribution au régime de sécurité sociale des artistes-auteurs est assise sur le chiffre d'affaires réalisé à raison de la diffusion ou de l'exploitation commerciale des oeuvres des artistes-auteurs, d'autre part, de l'article R. 382-2 du même code, qui procède par référence à l'article 71 devenu 98 A de l'annexe III du code général des impôts, que sont rattachés au régime général de sécurité sociale les artistes-auteurs de tapisseries et textiles muraux faits à la main, sur la base de cartons ori",
+      "requete": "chiffrement données personnelles sécurité"
+    },
+    {
+      "id": "JUR-5fd8f4e1c2fd5c88d1dafa29",
+      "exigence_ids": [
+        "REQ-NIS2-021-09"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2017-10-25",
+      "numero": "16-11.644",
+      "url": "https://www.courdecassation.fr/decision/5fd8f4e1c2fd5c88d1dafa29",
+      "resume": "Prive sa décision de base légale, au regard des articles L. 133-16 et L. 133-19 du code monétaire et financier, la juridiction de proximité qui, pour condamner une banque à rembourser une somme prélevée sur le compte de son client au titre d'un paiement effectué par internet sans son autorisation, retient que ce dernier a communiqué, certes volontairement mais à la suite d'un hameçonnage, à une personne se présentant sous une fausse identité, les informations relatives à sa carte de paiement, qui ont ainsi été détournées à son insu, sans toutefois divulguer le code confidentiel de la carte, ni",
+      "requete": "chiffrement données personnelles sécurité"
+    },
+    {
+      "id": "JUR-6079b6de9ba5988459c56e4a",
+      "exigence_ids": [
+        "REQ-NIS2-021-10"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2009-06-17",
+      "numero": "08-40.274",
+      "url": "https://www.courdecassation.fr/decision/6079b6de9ba5988459c56e4a",
+      "resume": "Aux termes de l'article L. 2313-2 du code du travail, si un délégué du personnel constate qu'il existe une atteinte aux libertés individuelles dans l'entreprise qui ne serait pas justifiée par la nature de la tâche à accomplir ni proportionnée au but recherché, il en saisit immédiatement l'employeur et, à défaut de solution trouvée avec lui, il saisit le bureau de jugement du conseil de prud'hommes qui peut ordonner toutes mesures propres à faire cesser cette atteinte. Par ailleurs, sauf risque ou événement particulier, l'employeur ne peut ouvrir les messages identifiés par le salarié comme pe",
+      "requete": "salarié accès système informatique licenciement données"
+    },
+    {
+      "id": "JUR-6079bc3a9ba5988459c57096",
+      "exigence_ids": [
+        "REQ-NIS2-021-10"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2012-06-26",
+      "numero": "11-15.310",
+      "url": "https://www.courdecassation.fr/decision/6079bc3a9ba5988459c57096",
+      "resume": "Si les courriels adressés ou reçus par le salarié à l'aide de l'outil informatique mis à sa disposition par l'employeur pour les besoins de son travail sont présumés avoir un caractère professionnel en sorte que l'employeur est en droit de les ouvrir hors la présence de l'intéressé, sauf s'ils sont identifiés comme personnels, le règlement intérieur peut toutefois contenir des dispositions restreignant le pouvoir de consultation de l'employeur en le soumettant à d'autres conditions.\nLa cour d'appel qui a relevé que le règlement intérieur de l'entreprise prévoyait que les messageries électroniq",
+      "requete": "salarié accès système informatique licenciement données"
+    },
+    {
+      "id": "JUR-618b6ee9e256c86ccc1b5098",
+      "exigence_ids": [
+        "REQ-NIS2-021-10",
+        "REQ-NIS2-033-04"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "2021-11-10",
+      "numero": "20-12.263",
+      "url": "https://www.courdecassation.fr/decision/618b6ee9e256c86ccc1b5098",
+      "resume": "En application de l'article 32 de la loi n° 78-17 du 6 janvier 1978 modifiée par la loi n° 2004-801 du 6 août 2004, dans sa version antérieure à l'entrée en vigueur du règlement général sur la protection des données (RGPD), les salariés concernés doivent être informés, préalablement à la mise en oeuvre d'un traitement de données à caractère personnel, de l'identité du responsable du traitement des données ou de son représentant, de la (ou les) finalité(s) poursuivie(s) par le traitement, des destinataires ou catégorie de destinataires de données, de l'existence d'un droit d'accès aux données l",
+      "requete": "faille de sécurité informatique négligence"
+    },
+    {
+      "id": "JUR-6079688d9ba5988459c499d8",
+      "exigence_ids": [
+        "REQ-NIS2-029-04",
+        "REQ-NIS2-030-01"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2011-12-16",
+      "numero": "10-27.051",
+      "url": "https://www.courdecassation.fr/decision/6079688d9ba5988459c499d8",
+      "resume": "Ayant relevé que la notification de payer adressée à chacun des professionnels de santé par l'organisme d'assurance maladie mentionne l'application avant son entrée en vigueur de la nouvelle cotation des actes litigieux, précise le nombre et la catégorie de ces actes ainsi que la date à laquelle ils ont été dispensés et le montant des sommes en résultant, vise expressément la notification de payer adressée initialement et est accompagnée en annexe du détail des sommes réclamées, le juge du fond en a exactement déduit que la lettre de notification de l'indu et la mise en demeure étaient suffisa",
+      "requete": "notification violation de données délai autorité"
+    },
+    {
+      "id": "JUR-6079a84c9ba5988459c4c73e",
+      "exigence_ids": [
+        "REQ-NIS2-029-04",
+        "REQ-NIS2-030-01"
+      ],
+      "juridiction": "Cour de cassation — Chambre criminelle",
+      "date": "1985-06-11",
+      "numero": "85-91.776",
+      "url": "https://www.courdecassation.fr/decision/6079a84c9ba5988459c4c73e",
+      "resume": "Il résulte de la combinaison des articles 14 et 15 de la loi du 10 mars 1927 que la procédure devant la chambre d'accusation, en matière d'extradition, est essentiellement contradictoire. Si l'intéressé, mis en liberté au cours de la procédure, n'est pas présent lors de l'examen au fond, la chambre d'accusation ne peut émettre son avis sur l'extradition demandée ; il lui appartient soit de renvoyer l'affaire soit de surseoir à statuer jusqu'à l'arrestation de l'étranger par la remise en vigueur, après révocation de la liberté précédemment accordée, du titre d'arrestation délivré par l'autorité",
+      "requete": "notification violation de données délai autorité"
+    },
+    {
+      "id": "JUR-6079a8c09ba5988459c4eca6",
+      "exigence_ids": [
+        "REQ-NIS2-029-04",
+        "REQ-NIS2-030-01"
+      ],
+      "juridiction": "Cour de cassation — Chambre criminelle",
+      "date": "2001-06-13",
+      "numero": "00-85.289",
+      "url": "https://www.courdecassation.fr/decision/6079a8c09ba5988459c4eca6",
+      "resume": "Les procès-verbaux dressés par l'administration des Douanes, en ce qu'ils visent à la fois à établir l'existence d'une infraction et à asseoir l'assiette des droits à recouvrer, ont un effet interruptif à l'égard de l'action tendant au recouvrement de ces droits.\n Cet effet interruptif, qui n'est contraire ni à l'article 2 du règlement CEE n° 1697-79 du Conseil du 24 juillet 1979 ni aux principes communautaires de sécurité juridique et de non-discrimination, se produit même lorsqu'aucune infraction n'a été commise(1).",
+      "requete": "notification violation de données délai autorité"
+    },
+    {
+      "id": "JUR-60795b469ba5988459c4949f",
+      "exigence_ids": [
+        "REQ-NIS2-032-02",
+        "REQ-NIS2-032-03",
+        "REQ-NIS2-033-06",
+        "REQ-NIS2-033-07",
+        "REQ-NIS2-033-08",
+        "REQ-NIS2-033-09",
+        "REQ-NIS2-033-13"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2009-10-08",
+      "numero": "08-13.523",
+      "url": "https://www.courdecassation.fr/decision/60795b469ba5988459c4949f",
+      "resume": "S'il n'appartient pas à l'URSSAF de vérifier l'exécution des engagements auxquels est subordonnée l'aide prévue par l'article 3 de la loi n° 98-461 du 13 juin 1998, elle est compétente pour déterminer les salariés qui entrent dans le champ d'application de la convention conclue relativement à cette aide entre l'employeur et l'Etat.\nNe donne pas de base légale à sa décision une cour d'appel, qui annule le redressement opéré par l'URSSAF sans rechercher si les salariés en cause étaient inclus dans le champ d'application de la convention signée avec l'Etat",
+      "requete": "contrôle autorité administrative sécurité des systèmes d'information sanction"
+    },
+    {
+      "id": "JUR-62c678b2ca9bf263790303cb",
+      "exigence_ids": [
+        "REQ-NIS2-032-02",
+        "REQ-NIS2-032-03",
+        "REQ-NIS2-033-06",
+        "REQ-NIS2-033-07",
+        "REQ-NIS2-033-08",
+        "REQ-NIS2-033-09",
+        "REQ-NIS2-033-13"
+      ],
+      "juridiction": "Cour de cassation — Deuxième chambre civile",
+      "date": "2022-07-07",
+      "numero": "20-21.365",
+      "url": "https://www.courdecassation.fr/decision/62c678b2ca9bf263790303cb",
+      "resume": "Il résulte de la combinaison des articles L. 161-29, R. 161-31 et R. 161-32 du code de la sécurité sociale, 1er et 3 du décret n° 2015-389 du 3 avril 2015, dont la finalité est la lutte contre les fautes, abus et fraudes des professionnels de santé, notamment, d'une part, qu'ont accès aux systèmes de traitements de données à caractère personnel, les agents intervenant dans la prise en charge des assurés, individuellement habilités par le directeur de l'organisme d'assurance maladie auquel ils appartiennent, et, d'autre part, qu'il n'est pas exigé de l'organisme chargé du contrôle, lorsqu'il me",
+      "requete": "contrôle autorité administrative sécurité des systèmes d'information sanction"
+    },
+    {
+      "id": "JUR-5fca9b707dee8290d47e8905",
+      "exigence_ids": [
+        "REQ-NIS2-032-02",
+        "REQ-NIS2-032-03",
+        "REQ-NIS2-033-06",
+        "REQ-NIS2-033-07",
+        "REQ-NIS2-033-08",
+        "REQ-NIS2-033-09",
+        "REQ-NIS2-033-13"
+      ],
+      "juridiction": "Cour de cassation — Chambre commerciale financière et économique",
+      "date": "2018-02-14",
+      "numero": "16-10.636",
+      "url": "https://www.courdecassation.fr/decision/5fca9b707dee8290d47e8905",
+      "resume": "La circonstance que l'Autorité de régulation des activités ferroviaires et routières soit titulaire d'un pouvoir normatif dérivé soumis à homologation ministérielle, prévu par l'article L. 2131-7 du code des transports, n'exclut pas qu'elle puisse, pour régler le différend dont elle est saisie, enjoindre au gestionnaire de réseau, en application de l'article L. 2134-2 du même code, de modifier une décision, dans les secteurs qu'elle énumère, pour la rendre conforme aux lignes directrices qu'elle fixe elle-même",
+      "requete": "contrôle autorité administrative sécurité des systèmes d'information sanction"
+    },
+    {
+      "id": "JUR-61402fc50bd8f3cd37c0431f",
+      "exigence_ids": [
+        "REQ-NIS2-033-04"
+      ],
+      "juridiction": "Cour de cassation — Chambre criminelle",
+      "date": "2009-10-27",
+      "numero": "09-82.346",
+      "url": "https://www.courdecassation.fr/decision/61402fc50bd8f3cd37c0431f",
+      "resume": "La constatation qu'il a agi sans motif légitime et en connaissance de cause établit l'intention coupable de celui qui, en violation de l'article 323-3-1 du code pénal, importe, détient, offre, cède ou met à disposition un moyen ou une information conçu ou spécialement adapté pour commettre une infraction d'atteinte aux systèmes de traitement automatisé de données.\nJustifie sa décision la cour d'appel qui retient qu'un prévenu ne pouvait arguer d'un motif légitime tiré de la volonté d'information dès lors que, du fait de son expertise, il savait qu'il diffusait des informations présentant un ri",
+      "requete": "faille de sécurité informatique négligence"
+    },
+    {
+      "id": "JUR-6079b0de9ba5988459c50994",
+      "exigence_ids": [
+        "REQ-NIS2-033-04"
+      ],
+      "juridiction": "Cour de cassation — Chambre sociale",
+      "date": "1984-06-20",
+      "numero": "83-11.157",
+      "url": "https://www.courdecassation.fr/decision/6079b0de9ba5988459c50994",
+      "resume": "Si, dans le cadre de la procédure sans représentation obligatoire les parties peuvent présenter oralement leurs prétentions au cours des débats, rien ne s'oppose à ce que le magistrat chargé d'instruire l'affaire présente, préalablement à leurs explications, un exposé objectif des faits qui sont à l'origine du litige et de l'état de la procédure.",
+      "requete": "faille de sécurité informatique négligence"
+    }
+  ],
   "lots": [
     {
       "id": "LOT-01",
+      "intitule": "Authentification multifacteur",
+      "theme": "authentification-mfa",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-01",
+        "REQ-NIS2-021-11"
+      ],
+      "priorite": "P1",
+      "echeance": "2027-01-31",
+      "responsable": "DSI",
+      "statut": "À lancer",
+      "description": "REQ-POLITIQUE-FOURNISSEU-0S1-01 : Authentification multifacteur accès distant SCADA | REQ-NIS2-021-11 : MFA et communications sécurisées"
+    },
+    {
+      "id": "LOT-02",
+      "intitule": "Sécurité de la chaîne d'approvisionnement",
+      "theme": "chaine-approvisionnement",
+      "exigence_ids": [
+        "REQ-POLITIQUE-FOURNISSEU-0S1-02",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-03",
+        "REQ-POLITIQUE-FOURNISSEU-0S1-04",
+        "REQ-NIS2-021-05",
+        "REQ-NIS2-021-12"
+      ],
+      "priorite": "P1",
+      "echeance": "2027-01-31",
+      "responsable": "Achats + RSSI",
+      "statut": "À lancer",
+      "description": "REQ-POLITIQUE-FOURNISSEU-0S1-02 : Clause de notification d'incident fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-03 : Audit annuel des fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-04 : Révocation des accès prestataires | REQ-NIS2-021-05 : Sécurité de la chaîne d'approvisionnement | REQ-NIS2-021-12 : Prise en compte des vulnérabilités fournisseurs"
+    },
+    {
+      "id": "LOT-03",
       "intitule": "Analyse et gestion des risques",
       "theme": "gestion-risques",
       "exigence_ids": [
@@ -4327,7 +5263,7 @@
       "description": "REQ-NIS2-001-03 : Gestion des risques et information | REQ-NIS2-004-01 : Exemption pour actes sectoriels équivalents | REQ-NIS2-021-01 : Mise en place de mesures de gestion des risques | REQ-NIS2-021-02 : Politiques d'analyse des risques et sécurité SI | REQ-NIS2-021-13 : Mesures correctives en cas de non-conformité | REQ-NIS2-033-10 : Mise en conformité des mesures de gestion des risques"
     },
     {
-      "id": "LOT-02",
+      "id": "LOT-04",
       "intitule": "Sécurité d'acquisition et des vulnérabilités",
       "theme": "developpement-securise",
       "exigence_ids": [
@@ -4340,7 +5276,7 @@
       "description": "REQ-NIS2-021-06 : Sécurité d'acquisition et des vulnérabilités"
     },
     {
-      "id": "LOT-03",
+      "id": "LOT-05",
       "intitule": "Sécurité RH, contrôle d'accès et actifs",
       "theme": "rh-securite",
       "exigence_ids": [
@@ -4353,20 +5289,7 @@
       "description": "REQ-NIS2-021-10 : Sécurité RH, contrôle d'accès et actifs"
     },
     {
-      "id": "LOT-04",
-      "intitule": "MFA et communications sécurisées",
-      "theme": "authentification-mfa",
-      "exigence_ids": [
-        "REQ-NIS2-021-11"
-      ],
-      "priorite": "P1",
-      "echeance": "2027-01-31",
-      "responsable": "DSI",
-      "statut": "À lancer",
-      "description": "REQ-NIS2-021-11 : MFA et communications sécurisées"
-    },
-    {
-      "id": "LOT-05",
+      "id": "LOT-06",
       "intitule": "Gestion des incidents",
       "theme": "gestion-incidents",
       "exigence_ids": [
@@ -4388,7 +5311,7 @@
       "description": "REQ-NIS2-023-01 : Notification d'incident important | REQ-NIS2-023-02 : Notification aux destinataires des services | REQ-NIS2-023-03 : Signalement d'impact transfrontière | REQ-NIS2-023-04 : Communication sur les cybermenaces importantes | REQ-NIS2-023-05 : Soumission d'une alerte précoce | REQ-NIS2-023-06 : Soumission d'une notification d'incident | REQ-NIS2-023-07 : Fourniture d'un rapport intermédiaire | REQ-NIS2-023-08 : Soumission du rapport final d'incident | REQ-NIS2-023-09 : Rapports pour incident en cours | REQ-NIS2-033-11 : Information des personnes concernées en cas de menace"
     },
     {
-      "id": "LOT-06",
+      "id": "LOT-07",
       "intitule": "Notification des incidents",
       "theme": "notification",
       "exigence_ids": [
@@ -4402,27 +5325,25 @@
       "description": "REQ-NIS2-029-04 : Notification de participation ou retrait d'accords de partage | REQ-NIS2-030-01 : Transmission de notifications volontaires"
     },
     {
-      "id": "LOT-07",
+      "id": "LOT-08",
       "intitule": "Gouvernance et responsabilité de la direction",
       "theme": "gouvernance",
       "exigence_ids": [
         "REQ-NIS2-001-04",
-        "REQ-NIS2-002-01",
         "REQ-NIS2-003-02",
         "REQ-NIS2-020-01",
         "REQ-NIS2-024-01",
         "REQ-NIS2-032-04",
-        "REQ-NIS2-033-05",
-        "REQ-NIS2-034-01"
+        "REQ-NIS2-033-05"
       ],
       "priorite": "P2",
       "echeance": "2027-05-01",
       "responsable": "Direction générale",
       "statut": "À lancer",
-      "description": "REQ-NIS2-001-04 : Partage d'informations | REQ-NIS2-002-01 : Champ d'application général | REQ-NIS2-003-02 : Communication d'informations d'enregistrement | REQ-NIS2-020-01 : Approbation et supervision de la gestion des risques par la direction | REQ-NIS2-024-01 : Utilisation de produits et services certifiés | REQ-NIS2-032-04 : Responsabilité des dirigeants | REQ-NIS2-033-05 : Communication des politiques et informations | REQ-NIS2-034-01 : Exposition aux amendes administratives (Entités importantes)"
+      "description": "REQ-NIS2-001-04 : Partage d'informations | REQ-NIS2-003-02 : Communication d'informations d'enregistrement | REQ-NIS2-020-01 : Approbation et supervision de la gestion des risques par la direction | REQ-NIS2-024-01 : Utilisation de produits et services certifiés | REQ-NIS2-032-04 : Responsabilité des dirigeants | REQ-NIS2-033-05 : Communication des politiques et informations"
     },
     {
-      "id": "LOT-08",
+      "id": "LOT-09",
       "intitule": "Cyberhygiène et formation",
       "theme": "cyberhygiene-formation",
       "exigence_ids": [
@@ -4434,20 +5355,6 @@
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-020-02 : Formation obligatoire de la direction et du personnel | REQ-NIS2-021-08 : Cyberhygiène et formation"
-    },
-    {
-      "id": "LOT-09",
-      "intitule": "Sécurité de la chaîne d'approvisionnement",
-      "theme": "chaine-approvisionnement",
-      "exigence_ids": [
-        "REQ-NIS2-021-05",
-        "REQ-NIS2-021-12"
-      ],
-      "priorite": "P2",
-      "echeance": "2027-05-01",
-      "responsable": "Achats + RSSI",
-      "statut": "À lancer",
-      "description": "REQ-NIS2-021-05 : Sécurité de la chaîne d'approvisionnement | REQ-NIS2-021-12 : Prise en compte des vulnérabilités fournisseurs"
     },
     {
       "id": "LOT-10",
@@ -4483,9 +5390,6 @@
       "exigence_ids": [
         "REQ-NIS2-032-02",
         "REQ-NIS2-032-03",
-        "REQ-NIS2-033-01",
-        "REQ-NIS2-033-02",
-        "REQ-NIS2-033-03",
         "REQ-NIS2-033-06",
         "REQ-NIS2-033-07",
         "REQ-NIS2-033-08",
@@ -4496,7 +5400,7 @@
       "echeance": "2027-10-31",
       "responsable": "Direction générale + Audit interne",
       "statut": "À lancer",
-      "description": "REQ-NIS2-032-02 : Pouvoirs de supervision des autorités | REQ-NIS2-032-03 : Exécution des mesures correctives et injonctions | REQ-NIS2-033-01 : Soumission aux mesures de contrôle ex post | REQ-NIS2-033-02 : Inspections sur place et contrôles à distance | REQ-NIS2-033-03 : Audits de sécurité ciblés | REQ-NIS2-033-06 : Accès aux données et documents | REQ-NIS2-033-07 : Preuves de mise en œuvre des politiques | REQ-NIS2-033-08 : Exécution des instructions contraignantes | REQ-NIS2-033-09 : Cessation des comportements illicites | REQ-NIS2-033-13 : Publicité des violations"
+      "description": "REQ-NIS2-032-02 : Pouvoirs de supervision des autorités | REQ-NIS2-032-03 : Exécution des mesures correctives et injonctions | REQ-NIS2-033-06 : Accès aux données et documents | REQ-NIS2-033-07 : Preuves de mise en œuvre des politiques | REQ-NIS2-033-08 : Exécution des instructions contraignantes | REQ-NIS2-033-09 : Cessation des comportements illicites | REQ-NIS2-033-13 : Publicité des violations"
     }
   ],
   "requetes_jurisprudence": {
@@ -4552,32 +5456,31 @@
     "REQ-NIS2-033-11": "incident de sécurité informatique responsabilité",
     "REQ-NIS2-033-12": "audit de sécurité informatique manquement",
     "REQ-NIS2-033-13": "contrôle autorité administrative sécurité des systèmes d'information sanction",
-    "REQ-NIS2-034-01": "responsabilité dirigeant sécurité informatique manquement"
+    "REQ-NIS2-034-01": "responsabilité dirigeant sécurité informatique manquement",
+    "REQ-POLITIQUE-FOURNISSEU-0S1-01": "authentification forte fraude responsabilité",
+    "REQ-POLITIQUE-FOURNISSEU-0S1-02": "prestataire informatique obligation de sécurité sous-traitant",
+    "REQ-POLITIQUE-FOURNISSEU-0S1-03": "prestataire informatique obligation de sécurité sous-traitant",
+    "REQ-POLITIQUE-FOURNISSEU-0S1-04": "prestataire informatique obligation de sécurité sous-traitant"
   },
   "gouvernance": {
     "cadre_recommande": "Hybride TOGAF + ITIL",
-    "justification": "Les exigences NIS 2 applicables à Hydréa se répartissent en deux familles de poids comparable. D'un côté, la gouvernance (art. 20), l'analyse des risques, la chaîne d'approvisionnement et la sécurité des acquisitions (art. 21 §2 a, d, e) demandent de revoir l'architecture d'entreprise : cartographie IT/OT, principes de sécurité, exigences fournisseurs. C'est le terrain de TOGAF (ADM, phases A à F). De l'autre, la gestion des incidents, la notification en 24 h / 72 h / 1 mois (art. 23), la continuité et le contrôle d'accès relèvent de l'exploitation quotidienne des services : c'est le terrain d'ITIL 4 (pratiques de gestion des incidents, de la continuité, de la sécurité de l'information). Un hybride permet d'utiliser TOGAF pour concevoir la cible et la feuille de route, et ITIL pour faire fonctionner et mesurer les processus au quotidien.",
+    "justification": "L'organisation Hydreå doit répondre à de multiples exigences NIS2 et de sécurité de la chaîne d'approvisionnement couvrant à la fois la structure d'entreprise, les processus industriels et la gestion des services IT/OT (comme REQ-NIS2-021-01 à REQ-NIS2-021-13). Un cadre hybride permet de structurer l'architecture globale des systèmes et des flux de données critiques tout en assurant l'opérabilité des services, la gestion des incidents et la continuité d'activité.",
     "apports_togaf": [
-      "Phase A (vision) et B–D (architectures métier, données, applications, technologie) : cartographie complète IT et OT, aujourd'hui partielle",
-      "Principes d'architecture de sécurité opposables aux projets et aux achats (art. 21 §2 d et e)",
-      "Phase F (planification de la migration) : transformer les lots d'action en feuille de route budgétée validée par la direction (art. 20)",
-      "Gouvernance de l'architecture : comité qui approuve les écarts et trace les décisions"
+      "Structuration de l'architecture d'entreprise pour intégrer la gouvernance et la sécurité de manière transversale.",
+      "Modélisation des processus métier et des systèmes hétérogènes (SCADA, ERP, CRM, IoT) exigée pour la gestion des risques."
     ],
     "apports_itil": [
-      "Pratique « gestion des incidents » étendue au volet réglementaire : circuit d'alerte précoce sous 24 h et notification sous 72 h vers l'ANSSI (art. 23)",
-      "Pratique « gestion de la continuité des services » : tests de restauration et exercices de crise réguliers (art. 21 §2 c)",
-      "Pratique « gestion de la sécurité de l'information » et « gestion des fournisseurs » : suivi opérationnel des prestataires SCADA et infogérance",
-      "Amélioration continue et indicateurs : mesure de l'efficacité des mesures (art. 21 §2 f)"
+      "Maîtrise des processus opérationnels de gestion des incidents, des changements et de la continuité des services.",
+      "Alignement des services de support et de la chaîne de valeur avec les exigences de notification et de gestion des vulnérabilités."
     ],
     "points_de_vigilance": [
-      "Ne pas créer deux gouvernances concurrentes : un seul comité cyber, rattaché à la direction générale, arbitre TOGAF et ITIL",
-      "Inclure l'OT (SCADA, automates) dans les deux cadres : c'est le principal angle mort actuel",
-      "La recommandation est produite par un agent automatisé : elle doit être validée par la direction et le RSSI avant toute mise en œuvre"
+      "La décision finale d'adoption et d'arbitrage entre ces cadres appartient à la direction générale.",
+      "Éviter la lourdeur bureaucratique en combinant les deux méthodologies sur des périmètres opérationnels restreints."
     ],
     "scores": {
-      "TOGAF": 0.51,
-      "ITIL": 0.49
+      "TOGAF": 0.46,
+      "ITIL": 0.54
     },
-    "decision_humaine": null
+    "decision_humaine": "Hybride TOGAF + ITIL — Décision de l'équipe projet : TOGAF pour la cible IT/OT, ITIL pour l'exploitation (incidents, notification 24 h / 72 h)."
   }
 }
