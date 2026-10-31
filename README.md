@@ -1,6 +1,7 @@
 # 🛡️ Agent de veille continue GRC et législative — NIS 2
-   **🔗 Base Notion en ligne (lecture seule) :** [Veille GRC — 6 bases reliées](https://petite-resolution-107.notion.site/Veille-GRC-409fe7ba810c80709939cbf1d7bc0aa8)
-   
+
+**🔗 Base Notion en ligne (lecture seule) :** [Veille GRC — 6 bases reliées](https://petite-resolution-107.notion.site/Veille-GRC-409fe7ba810c80709939cbf1d7bc0aa8)
+
 Atelier EPITA (MSc1) : un agent IA qui **surveille** les textes juridiques, **extrait** les obligations applicables à une organisation, **vérifie** chaque obligation dans le texte officiel, produit **5 matrices GRC** et un **plan de gouvernance TOGAF / ITIL**, avec une **validation humaine** dans un cockpit Streamlit et un stockage dans **Notion**.
 
 - **Texte analysé :** directive (UE) 2022/2555, dite **NIS 2**
@@ -120,12 +121,13 @@ npm run analyse -- --fichier data/sources/mon-texte.html
 
 ```bash
 cd agent
-npm run veille      # interroge toutes les sources de agent/sources.json
+npm run veille         # interroge les 6 sources de agent/sources.json
+npm run jurisprudence  # cherche les décisions Judilibre pour les exigences existantes (matrice M5)
 npm run worker      # tâche de fond : reporte les validations humaines et recalcule les matrices
 npm run matrices    # recalcul ponctuel après des validations
 ```
 
-- Les sources se configurent dans `agent/sources.json` : EUR-Lex, Légifrance, flux RSS CNIL et CERT-FR, Assemblée nationale et Sénat.
+- Les sources se configurent dans `agent/sources.json` : EUR-Lex, Légifrance, Judilibre, CNIL, CERT-FR (ANSSI), Sénat (flux RSS) et Assemblée nationale (page officielle des dossiers législatifs).
 - **Détection des modifications :** l'agent calcule l'empreinte SHA-256 de chaque document. Un texte modifié reçoit un nouveau numéro de version, et ses exigences repassent « À valider ».
 - **Déduplication :** un même contenu publié par deux sources n'est traité qu'une fois.
 - **URL officielles :** chaque exigence garde le lien vers sa source (matrice M1).
@@ -147,7 +149,7 @@ npm run matrices    # recalcul ponctuel après des validations
 | Livrable demandé | Où le trouver |
 |---|---|
 | Agent de veille | `agent/src/` (voir `docs/comment-ca-marche.md`) |
-| Base Notion et intégration MCP / worker | `agent/src/storage/`, `agent/src/notion-setup.ts`, `agent/src/worker.ts`, `.mcp.json` |
+| Base Notion et intégration MCP / worker | `agent/src/storage/`, `agent/src/notion-setup.ts`, `agent/src/worker.ts`, `.mcp.json`. Les « Workers » hébergés par Notion étant réservés aux offres payantes, la synchronisation passe par notre worker (voir `docs/notion-mcp.md`) |
 | Cockpit Streamlit et chatbot | `cockpit/app.py`, `cockpit/assistant.py` |
 | 5 matrices GRC | `outputs/matrices/*.csv`, `outputs/matrices_grc.xlsx` |
 | Plan de gouvernance | `docs/plan-gouvernance.md` (analyse) et `outputs/plan-gouvernance.md` (généré) |

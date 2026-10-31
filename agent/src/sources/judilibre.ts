@@ -23,6 +23,8 @@ export async function rechercherJurisprudence(requete: string, exigenceId: strin
   const rep = await fetch(`${PISTE_API()}/cassation/judilibre/v1.0/search?${params}`, {
     headers: { Authorization: `Bearer ${jeton}`, Accept: "application/json" },
   });
+  if (rep.status === 401 || rep.status === 403)
+    throw new Error(`Judilibre refuse l'accès (${rep.status}) : vérifier sur piste.gouv.fr que l'API JUDILIBRE (PROD) est cochée dans l'application et ses CGU acceptées.`);
   if (!rep.ok) throw new Error(`Judilibre a répondu ${rep.status} : ${(await rep.text()).slice(0, 300)}`);
   const json = (await rep.json()) as { results?: ResultatJudilibre[] };
   return (json.results ?? []).map((r) => ({

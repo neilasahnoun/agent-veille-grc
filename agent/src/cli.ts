@@ -7,6 +7,7 @@
  *   npm run ingest  -- --celex 32022L2555     télécharge seulement (copie dans data/sources)
  *   npm run veille                            interroge toutes les sources de agent/sources.json
  *   npm run matrices                          recalcule matrices + plan (après des validations)
+ *   npm run jurisprudence                     interroge Judilibre pour les exigences existantes (M5)
  *   npm run notion:push                       envoie le store local vers Notion
  */
 import { config } from "./config.js";
@@ -135,6 +136,20 @@ async function matrices(): Promise<void> {
   await sauvegarder(store);
 }
 
+/** Recherche la jurisprudence (Judilibre) pour les exigences déjà extraites, sans refaire l'analyse IA. */
+async function jurisprudence(): Promise<void> {
+  const org = chargerOrganisation();
+  const store = chargerStore(org.nom);
+  if (config.stockage === "notion") {
+    const { lireDecisionsNotion } = await import("./storage/notion.js");
+    console.log(`↓ ${await lireDecisionsNotion(store)} décision(s) récupérée(s) depuis Notion`);
+  }
+  await enrichirJurisprudence(store);
+  const fichiers = await finaliser(store, org, false);
+  await sauvegarder(store);
+  afficherSorties(fichiers);
+}
+
 async function push(): Promise<void> {
   const org = chargerOrganisation();
   const { pousserVersNotion } = await import("./storage/notion.js");
@@ -142,7 +157,7 @@ async function push(): Promise<void> {
   console.log("✓ Notion à jour");
 }
 
-const commandes: Record<string, () => Promise<void>> = { demo, analyse, ingest, veille, matrices, push };
+const commandes: Record<string, () => Promise<void>> = { demo, analyse, ingest, veille, matrices, jurisprudence, push };
 const nom = process.argv[2] ?? "demo";
 (commandes[nom] ?? (async () => { throw new Error(`Commande inconnue : ${nom}. Disponibles : ${Object.keys(commandes).join(", ")}`); }))().catch((err) => {
   if (err instanceof QuotaJournalierError) {

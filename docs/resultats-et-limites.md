@@ -16,7 +16,11 @@
 | Risques résiduels (M4) | **17 critiques** (dont 9 sur la notification de l'art. 23), 16 élevés, 18 modérés |
 | Lots d'action | 12 lots priorisés (6 P1, 4 P2, 2 P3), avec responsable et échéance |
 | Gouvernance | Hybride TOGAF + ITIL (51 % / 49 %) ; décision humaine à saisir dans le cockpit |
-| Notion | 6 bases reliées créées automatiquement et alimentées (133 exigences, 13 contrôles, risques, lots) |
+| Sources de veille | **6 sources actives et testées** : EUR-Lex (directive NIS 2), Légifrance (API PISTE), Judilibre (API PISTE), CNIL et CERT-FR/ANSSI (flux RSS), Sénat (flux RSS) et Assemblée nationale (page officielle des dossiers législatifs) ; 24 signaux dans le fil de veille |
+| Jurisprudence (M5) | **41 décisions** de la Cour de cassation et des cours d'appel trouvées par Judilibre et rattachées aux exigences |
+| Validation humaine | Exigences validées, corrigées et rejetées dans le cockpit (dont les erreurs de l'art. 33), décisions conservées dans Notion |
+| Décision de gouvernance | **Hybride TOGAF + ITIL retenu par l'équipe** (décision humaine enregistrée) |
+| Notion | 6 bases reliées créées automatiquement et alimentées (137 exigences, 13 contrôles, risques, jurisprudence, lots), publiées en lecture seule |
 | Assistant | Chatbot qui répond en direct (streaming) à partir des exigences extraites ; dépôt d'un document (PDF/HTML/texte) analysé depuis le cockpit |
 
 ### Erreurs de l'IA repérées, à corriger par la validation humaine
@@ -38,13 +42,13 @@ Avec l'extrait de travail `data/sources/nis2-extrait.md` et des réponses enregi
 
 | Pendant l'atelier (4 h) — minimum attendu | Ajouté pendant la semaine |
 |---|---|
-| Chargement d'un texte officiel (fichier local) | Connecteurs EUR-Lex, Légifrance, Judilibre et RSS |
-| Extraction des obligations avec l'IA (AI SDK + Zod) | Applicabilité, échéances, sanctions, destinataires, confiance |
-| Exigences structurées avec articles | Vérification automatique des citations |
-| Première matrice (M1 Traçabilité) | Matrices M2 à M5 avec identifiants communs, export Excel |
-| Enregistrement dans Notion | 6 bases reliées, worker de synchronisation, configuration MCP |
-| Une exigence visible dans Streamlit avec son statut | Cockpit à 4 vues, validation, correction et rejet enregistrés dans Notion |
-| — | Plan de gouvernance TOGAF / ITIL, détection des modifications, exécution planifiée |
+| Chargement d'un texte officiel (fichier local) | 6 connecteurs : EUR-Lex, Légifrance, Judilibre, CNIL, CERT-FR/ANSSI, Sénat, Assemblée nationale |
+| Extraction des obligations avec l'IA (AI SDK + Zod) | Applicabilité, échéances, sanctions, destinataires, confiance ; analyse par lots et reprise après quota |
+| Exigences structurées avec articles | Vérification automatique des citations dans le texte officiel |
+| Première matrice (M1 Traçabilité) | Matrices M2 à M5 avec identifiants communs, jurisprudence Judilibre, export Excel |
+| Enregistrement dans Notion | 6 bases reliées, worker de synchronisation, configuration MCP, publication en lecture seule |
+| Une exigence visible dans Streamlit avec son statut | Cockpit à 4 vues + assistant (chatbot et dépôt de document), validation / correction / rejet enregistrés dans Notion |
+| — | Plan de gouvernance TOGAF / ITIL et décision humaine, détection des modifications, exécution planifiée (GitHub Actions) |
 
 *(À adapter selon ce que l'équipe a réellement présenté en fin d'atelier.)*
 
@@ -55,7 +59,7 @@ Avec l'extrait de travail `data/sources/nis2-extrait.md` et des réponses enregi
 - EUR-Lex bloque les téléchargements automatiques par une page anti-robot. Le connecteur essaie d'abord le service de diffusion de l'Office des publications ; en cas d'échec, il faut enregistrer la page depuis le navigateur.
 - NIS 2 est une **directive** : en France, les obligations précises et les échéances dépendent de la **loi de transposition** et de ses décrets d'application, à suivre via Légifrance. Les échéances indiquées « dépend de la loi de transposition » sont à compléter.
 - Le règlement d'exécution (UE) 2024/2690 et les référentiels de l'ANSSI ne sont pas encore analysés : la source est prévue mais désactivée dans `sources.json`.
-- **Jurisprudence (M5) :** les décisions de justice portant directement sur NIS 2 sont encore rares. Judilibre renvoie surtout des décisions voisines (obligation de sécurité, fraude informatique). En mode démo, M5 ne contient que les requêtes préparées, sans aucune décision inventée.
+- **Jurisprudence (M5) :** les décisions de justice portant directement sur NIS 2 sont encore rares. Les 41 décisions trouvées par Judilibre sont des décisions **voisines** (obligation de sécurité, prestataires informatiques, fraude informatique), retrouvées par mots-clés : leur pertinence doit être confirmée par un juriste. En mode démo, M5 ne contient que les requêtes préparées, sans aucune décision inventée.
 
 **Sur l'IA**
 - Le modèle peut **halluciner** ou mal découper une obligation. La vérification des citations réduit ce risque sans le supprimer : une citation exacte peut être mal interprétée. C'est pourquoi chaque exigence passe par une **validation humaine**.
@@ -69,6 +73,9 @@ Avec l'extrait de travail `data/sources/nis2-extrait.md` et des réponses enregi
 - La recommandation TOGAF / ITIL est un **outil d'aide à la décision**. Le choix appartient à la direction.
 
 **Sur la technique**
+- **Workers Notion :** la fonctionnalité « Workers » de la plateforme développeur de Notion (code hébergé chez Notion) est réservée aux offres payantes Business et Enterprise. Avec un compte gratuit, la synchronisation est assurée par notre propre worker (`npm run worker`), qui tourne sur le poste ou dans GitHub Actions et remplit le même rôle : récupérer les décisions humaines, recalculer et mettre à jour les bases.
+- **Intégration MCP :** le serveur MCP officiel de Notion est configuré (`.mcp.json`) pour interroger les bases depuis un assistant compatible ; il n'est pas utilisé par l'agent lui-même, qui passe par l'API Notion.
+- Le connecteur Assemblée nationale lit la page de la 17e législature : l'URL est à mettre à jour en cas de nouvelle législature.
 - Le chatbot retrouve les exigences par mots-clés, sans recherche sémantique : une question formulée avec des mots très différents du texte peut passer à côté. Chaque question consomme une requête du quota gratuit.
 - Un PDF scanné (image) ne contient pas de texte : il faut utiliser la version HTML ou texte.
 - Le découpage repose sur les lignes « Article N » : un format de texte inhabituel peut nécessiter d'adapter `parse.ts`.

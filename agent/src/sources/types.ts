@@ -19,4 +19,5 @@ export type ConfigSource =
   | { type: "fichier"; chemin: string; actif?: boolean }
   | { type: "eurlex"; celex: string; id?: string; actif?: boolean }
   | { type: "legifrance"; recherche: string; fond?: string; actif?: boolean }
-  | { type: "rss"; nom: string; url: string; motsCles?: string[]; actif?: boolean };
+  | { type: "rss"; nom: string; url: string; motsCles?: string[]; actif?: boolean }
+  | { type: "page"; nom: string; url: string; motifLien: string; motsCles?: string[]; actif?: boolean };

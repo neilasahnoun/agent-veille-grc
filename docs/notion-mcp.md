@@ -17,6 +17,9 @@ Textes ──< Exigences >── Contrôles
 ```
 
 ## 2. Worker de synchronisation
+
+> **Pourquoi pas les « Workers » de Notion ?** Notion propose une fonctionnalité « Workers » (code hébergé sur sa plateforme développeur), mais son déploiement est réservé aux offres payantes Business et Enterprise. Avec un compte gratuit, nous avons développé notre propre worker, qui joue le même rôle et peut tourner sur un poste ou dans GitHub Actions.
+
 `npm run worker` tourne en tâche de fond. Toutes les 2 minutes, il :
 1. lit dans Notion les décisions prises par les validateurs ;
 2. recalcule les risques, les lots d'action, les matrices M1 à M5 et le plan de gouvernance ;

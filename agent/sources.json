@@ -1,5 +1,5 @@
 {
-  "_aide": "Sources surveillées par `npm run veille`. Mettre \"actif\": false pour désactiver une source. Types : fichier, eurlex, legifrance (identifiants PISTE requis), rss.",
+  "_aide": "Sources surveillées par `npm run veille`. Mettre \"actif\": false pour désactiver une source. Types : fichier, eurlex, legifrance (identifiants PISTE requis), rss, page (page officielle sans flux RSS).",
   "sources": [
     {
       "type": "eurlex",
@@ -24,21 +24,67 @@
       "type": "rss",
       "nom": "CNIL",
       "url": "https://www.cnil.fr/fr/rss.xml",
-      "motsCles": ["sécurité", "cyber", "violation", "incident", "sanction", "NIS"]
+      "motsCles": [
+        "sécurité",
+        "cyber",
+        "violation",
+        "incident",
+        "sanction",
+        "NIS"
+      ],
+      "_note": "Actualités et sanctions de la CNIL (doctrine et recommandations)"
     },
     {
       "type": "rss",
       "nom": "CERT-FR (ANSSI)",
       "url": "https://www.cert.ssi.gouv.fr/feed/",
-      "motsCles": ["SCADA", "industriel", "eau", "rançongiciel", "critique", "NIS"]
+      "motsCles": [
+        "alerte",
+        "SCADA",
+        "industriel",
+        "rançongiciel",
+        "critique",
+        "NIS",
+        "eau",
+        "Fortinet",
+        "Ivanti",
+        "VPN"
+      ],
+      "_note": "Alertes et avis de sécurité du CERT-FR, rattaché à l'ANSSI"
     },
     {
       "type": "rss",
-      "nom": "Assemblée nationale / Sénat",
-      "url": "A_COMPLETER_avec_l_URL_d_un_flux_RSS_de_dossiers_legislatifs",
-      "motsCles": ["cybersécurité", "résilience"],
-      "actif": false,
-      "_note": "Coller ici l'URL du flux RSS du dossier législatif suivi (page du dossier sur assemblee-nationale.fr ou senat.fr)."
+      "nom": "Sénat",
+      "url": "https://www.senat.fr/rss/textes.rss",
+      "motsCles": [
+        "cyber",
+        "numérique",
+        "résilience",
+        "sécurité",
+        "données",
+        "infrastructure",
+        "eau",
+        "intelligence artificielle",
+        "NIS"
+      ],
+      "_note": "Derniers projets et propositions de loi déposés ou transmis au Sénat"
+    },
+    {
+      "type": "page",
+      "nom": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+      "motifLien": "/dossiers/",
+      "motsCles": [
+        "cyber",
+        "numérique",
+        "résilience",
+        "sécurité",
+        "données",
+        "infrastructure",
+        "eau",
+        "intelligence artificielle"
+      ],
+      "_note": "Liste officielle des dossiers législatifs (17e législature). Changer le numéro dans l'URL en cas de nouvelle législature."
     }
   ]
 }

@@ -38,7 +38,9 @@ flowchart LR
 Chaque connecteur renvoie les documents dans le même format (`DocumentRecupere`) :
 - **EUR-Lex :** télécharge la page HTML officielle à partir du numéro CELEX (NIS 2 = `32022L2555`) et en garde une copie dans `data/sources/`.
 - **Légifrance :** recherche via l'API PISTE (authentification OAuth2 *client credentials*), utile pour suivre la transposition française.
-- **RSS :** CNIL, CERT-FR (ANSSI), dossiers législatifs, avec un filtre par mots-clés.
+- **RSS :** CNIL, CERT-FR (ANSSI), Sénat (derniers projets et propositions de loi), avec un filtre par mots-clés.
+- **Page officielle :** liste des dossiers législatifs de l'Assemblée nationale, qui n'a pas de flux RSS fiable.
+- **Judilibre :** recherche de décisions pour chaque exigence (`npm run jurisprudence`), via l'API PISTE.
 - **Fichier local :** un texte officiel téléchargé au préalable, comme le TP l'autorise.
 
 Les textes complets sont analysés. Les actualités deviennent des **signaux** du fil de veille.

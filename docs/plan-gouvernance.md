@@ -88,6 +88,6 @@ Le détail des lots, avec responsables, échéances et exigences rattachées, es
 | | |
 |---|---|
 | Recommandation de l'agent | Hybride TOGAF + ITIL |
-| **Cadre retenu par l'équipe** | *à compléter (saisi aussi dans le cockpit)* |
-| Motif / instance | *à compléter* |
-| Date | *à compléter* |
+| **Cadre retenu par l'équipe** | **Hybride TOGAF + ITIL** |
+| Motif / instance | Décision de l'équipe projet : TOGAF pour la cible IT/OT, ITIL pour l'exploitation (incidents, notification 24 h / 72 h) |
+| Où elle est enregistrée | Cockpit Streamlit (onglet « Pilotage »), `data/store.json` et `outputs/plan-gouvernance.md` |

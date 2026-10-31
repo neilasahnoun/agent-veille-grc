@@ -16,7 +16,8 @@
     "notion:setup": "tsx src/notion-setup.ts",
     "notion:push": "tsx src/cli.ts push",
     "worker": "tsx src/worker.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "jurisprudence": "tsx src/cli.ts jurisprudence"
   },
   "dependencies": {
     "@ai-sdk/google": "^1.2.19",
