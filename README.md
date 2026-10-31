@@ -2,6 +2,8 @@
 
 **🔗 Base Notion en ligne (lecture seule) :** [Veille GRC — 6 bases reliées](https://petite-resolution-107.notion.site/Veille-GRC-409fe7ba810c80709939cbf1d7bc0aa8)
 
+**🖥️ Cockpit en ligne (démonstration) :** [agent-veille-grc.streamlit.app](https://agent-veille-grc.streamlit.app)
+
 **👥 Équipe — Groupe B2 (EPITA MSc1)**
 
 - Alexandre Houli
