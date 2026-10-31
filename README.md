@@ -165,7 +165,7 @@ npm run matrices    # recalcul ponctuel après des validations
 | 5 matrices GRC | `outputs/matrices/*.csv`, `outputs/matrices_grc.xlsx` |
 | Plan de gouvernance | `docs/plan-gouvernance.md` (analyse) et `outputs/plan-gouvernance.md` (généré) |
 | Résultats et limites | `docs/resultats-et-limites.md` |
-| Démonstration | `docs/demo.md` (déroulé de la présentation) |
+| Démonstration | `docs/demo.md` (guide de démonstration et de test) |
 
 ## 8. Arborescence
 
