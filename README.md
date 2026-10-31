@@ -2,6 +2,14 @@
 
 **🔗 Base Notion en ligne (lecture seule) :** [Veille GRC — 6 bases reliées](https://petite-resolution-107.notion.site/Veille-GRC-409fe7ba810c80709939cbf1d7bc0aa8)
 
+**👥 Équipe — Groupe B2 (EPITA MSc1)**
+
+- Alexandre Houli
+- Dylan Nicolle
+- Eloi Oberrieder
+- Marouane Tika
+- Neila Sahnoun
+
 Atelier EPITA (MSc1) : un agent IA qui **surveille** les textes juridiques, **extrait** les obligations applicables à une organisation, **vérifie** chaque obligation dans le texte officiel, produit **5 matrices GRC** et un **plan de gouvernance TOGAF / ITIL**, avec une **validation humaine** dans un cockpit Streamlit et un stockage dans **Notion**.
 
 - **Texte analysé :** directive (UE) 2022/2555, dite **NIS 2**
@@ -12,10 +20,10 @@ Atelier EPITA (MSc1) : un agent IA qui **surveille** les textes juridiques, **ex
  Sources officielles          Agent (Node.js / TypeScript)                      Restitution
  ─────────────────           ─────────────────────────────                     ───────────
  EUR-Lex (NIS 2)    ─┐       1. collecte + détection des modifications         ┌─ Notion : 6 bases reliées
- Légifrance (PISTE) ─┼──►    2. découpage en articles                    ──►   ├─ Cockpit Streamlit (4 vues)
- Judilibre (PISTE)  ─┤       3. IA (AI SDK + Zod) : applicabilité, obligations  ├─ Matrices M1–M5 (CSV, Excel)
- CNIL, CERT-FR (RSS)─┘       4. vérification des citations dans le texte        └─ Plan de gouvernance
-                             5. couverture, risques, lots, TOGAF/ITIL
+ Légifrance (PISTE) ─┤       2. découpage en articles                          ├─ Cockpit Streamlit (4 vues
+ Judilibre (PISTE)  ─┼──►    3. IA (AI SDK + Zod) : applicabilité, obligations ──► │   + assistant / chatbot)
+ CNIL, CERT-FR/ANSSI─┤       4. vérification des citations dans le texte        ├─ Matrices M1–M5 (CSV, Excel)
+ Sénat, Assemblée   ─┘       5. couverture, risques, lots, TOGAF/ITIL           └─ Plan de gouvernance
                                         ▲                                     │
                                         └──── décisions humaines (worker) ◄───┘
 ```
@@ -27,7 +35,7 @@ Atelier EPITA (MSc1) : un agent IA qui **surveille** les textes juridiques, **ex
 **Prérequis :** [Node.js 20+](https://nodejs.org) et [Python 3.11+](https://www.python.org/downloads/).
 
 ```bash
-git clone https://github.com/<compte>/agent-veille-grc.git
+git clone https://github.com/neilasahnoun/agent-veille-grc.git
 cd agent-veille-grc
 
 # Configuration : copier le modèle de fichier .env
@@ -45,10 +53,13 @@ pip install -r cockpit/requirements.txt
 ## Résultats obtenus
 
 Analyse du **texte officiel** de NIS 2 (46 articles) par Gemini pour Hydréa :
-- 133 exigences extraites, dont 51 jugées applicables ;
-- 122 citations retrouvées mot pour mot dans le texte (92 %) ;
-- 17 risques critiques et 12 lots d'action ;
-- une recommandation hybride TOGAF + ITIL.
+- **133 exigences** extraites, dont 51 jugées applicables par l'IA ;
+- **122 citations** retrouvées mot pour mot dans le texte officiel (92 %) ;
+- **validation humaine** : exigences validées, corrigées et rejetées dans le cockpit (dont les erreurs de l'IA sur l'article 33) ;
+- **18 risques critiques** et **12 lots d'action** priorisés ;
+- **41 décisions de jurisprudence** trouvées par Judilibre (matrice M5) ;
+- **veille sur 6 sources** (EUR-Lex, Légifrance, CNIL, CERT-FR/ANSSI, Sénat, Assemblée nationale), exécutée chaque jour par GitHub Actions ;
+- cadre de gouvernance **Hybride TOGAF + ITIL**, proposé par l'agent et retenu par l'équipe.
 
 L'IA a aussi commis des erreurs, repérées grâce à la validation humaine (par exemple, l'article 33 appliqué à tort à une entité essentielle) : voir [`docs/resultats-et-limites.md`](docs/resultats-et-limites.md).
 
@@ -121,7 +132,7 @@ npm run analyse -- --fichier data/sources/mon-texte.html
 
 ```bash
 cd agent
-npm run veille         # interroge les 6 sources de agent/sources.json
+npm run veille         # interroge les 6 sources de veille de agent/sources.json
 npm run jurisprudence  # cherche les décisions Judilibre pour les exigences existantes (matrice M5)
 npm run worker      # tâche de fond : reporte les validations humaines et recalcule les matrices
 npm run matrices    # recalcul ponctuel après des validations
@@ -160,13 +171,13 @@ npm run matrices    # recalcul ponctuel après des validations
 
 ```
 agent/            agent TypeScript (AI SDK + Zod)
-  src/sources/    connecteurs : fichier, EUR-Lex, Légifrance, Judilibre, RSS
+  src/sources/    connecteurs : fichier, EUR-Lex, Légifrance, Judilibre, RSS, page web
   src/storage/    stockage local et Notion (6 bases reliées)
   src/llm.ts      appels au modèle (Gemini / Mistral / démo)
   src/verify.ts   vérification des citations dans le texte officiel
   src/matrices.ts matrices M1–M5, risques, lots d'action
   src/gouvernance.ts  recommandation TOGAF / ITIL
-cockpit/          cockpit Streamlit + export Excel
+cockpit/          cockpit Streamlit, assistant (chatbot) et export Excel
 data/organisation profil de l'organisation fictive Hydréa
 data/sources/     textes analysés (copie locale des sources officielles)
 data/demo/        réponses enregistrées pour le mode démo
