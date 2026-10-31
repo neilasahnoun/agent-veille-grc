@@ -1,0 +1,30 @@
+{
+  "TXT-NIS2": {
+    "id": "TXT-NIS2",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555",
+    "empreinte": "eef39f2bf7cf0c9697af8d28ce7cc3ee5ebd7cf5379a1916aba97946ee17a525",
+    "vu_le": "2026-10-31T10:57:03.655Z",
+    "version": 1
+  },
+  "RSS-CNIL-78518a37f7": {
+    "id": "RSS-CNIL-78518a37f7",
+    "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+    "empreinte": "8fdc609444789239ab915f2546d2df8b9fc9a8ab3cce357d4e09220388d9215a",
+    "vu_le": "2026-10-31T10:57:05.309Z",
+    "version": 1
+  },
+  "RSS-CNIL-a01afdef5b": {
+    "id": "RSS-CNIL-a01afdef5b",
+    "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
+    "empreinte": "6bcda10230a77a80f9f1e7c4fb97166cf16ddb66d7dff67e7c29410aea0e01a1",
+    "vu_le": "2026-10-31T10:57:05.309Z",
+    "version": 1
+  },
+  "RSS-CNIL-71fad79684": {
+    "id": "RSS-CNIL-71fad79684",
+    "url": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
+    "empreinte": "d9e54920940053db865b2dfbedcd329e21d2075b278b5b29722b0d262e534d02",
+    "vu_le": "2026-10-31T10:57:05.309Z",
+    "version": 1
+  }
+}

@@ -1,7 +1,37 @@
 {
-  "genere_le": "2026-10-30T20:39:35.612Z",
+  "genere_le": "2026-10-31T10:57:05.321Z",
   "organisation": "Hydréa",
   "signaux": [
+    {
+      "id": "RSS-CNIL-71fad79684",
+      "titre": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
+      "date_publication": "Fri, 16 Oct 2026 14:00:00 +0200",
+      "detecte_le": "2026-10-31T10:57:05.309Z",
+      "statut": "nouveau",
+      "extrait": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?\nLorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de la prospection. La reconstitution d’adresse électronique doit respecter le RGPD afin d’être légale. La CNIL fait le po"
+    },
+    {
+      "id": "RSS-CNIL-a01afdef5b",
+      "titre": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
+      "date_publication": "Tue, 20 Oct 2026 14:00:00 +0200",
+      "detecte_le": "2026-10-31T10:57:05.309Z",
+      "statut": "nouveau",
+      "extrait": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données\nLa CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont confrontés les professionnels."
+    },
+    {
+      "id": "RSS-CNIL-78518a37f7",
+      "titre": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+      "date_publication": "Thu, 29 Oct 2026 13:00:00 +0100",
+      "detecte_le": "2026-10-31T10:57:05.309Z",
+      "statut": "nouveau",
+      "extrait": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT\nLe 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7&amp;nbsp;millions d’euros pour non-respect des règles applicables en matière de traceurs (cookies)."
+    },
     {
       "id": "DEMO-SIG-01",
       "titre": "[Exemple] Suivi de la transposition française de NIS 2 (projet de loi « résilience »)",
@@ -31,7 +61,7 @@
       "reference": "CELEX 32022L2555",
       "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2555",
       "empreinte": "eef39f2bf7cf0c9697af8d28ce7cc3ee5ebd7cf5379a1916aba97946ee17a525",
-      "date_detection": "2026-10-30T19:57:57.236Z",
+      "date_detection": "2026-10-31T10:57:03.680Z",
       "applicable": true,
       "qualification": "Entité essentielle (annexe I, eau potable)",
       "raisonnement": "Hydréa est une société d'eau potable relevant de l'annexe I et dépasse les seuils des moyennes entreprises (600 salariés, 95 M€ de CA), ce qui la qualifie comme entité essentielle en vertu combinée de l'article 2, paragraphe 1, et de l'article 3, paragraphe 1, point a).",
@@ -4291,7 +4321,7 @@
         "REQ-NIS2-033-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-30",
+      "echeance": "2027-01-31",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-03 : Gestion des risques et information | REQ-NIS2-004-01 : Exemption pour actes sectoriels équivalents | REQ-NIS2-021-01 : Mise en place de mesures de gestion des risques | REQ-NIS2-021-02 : Politiques d'analyse des risques et sécurité SI | REQ-NIS2-021-13 : Mesures correctives en cas de non-conformité | REQ-NIS2-033-10 : Mise en conformité des mesures de gestion des risques"
@@ -4304,7 +4334,7 @@
         "REQ-NIS2-021-06"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-30",
+      "echeance": "2027-01-31",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-06 : Sécurité d'acquisition et des vulnérabilités"
@@ -4317,7 +4347,7 @@
         "REQ-NIS2-021-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-30",
+      "echeance": "2027-01-31",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-10 : Sécurité RH, contrôle d'accès et actifs"
@@ -4330,7 +4360,7 @@
         "REQ-NIS2-021-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-30",
+      "echeance": "2027-01-31",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-11 : MFA et communications sécurisées"
@@ -4352,7 +4382,7 @@
         "REQ-NIS2-033-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-30",
+      "echeance": "2027-01-31",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-023-01 : Notification d'incident important | REQ-NIS2-023-02 : Notification aux destinataires des services | REQ-NIS2-023-03 : Signalement d'impact transfrontière | REQ-NIS2-023-04 : Communication sur les cybermenaces importantes | REQ-NIS2-023-05 : Soumission d'une alerte précoce | REQ-NIS2-023-06 : Soumission d'une notification d'incident | REQ-NIS2-023-07 : Fourniture d'un rapport intermédiaire | REQ-NIS2-023-08 : Soumission du rapport final d'incident | REQ-NIS2-023-09 : Rapports pour incident en cours | REQ-NIS2-033-11 : Information des personnes concernées en cas de menace"
@@ -4366,7 +4396,7 @@
         "REQ-NIS2-030-01"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-30",
+      "echeance": "2027-01-31",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-029-04 : Notification de participation ou retrait d'accords de partage | REQ-NIS2-030-01 : Transmission de notifications volontaires"
@@ -4386,7 +4416,7 @@
         "REQ-NIS2-034-01"
       ],
       "priorite": "P2",
-      "echeance": "2027-04-30",
+      "echeance": "2027-05-01",
       "responsable": "Direction générale",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-04 : Partage d'informations | REQ-NIS2-002-01 : Champ d'application général | REQ-NIS2-003-02 : Communication d'informations d'enregistrement | REQ-NIS2-020-01 : Approbation et supervision de la gestion des risques par la direction | REQ-NIS2-024-01 : Utilisation de produits et services certifiés | REQ-NIS2-032-04 : Responsabilité des dirigeants | REQ-NIS2-033-05 : Communication des politiques et informations | REQ-NIS2-034-01 : Exposition aux amendes administratives (Entités importantes)"
@@ -4400,7 +4430,7 @@
         "REQ-NIS2-021-08"
       ],
       "priorite": "P2",
-      "echeance": "2027-04-30",
+      "echeance": "2027-05-01",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-020-02 : Formation obligatoire de la direction et du personnel | REQ-NIS2-021-08 : Cyberhygiène et formation"
@@ -4414,7 +4444,7 @@
         "REQ-NIS2-021-12"
       ],
       "priorite": "P2",
-      "echeance": "2027-04-30",
+      "echeance": "2027-05-01",
       "responsable": "Achats + RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-05 : Sécurité de la chaîne d'approvisionnement | REQ-NIS2-021-12 : Prise en compte des vulnérabilités fournisseurs"
@@ -4427,7 +4457,7 @@
         "REQ-NIS2-033-04"
       ],
       "priorite": "P2",
-      "echeance": "2027-04-30",
+      "echeance": "2027-05-01",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-033-04 : Scans de sécurité"
@@ -4441,7 +4471,7 @@
         "REQ-NIS2-033-12"
       ],
       "priorite": "P3",
-      "echeance": "2027-10-30",
+      "echeance": "2027-10-31",
       "responsable": "Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-07 : Évaluation de l'efficacité des mesures | REQ-NIS2-033-12 : Mise en œuvre des recommandations d'audit"
@@ -4463,7 +4493,7 @@
         "REQ-NIS2-033-13"
       ],
       "priorite": "P3",
-      "echeance": "2027-10-30",
+      "echeance": "2027-10-31",
       "responsable": "Direction générale + Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-032-02 : Pouvoirs de supervision des autorités | REQ-NIS2-032-03 : Exécution des mesures correctives et injonctions | REQ-NIS2-033-01 : Soumission aux mesures de contrôle ex post | REQ-NIS2-033-02 : Inspections sur place et contrôles à distance | REQ-NIS2-033-03 : Audits de sécurité ciblés | REQ-NIS2-033-06 : Accès aux données et documents | REQ-NIS2-033-07 : Preuves de mise en œuvre des politiques | REQ-NIS2-033-08 : Exécution des instructions contraignantes | REQ-NIS2-033-09 : Cessation des comportements illicites | REQ-NIS2-033-13 : Publicité des violations"
@@ -4526,23 +4556,23 @@
   },
   "gouvernance": {
     "cadre_recommande": "Hybride TOGAF + ITIL",
-    "justification": "Compte tenu du score équilibré entre TOGAF (51%) et ITIL (49%) et de la nature de l'organisation Hydréa qui combine des infrastructures industrielles critiques et complexes (SCADA, PLC, IoT, réseaux d'eau) et des processus de service de grande envergure (gestion de crise, relation abonnés, maintenance, chaîne d'approvisionnement), un cadre hybride est indispensable pour couvrir à la fois la structuration architecturale et la gestion opérationnelle des services de sécurité.",
+    "justification": "Les exigences NIS 2 applicables à Hydréa se répartissent en deux familles de poids comparable. D'un côté, la gouvernance (art. 20), l'analyse des risques, la chaîne d'approvisionnement et la sécurité des acquisitions (art. 21 §2 a, d, e) demandent de revoir l'architecture d'entreprise : cartographie IT/OT, principes de sécurité, exigences fournisseurs. C'est le terrain de TOGAF (ADM, phases A à F). De l'autre, la gestion des incidents, la notification en 24 h / 72 h / 1 mois (art. 23), la continuité et le contrôle d'accès relèvent de l'exploitation quotidienne des services : c'est le terrain d'ITIL 4 (pratiques de gestion des incidents, de la continuité, de la sécurité de l'information). Un hybride permet d'utiliser TOGAF pour concevoir la cible et la feuille de route, et ITIL pour faire fonctionner et mesurer les processus au quotidien.",
     "apports_togaf": [
-      "Alignement stratégique des exigences de gouvernance et de gestion des risques (REQ-NIS2-020-01, REQ-NIS2-021-02)",
-      "Modélisation de l'architecture d'entreprise pour intégrer la sécurité dans les processus métier (P01 à P08) et les systèmes (S01 à S09)",
-      "Gestion de la complexité des environnements IT et OT (SCADA, automates, SI)",
-      "Traçabilité globale de la conformité réglementaire pour répondre aux exigences de supervision et d'audit (REQ-NIS2-033)"
+      "Phase A (vision) et B–D (architectures métier, données, applications, technologie) : cartographie complète IT et OT, aujourd'hui partielle",
+      "Principes d'architecture de sécurité opposables aux projets et aux achats (art. 21 §2 d et e)",
+      "Phase F (planification de la migration) : transformer les lots d'action en feuille de route budgétée validée par la direction (art. 20)",
+      "Gouvernance de l'architecture : comité qui approuve les écarts et trace les décisions"
     ],
     "apports_itil": [
-      "Maîtrise opérationnelle de la gestion des incidents et des notifications obligatoires (REQ-NIS2-021-03, REQ-NIS2-023)",
-      "Mise en place de la continuité des activités et de la gestion de crise (REQ-NIS2-021-04)",
-      "Gestion des changements, des correctifs, et de la sécurité des acquisitions (REQ-NIS2-021-06)",
-      "Sécurisation de la chaîne d'approvisionnement et des relations fournisseurs (REQ-NIS2-021-05, REQ-NIS2-021-12)"
+      "Pratique « gestion des incidents » étendue au volet réglementaire : circuit d'alerte précoce sous 24 h et notification sous 72 h vers l'ANSSI (art. 23)",
+      "Pratique « gestion de la continuité des services » : tests de restauration et exercices de crise réguliers (art. 21 §2 c)",
+      "Pratique « gestion de la sécurité de l'information » et « gestion des fournisseurs » : suivi opérationnel des prestataires SCADA et infogérance",
+      "Amélioration continue et indicateurs : mesure de l'efficacité des mesures (art. 21 §2 f)"
     ],
     "points_de_vigilance": [
-      "La décision finale et la responsabilité de l'approbation de la gestion des risques appartiennent exclusivement à la direction (REQ-NIS2-020-01, REQ-NIS2-032-04)",
-      "Complexité potentielle de la fusion de deux cadres méthodologiques lourds pour une structure de 600 salariés",
-      "Nécessité de former efficacement la direction et le personnel aux exigences réglementaires spécifiques de la directive NIS2 (REQ-NIS2-020-02)"
+      "Ne pas créer deux gouvernances concurrentes : un seul comité cyber, rattaché à la direction générale, arbitre TOGAF et ITIL",
+      "Inclure l'OT (SCADA, automates) dans les deux cadres : c'est le principal angle mort actuel",
+      "La recommandation est produite par un agent automatisé : elle doit être validée par la direction et le RSSI avant toute mise en œuvre"
     ],
     "scores": {
       "TOGAF": 0.51,
