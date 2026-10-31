@@ -22,6 +22,7 @@ jobs:
     env:
       LLM_PROVIDER: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY != '' && 'google' || 'mock' }}
       GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_GENERATIVE_AI_API_KEY }}
+      LLM_MODEL: ${{ secrets.LLM_MODEL }}
       STORAGE: ${{ secrets.NOTION_TOKEN != '' && 'notion' || 'local' }}
       NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
       NOTION_DB_TEXTES: ${{ secrets.NOTION_DB_TEXTES }}
