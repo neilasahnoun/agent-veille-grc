@@ -1,69 +1,64 @@
-# Déroulé de la démonstration (environ 10 minutes)
+# Guide de démonstration et de test
 
-## Avant la présentation
-Les résultats réels (texte officiel analysé par Gemini) sont déjà dans le dépôt. Il suffit de lancer le cockpit :
-```bash
-py -m streamlit run cockpit/app.py
-```
-`npm run demo` régénère une démo hors ligne (23 exigences), mais **remplace** les résultats réels : à éviter avant la présentation.
-Ouvrir aussi Notion (les 6 bases) et le dépôt GitHub dans deux onglets.
+Ce guide indique comment vérifier le fonctionnement de l'agent, du plus simple (sans rien installer) au plus complet (avec ses propres clés API).
 
-## Déroulé
+## Niveau 1 — Sans rien installer
 
-**1. Le problème (1 min)**
-NIS 2 impose une vingtaine d'obligations à une entité essentielle. La veille manuelle est lente et sans traçabilité. Notre agent automatise la veille et l'analyse, et garde l'humain pour la validation.
-
-**2. Le contexte (1 min)**
-Hydréa, distributeur d'eau fictif de 600 salariés, avec un SCADA. Montrer `data/organisation/hydrea.json` : ses processus, systèmes et contrôles existants.
-
-**3. L'agent (2 min)**
-Montrer la capture ou relancer l'analyse et commenter :
-- 46 articles officiels, analysés en 12 requêtes (articles regroupés par lots pour l'offre gratuite) ;
-- applicabilité : entité essentielle ;
-- 133 exigences, 122 citations vérifiées dans le texte, 51 applicables.
-
-Ouvrir `agent/src/schemas.ts` : *« le modèle doit remplir ce schéma Zod, il ne répond pas en texte libre »*.
-
-**3 bis. L'assistant (2 min)**
-Onglet 💬 :
-- poser au chatbot « Quelles sont nos obligations de notification et leurs délais ? ». La réponse arrive en direct, avec les identifiants REQ-NIS2-023-05 (24 h), 023-06 (72 h) et 023-08 (1 mois) ;
-- poser une question piège, « Que dit NIS 2 sur les cryptomonnaies ? ». L'assistant répond que ce n'est pas dans l'analyse : il n'invente pas ;
-- montrer le dépôt de document : glisser un PDF (par exemple une recommandation CNIL ou le règlement 2024/2690), puis « Analyser ». Attention au quota gratuit : préparer le fichier à l'avance et éviter de le relancer plusieurs fois.
-
-**4. Le fil de veille (1 min)**
-Onglet 📡 : le texte analysé avec son lien officiel et sa version, puis les signaux. Expliquer l'empreinte SHA-256 : un texte modifié est détecté et ses exigences repassent « À valider ».
-
-**5. Les matrices (2 min)**
-Onglet 📑 :
-- M1 : l'article, la citation et l'URL officielle de chaque exigence ;
-- M3 : 5 exigences couvertes, 40 partielles, 6 non couvertes ; la notification n'a aucun contrôle ;
-- M4 : 17 risques critiques ;
-- le même identifiant REQ-… suit l'exigence de M1 à M5 ;
-- export Excel.
-
-**6. La validation humaine (2 min), le moment fort**
-Onglet ✅ :
-- choisir **REQ-NIS2-033-01** : l'IA applique à Hydréa l'article 33, réservé aux entités *importantes*, alors qu'elle l'a elle-même qualifiée d'entité *essentielle*. On la **rejette** avec le commentaire « Hydréa est une entité essentielle : art. 32 et non art. 33 » ;
-- activer le filtre « non vérifiées » : **REQ-NIS2-023-08** (rapport final) a une citation introuvable, on vérifie dans le texte officiel puis on la **corrige** ;
-- **valider** REQ-NIS2-023-05 (alerte précoce 24 h) ;
-- montrer dans Notion que les statuts ont changé.
-
-Message clé : *l'IA va vite, mais elle se trompe ; l'humain garde la décision.*
-
-**7. Le pilotage et la gouvernance (1 min)**
-Onglet 📊 :
-- les lots P1 à 3 mois et les délais 24 h / 72 h / 1 mois ;
-- la recommandation hybride TOGAF + ITIL ;
-- la saisie de la **décision humaine**.
-
-**8. Les limites et la suite (30 s)**
-Voir `docs/resultats-et-limites.md` : les erreurs de l'IA repérées, la transposition française, une jurisprudence encore rare, les quotas des offres gratuites.
-
-## Répartition possible de l'oral
-| Partie | Personne |
+| À consulter | Ce qu'on y voit |
 |---|---|
-| Problème et contexte | … |
-| Agent et IA | … |
-| Matrices et GRC | … |
-| Validation et Notion | … |
-| Gouvernance et limites | … |
+| [Base Notion en ligne](https://petite-resolution-107.notion.site/Veille-GRC-409fe7ba810c80709939cbf1d7bc0aa8) | Les 6 bases reliées : textes et signaux de veille, exigences avec leur statut de validation, contrôles, risques, jurisprudence, lots d'action |
+| `outputs/matrices_grc.xlsx` | Les 5 matrices GRC (M1 à M5) avec les mêmes identifiants d'exigence |
+| `outputs/plan-gouvernance.md` et `docs/plan-gouvernance.md` | La recommandation TOGAF / ITIL et la décision humaine |
+| Onglet **Actions** du dépôt GitHub | L'exécution quotidienne de la veille (`Veille GRC quotidienne`) et ses journaux |
+| `data/store.json` | L'ensemble des résultats de l'agent (exigences, vérifications, décisions) |
+
+## Niveau 2 — Cockpit en local, sans clé API
+
+Après l'installation décrite dans le README :
+
+```bash
+py -m streamlit run cockpit/app.py      # macOS / Linux : streamlit run cockpit/app.py
+```
+
+Sans fichier `.env`, le cockpit affiche les **résultats réels** enregistrés dans le dépôt et le chatbot fonctionne en mode démo (recherche des exigences pertinentes, sans IA).
+
+| Onglet | À vérifier |
+|---|---|
+| 💬 Assistant | Poser « Quelles sont nos obligations de notification et leurs délais ? » : l'assistant cite REQ-NIS2-023-05 (24 h), 023-06 (72 h) et 023-08 (1 mois) |
+| 📡 Fil de veille | Le texte officiel analysé (CELEX 32022L2555, applicabilité « entité essentielle ») et les signaux issus de Légifrance, du Sénat, de l'Assemblée nationale et de la CNIL, avec leurs liens officiels |
+| 📑 Textes et matrices | Le raisonnement d'applicabilité, les matrices M1 à M5, l'export Excel |
+| ✅ Validation humaine | Changer le filtre « Statut » pour afficher les exigences **Validées**, **Corrigée** et **Rejetées** : par exemple REQ-NIS2-033-01 rejetée (l'article 33 ne vise que les entités importantes) et REQ-NIS2-023-08 corrigée (citation de l'IA introuvable dans le texte) |
+| 📊 Pilotage et échéances | Indicateurs, couverture, risques résiduels, lots d'action datés, délais réglementaires, décision « Hybride TOGAF + ITIL » |
+
+Pour tester l'agent lui-même sans clé, sur une copie du dépôt :
+
+```bash
+cd agent
+npm install
+npm run demo        # analyse un extrait de NIS 2 avec des réponses enregistrées (23 exigences)
+```
+
+> ⚠️ `npm run demo` remplace les résultats réels de `data/store.json`. Pour les retrouver : `git checkout data/store.json outputs/`.
+
+## Niveau 3 — Analyse réelle avec ses propres clés (gratuites)
+
+1. Copier `.env.example` en `.env` et renseigner au minimum `LLM_PROVIDER=google` et une clé Gemini (voir README, § 3).
+2. Analyser un texte officiel :
+   ```bash
+   cd agent
+   npm run analyse -- --celex 32022L2555 --id TXT-NIS2
+   ```
+3. Avec des identifiants PISTE : `npm run veille` (6 sources) et `npm run jurisprudence` (Judilibre, matrice M5).
+4. Avec un jeton Notion : `npm run notion:setup`, puis `STORAGE=notion` : les décisions prises dans le cockpit sont enregistrées dans Notion.
+5. Dans le cockpit, onglet 💬 Assistant : déposer un document (PDF, HTML ou texte) et cliquer sur « Analyser ce document » ; le chatbot rédige alors ses réponses avec le modèle d'IA.
+
+## Points de contrôle attendus
+
+| Exigence du sujet | Où la constater |
+|---|---|
+| Texte officiel chargé et obligations extraites avec leurs articles | Matrice M1, onglet Validation humaine |
+| Obligations vérifiables dans les sources officielles | Colonne « Vérifiée » de M1 et cadre vert ou rouge dans l'onglet Validation |
+| Valider, corriger, rejeter, avec conservation dans Notion | Base Notion « Exigences », colonne « Statut validation » |
+| Plusieurs sources, détection des modifications, exécution planifiée | Onglet Fil de veille, `data/etat-veille.json`, onglet Actions de GitHub |
+| Jurisprudence associée aux exigences | Matrice M5, base Notion « Jurisprudence » |
+| Choix final du cadre par un humain | Onglet Pilotage, `docs/plan-gouvernance.md` § 7 |
