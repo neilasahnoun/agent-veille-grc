@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
 import subprocess
 import unicodedata
 from pathlib import Path
@@ -252,6 +253,9 @@ def enregistrer_document(nom: str, contenu: bytes) -> Path:
 
 def analyser_document(chemin: Path, identifiant: str, titre: str = "") -> Iterator[str]:
     """Lance l'agent (npm run analyse) et renvoie son journal ligne par ligne."""
+    if shutil.which("npm") is None:
+        raise RuntimeError("L'analyse de documents nécessite Node.js : elle fonctionne quand le projet est installé en local "
+                           "(voir le README), pas sur la version en ligne du cockpit.")
     relatif = chemin.relative_to(RACINE).as_posix()
     commande = f'npm run analyse -- --fichier "{relatif}" --id {identifiant}'
     if titre.strip():

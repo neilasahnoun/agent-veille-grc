@@ -221,6 +221,9 @@ def charger_matrices() -> dict[str, list[dict]]:
 
 def recalculer_matrices() -> tuple[bool, str]:
     """Lance `npm run matrices` (Node doit être installé) pour régénérer M1–M5 et le plan."""
+    import shutil
+    if shutil.which("npm") is None:
+        return False, "Recalcul indisponible sur la version en ligne (Node.js absent) : il se fait en local ou chaque jour par GitHub Actions."
     try:
         res = subprocess.run("npm run matrices", cwd=RACINE / "agent", shell=True, capture_output=True, text=True, timeout=300)
         return res.returncode == 0, (res.stdout + res.stderr)[-1500:]

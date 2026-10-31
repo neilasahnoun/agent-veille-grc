@@ -12,6 +12,7 @@ Un assistant et quatre vues (Module 5 du TP) :
 """
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -96,7 +97,12 @@ matrices = charger_matrices()
 st.title("🛡️ Agent de veille GRC et législative")
 st.caption(f"Organisation : **{store.get('organisation', '—')}** · Données : **{source.nom}** · Dernière analyse : {str(store.get('genere_le', ''))[:16].replace('T', ' ')}")
 
+EN_LIGNE = os.environ.get("COCKPIT_EN_LIGNE", "").lower() == "true"
+
 with st.sidebar:
+    if EN_LIGNE:
+        st.info("🌐 Version en ligne de démonstration : les validations faites ici ne sont pas enregistrées dans Notion "
+                "et s'effacent au redémarrage. Le dépôt d'un document à analyser nécessite l'installation locale.")
     st.header("Actions")
     if st.button("🔄 Recharger les données"):
         st.rerun()
