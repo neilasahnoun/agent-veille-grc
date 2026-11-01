@@ -1,6 +1,6 @@
 # Plan de gouvernance — Hydréa
 
-> Document généré automatiquement par l'agent de veille GRC le 31/10/2026.
+> Document généré automatiquement par l'agent de veille GRC le 01/11/2026.
 > **La décision finale sur le cadre de gouvernance appartient à la direction** (voir § 5).
 
 ## 1. Synthèse
@@ -55,18 +55,18 @@ L'organisation Hydreå doit répondre à de multiples exigences NIS2 et de sécu
 
 | Lot | Intitulé | Priorité | Responsable | Échéance proposée | Exigences |
 |---|---|---|---|---|---|
-| LOT-01 | Authentification multifacteur | P1 | DSI | 2027-01-31 | REQ-POLITIQUE-FOURNISSEU-0S1-01, REQ-NIS2-021-11 |
-| LOT-02 | Sécurité de la chaîne d'approvisionnement | P1 | Achats + RSSI | 2027-01-31 | REQ-POLITIQUE-FOURNISSEU-0S1-02, REQ-POLITIQUE-FOURNISSEU-0S1-03, REQ-POLITIQUE-FOURNISSEU-0S1-04, REQ-NIS2-021-05, REQ-NIS2-021-12 |
-| LOT-03 | Analyse et gestion des risques | P1 | RSSI | 2027-01-31 | REQ-NIS2-001-03, REQ-NIS2-004-01, REQ-NIS2-021-01, REQ-NIS2-021-02, REQ-NIS2-021-13, REQ-NIS2-033-10 |
-| LOT-04 | Sécurité d'acquisition et des vulnérabilités | P1 | RSSI | 2027-01-31 | REQ-NIS2-021-06 |
-| LOT-05 | Sécurité RH, contrôle d'accès et actifs | P1 | DSI | 2027-01-31 | REQ-NIS2-021-10 |
-| LOT-06 | Gestion des incidents | P1 | DSI | 2027-01-31 | REQ-NIS2-023-01, REQ-NIS2-023-02, REQ-NIS2-023-03, REQ-NIS2-023-04, REQ-NIS2-023-05, REQ-NIS2-023-06, REQ-NIS2-023-07, REQ-NIS2-023-08, REQ-NIS2-023-09, REQ-NIS2-033-11 |
-| LOT-07 | Notification des incidents | P1 | RSSI | 2027-01-31 | REQ-NIS2-029-04, REQ-NIS2-030-01 |
+| LOT-01 | Authentification multifacteur | P1 | DSI | 2027-02-01 | REQ-POLITIQUE-FOURNISSEU-0S1-01, REQ-NIS2-021-11 |
+| LOT-02 | Sécurité de la chaîne d'approvisionnement | P1 | Achats + RSSI | 2027-02-01 | REQ-POLITIQUE-FOURNISSEU-0S1-02, REQ-POLITIQUE-FOURNISSEU-0S1-03, REQ-POLITIQUE-FOURNISSEU-0S1-04, REQ-NIS2-021-05, REQ-NIS2-021-12 |
+| LOT-03 | Analyse et gestion des risques | P1 | RSSI | 2027-02-01 | REQ-NIS2-001-03, REQ-NIS2-004-01, REQ-NIS2-021-01, REQ-NIS2-021-02, REQ-NIS2-021-13, REQ-NIS2-033-10 |
+| LOT-04 | Sécurité d'acquisition et des vulnérabilités | P1 | RSSI | 2027-02-01 | REQ-NIS2-021-06 |
+| LOT-05 | Sécurité RH, contrôle d'accès et actifs | P1 | DSI | 2027-02-01 | REQ-NIS2-021-10 |
+| LOT-06 | Gestion des incidents | P1 | DSI | 2027-02-01 | REQ-NIS2-023-01, REQ-NIS2-023-02, REQ-NIS2-023-03, REQ-NIS2-023-04, REQ-NIS2-023-05, REQ-NIS2-023-06, REQ-NIS2-023-07, REQ-NIS2-023-08, REQ-NIS2-023-09, REQ-NIS2-033-11 |
+| LOT-07 | Notification des incidents | P1 | RSSI | 2027-02-01 | REQ-NIS2-029-04, REQ-NIS2-030-01 |
 | LOT-08 | Gouvernance et responsabilité de la direction | P2 | Direction générale | 2027-05-01 | REQ-NIS2-001-04, REQ-NIS2-003-02, REQ-NIS2-020-01, REQ-NIS2-024-01, REQ-NIS2-032-04, REQ-NIS2-033-05 |
 | LOT-09 | Cyberhygiène et formation | P2 | RSSI | 2027-05-01 | REQ-NIS2-020-02, REQ-NIS2-021-08 |
 | LOT-10 | Scans de sécurité | P2 | DSI | 2027-05-01 | REQ-NIS2-033-04 |
-| LOT-11 | Évaluation de l'efficacité des mesures | P3 | Audit interne | 2027-10-31 | REQ-NIS2-021-07, REQ-NIS2-033-12 |
-| LOT-12 | Supervision par l'autorité et audits | P3 | Direction générale + Audit interne | 2027-10-31 | REQ-NIS2-032-02, REQ-NIS2-032-03, REQ-NIS2-033-06, REQ-NIS2-033-07, REQ-NIS2-033-08, REQ-NIS2-033-09, REQ-NIS2-033-13 |
+| LOT-11 | Évaluation de l'efficacité des mesures | P3 | Audit interne | 2027-11-01 | REQ-NIS2-021-07, REQ-NIS2-033-12 |
+| LOT-12 | Supervision par l'autorité et audits | P3 | Direction générale + Audit interne | 2027-11-01 | REQ-NIS2-032-02, REQ-NIS2-032-03, REQ-NIS2-033-06, REQ-NIS2-033-07, REQ-NIS2-033-08, REQ-NIS2-033-09, REQ-NIS2-033-13 |
 
 ## 5. Décision humaine
 

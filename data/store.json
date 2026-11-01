@@ -1,7 +1,17 @@
 {
-  "genere_le": "2026-10-31T14:28:29.051Z",
+  "genere_le": "2026-11-01T11:52:02.093Z",
   "organisation": "Hydréa",
   "signaux": [
+    {
+      "id": "PAGE-ASSEMBLENATIONALE-c6afe18e3b",
+      "titre": "Mettre en commun les données en matière de personnel administratif et technique au sein des intercommunalités de moins de 200 000 habitants",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/mise_commun_donnees_personnel_administratif_17e",
+      "date_publication": "",
+      "detecte_le": "2026-11-01T11:52:02.081Z",
+      "statut": "nouveau",
+      "extrait": "Mettre en commun les données en matière de personnel administratif et technique au sein des intercommunalités de moins de 200 000 habitants"
+    },
     {
       "id": "LF-JORFTEXT000049309790_01-01-2999",
       "titre": "Arrêté du 18 mars 2024 relatif à un programme de financement destiné à renforcer la sécurité numérique des établissements de santé - Fonction « Annuaires techniques et exposition sur internet »",
@@ -5222,7 +5232,7 @@
         "REQ-NIS2-021-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-POLITIQUE-FOURNISSEU-0S1-01 : Authentification multifacteur accès distant SCADA | REQ-NIS2-021-11 : MFA et communications sécurisées"
@@ -5239,7 +5249,7 @@
         "REQ-NIS2-021-12"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "Achats + RSSI",
       "statut": "À lancer",
       "description": "REQ-POLITIQUE-FOURNISSEU-0S1-02 : Clause de notification d'incident fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-03 : Audit annuel des fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-04 : Révocation des accès prestataires | REQ-NIS2-021-05 : Sécurité de la chaîne d'approvisionnement | REQ-NIS2-021-12 : Prise en compte des vulnérabilités fournisseurs"
@@ -5257,7 +5267,7 @@
         "REQ-NIS2-033-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-03 : Gestion des risques et information | REQ-NIS2-004-01 : Exemption pour actes sectoriels équivalents | REQ-NIS2-021-01 : Mise en place de mesures de gestion des risques | REQ-NIS2-021-02 : Politiques d'analyse des risques et sécurité SI | REQ-NIS2-021-13 : Mesures correctives en cas de non-conformité | REQ-NIS2-033-10 : Mise en conformité des mesures de gestion des risques"
@@ -5270,7 +5280,7 @@
         "REQ-NIS2-021-06"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-06 : Sécurité d'acquisition et des vulnérabilités"
@@ -5283,7 +5293,7 @@
         "REQ-NIS2-021-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-10 : Sécurité RH, contrôle d'accès et actifs"
@@ -5305,7 +5315,7 @@
         "REQ-NIS2-033-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-023-01 : Notification d'incident important | REQ-NIS2-023-02 : Notification aux destinataires des services | REQ-NIS2-023-03 : Signalement d'impact transfrontière | REQ-NIS2-023-04 : Communication sur les cybermenaces importantes | REQ-NIS2-023-05 : Soumission d'une alerte précoce | REQ-NIS2-023-06 : Soumission d'une notification d'incident | REQ-NIS2-023-07 : Fourniture d'un rapport intermédiaire | REQ-NIS2-023-08 : Soumission du rapport final d'incident | REQ-NIS2-023-09 : Rapports pour incident en cours | REQ-NIS2-033-11 : Information des personnes concernées en cas de menace"
@@ -5319,7 +5329,7 @@
         "REQ-NIS2-030-01"
       ],
       "priorite": "P1",
-      "echeance": "2027-01-31",
+      "echeance": "2027-02-01",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-029-04 : Notification de participation ou retrait d'accords de partage | REQ-NIS2-030-01 : Transmission de notifications volontaires"
@@ -5378,7 +5388,7 @@
         "REQ-NIS2-033-12"
       ],
       "priorite": "P3",
-      "echeance": "2027-10-31",
+      "echeance": "2027-11-01",
       "responsable": "Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-07 : Évaluation de l'efficacité des mesures | REQ-NIS2-033-12 : Mise en œuvre des recommandations d'audit"
@@ -5397,7 +5407,7 @@
         "REQ-NIS2-033-13"
       ],
       "priorite": "P3",
-      "echeance": "2027-10-31",
+      "echeance": "2027-11-01",
       "responsable": "Direction générale + Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-032-02 : Pouvoirs de supervision des autorités | REQ-NIS2-032-03 : Exécution des mesures correctives et injonctions | REQ-NIS2-033-06 : Accès aux données et documents | REQ-NIS2-033-07 : Preuves de mise en œuvre des politiques | REQ-NIS2-033-08 : Exécution des instructions contraignantes | REQ-NIS2-033-09 : Cessation des comportements illicites | REQ-NIS2-033-13 : Publicité des violations"

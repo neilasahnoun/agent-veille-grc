@@ -159,5 +159,12 @@
     "empreinte": "f8e6cf1c50c30935c6e9a8e8954f358fddf9944d0700acda663460ffaafecdc8",
     "vu_le": "2026-10-31T13:58:30.931Z",
     "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-c6afe18e3b": {
+    "id": "PAGE-ASSEMBLENATIONALE-c6afe18e3b",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/mise_commun_donnees_personnel_administratif_17e",
+    "empreinte": "4dd4c4e9f9f2f826323296cd2f1d595aae7841aa77986e80edc6509dce0f2873",
+    "vu_le": "2026-11-01T11:52:02.081Z",
+    "version": 1
   }
 }
