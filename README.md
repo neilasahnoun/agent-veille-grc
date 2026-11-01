@@ -4,6 +4,8 @@
 
 **🖥️ Cockpit en ligne (démonstration) :** [agent-veille-grc.streamlit.app](https://agent-veille-grc.streamlit.app)
 
+🎬 **Vidéo de démonstration :** [Voir la vidéo (4 min 50)](https://www.youtube.com/watch?v=TUrkgA5aJBM)
+
 **👥 Équipe — Groupe B2 (EPITA MSc1)**
 
 - Alexandre Houli
