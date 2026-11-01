@@ -7,7 +7,6 @@
 **👥 Équipe — Groupe B2 (EPITA MSc1)**
 
 - Alexandre Houli
-- Dylan Nicolle
 - Eloi Oberrieder
 - Marouane Tika
 - Neila Sahnoun
