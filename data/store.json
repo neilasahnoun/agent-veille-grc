@@ -1,7 +1,37 @@
 {
-  "genere_le": "2026-11-02T13:32:57.346Z",
+  "genere_le": "2026-11-03T12:49:41.452Z",
   "organisation": "Hydréa",
   "signaux": [
+    {
+      "id": "RSS-CERTFRANSSI-27f0e46aeb",
+      "titre": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
+      "source": "CERT-FR (ANSSI)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
+      "date_publication": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "detecte_le": "2026-11-03T12:49:41.438Z",
+      "statut": "nouveau",
+      "extrait": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)\nDe multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que les vulnérabilités CVE-2026-104935,..."
+    },
+    {
+      "id": "RSS-CERTFRANSSI-2ec6d9ec13",
+      "titre": "Bulletin d'actualité CERTFR-2026-ACT-046 (02 novembre 2026)",
+      "source": "CERT-FR (ANSSI)",
+      "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
+      "date_publication": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "detecte_le": "2026-11-03T12:49:41.438Z",
+      "statut": "nouveau",
+      "extrait": "Bulletin d'actualité CERTFR-2026-ACT-046 (02 novembre 2026)\nCe bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des..."
+    },
+    {
+      "id": "RSS-CERTFRANSSI-a763a51287",
+      "titre": "[MàJ] Multiples vulnérabilités dans Ivanti Connect Secure (ICS) (14 octobre 2026)",
+      "source": "CERT-FR (ANSSI)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
+      "date_publication": "Wed, 14 Oct 2026 00:00:00 +0000",
+      "detecte_le": "2026-11-03T12:49:41.438Z",
+      "statut": "nouveau",
+      "extrait": "[MàJ] Multiples vulnérabilités dans Ivanti Connect Secure (ICS) (14 octobre 2026)\n[Mise à jour du 2 novembre 2026] Le 29 octobre 2026, Ivanti a mis à jour son avis de sécurité du 13 octobre 2026 pour ajouter deux vulnérabilités (CVE-2026-111357 et CVE-2026-118527). Celles-ci permettent à un attaquant authentifié d'élever ses privilèges et de téléverser un fichier arbitraire..."
+    },
     {
       "id": "PAGE-ASSEMBLENATIONALE-c6afe18e3b",
       "titre": "Mettre en commun les données en matière de personnel administratif et technique au sein des intercommunalités de moins de 200 000 habitants",
@@ -5232,7 +5262,7 @@
         "REQ-NIS2-021-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-POLITIQUE-FOURNISSEU-0S1-01 : Authentification multifacteur accès distant SCADA | REQ-NIS2-021-11 : MFA et communications sécurisées"
@@ -5249,7 +5279,7 @@
         "REQ-NIS2-021-12"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "Achats + RSSI",
       "statut": "À lancer",
       "description": "REQ-POLITIQUE-FOURNISSEU-0S1-02 : Clause de notification d'incident fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-03 : Audit annuel des fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-04 : Révocation des accès prestataires | REQ-NIS2-021-05 : Sécurité de la chaîne d'approvisionnement | REQ-NIS2-021-12 : Prise en compte des vulnérabilités fournisseurs"
@@ -5267,7 +5297,7 @@
         "REQ-NIS2-033-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-03 : Gestion des risques et information | REQ-NIS2-004-01 : Exemption pour actes sectoriels équivalents | REQ-NIS2-021-01 : Mise en place de mesures de gestion des risques | REQ-NIS2-021-02 : Politiques d'analyse des risques et sécurité SI | REQ-NIS2-021-13 : Mesures correctives en cas de non-conformité | REQ-NIS2-033-10 : Mise en conformité des mesures de gestion des risques"
@@ -5280,7 +5310,7 @@
         "REQ-NIS2-021-06"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-06 : Sécurité d'acquisition et des vulnérabilités"
@@ -5293,7 +5323,7 @@
         "REQ-NIS2-021-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-10 : Sécurité RH, contrôle d'accès et actifs"
@@ -5315,7 +5345,7 @@
         "REQ-NIS2-033-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-023-01 : Notification d'incident important | REQ-NIS2-023-02 : Notification aux destinataires des services | REQ-NIS2-023-03 : Signalement d'impact transfrontière | REQ-NIS2-023-04 : Communication sur les cybermenaces importantes | REQ-NIS2-023-05 : Soumission d'une alerte précoce | REQ-NIS2-023-06 : Soumission d'une notification d'incident | REQ-NIS2-023-07 : Fourniture d'un rapport intermédiaire | REQ-NIS2-023-08 : Soumission du rapport final d'incident | REQ-NIS2-023-09 : Rapports pour incident en cours | REQ-NIS2-033-11 : Information des personnes concernées en cas de menace"
@@ -5329,7 +5359,7 @@
         "REQ-NIS2-030-01"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-02",
+      "echeance": "2027-02-03",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-029-04 : Notification de participation ou retrait d'accords de partage | REQ-NIS2-030-01 : Transmission de notifications volontaires"
@@ -5347,7 +5377,7 @@
         "REQ-NIS2-033-05"
       ],
       "priorite": "P2",
-      "echeance": "2027-05-02",
+      "echeance": "2027-05-03",
       "responsable": "Direction générale",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-04 : Partage d'informations | REQ-NIS2-003-02 : Communication d'informations d'enregistrement | REQ-NIS2-020-01 : Approbation et supervision de la gestion des risques par la direction | REQ-NIS2-024-01 : Utilisation de produits et services certifiés | REQ-NIS2-032-04 : Responsabilité des dirigeants | REQ-NIS2-033-05 : Communication des politiques et informations"
@@ -5361,7 +5391,7 @@
         "REQ-NIS2-021-08"
       ],
       "priorite": "P2",
-      "echeance": "2027-05-02",
+      "echeance": "2027-05-03",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-020-02 : Formation obligatoire de la direction et du personnel | REQ-NIS2-021-08 : Cyberhygiène et formation"
@@ -5374,7 +5404,7 @@
         "REQ-NIS2-033-04"
       ],
       "priorite": "P2",
-      "echeance": "2027-05-02",
+      "echeance": "2027-05-03",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-033-04 : Scans de sécurité"
@@ -5388,7 +5418,7 @@
         "REQ-NIS2-033-12"
       ],
       "priorite": "P3",
-      "echeance": "2027-11-02",
+      "echeance": "2027-11-03",
       "responsable": "Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-07 : Évaluation de l'efficacité des mesures | REQ-NIS2-033-12 : Mise en œuvre des recommandations d'audit"
@@ -5407,7 +5437,7 @@
         "REQ-NIS2-033-13"
       ],
       "priorite": "P3",
-      "echeance": "2027-11-02",
+      "echeance": "2027-11-03",
       "responsable": "Direction générale + Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-032-02 : Pouvoirs de supervision des autorités | REQ-NIS2-032-03 : Exécution des mesures correctives et injonctions | REQ-NIS2-033-06 : Accès aux données et documents | REQ-NIS2-033-07 : Preuves de mise en œuvre des politiques | REQ-NIS2-033-08 : Exécution des instructions contraignantes | REQ-NIS2-033-09 : Cessation des comportements illicites | REQ-NIS2-033-13 : Publicité des violations"

@@ -166,5 +166,26 @@
     "empreinte": "4dd4c4e9f9f2f826323296cd2f1d595aae7841aa77986e80edc6509dce0f2873",
     "vu_le": "2026-11-01T11:52:02.081Z",
     "version": 1
+  },
+  "RSS-CERTFRANSSI-a763a51287": {
+    "id": "RSS-CERTFRANSSI-a763a51287",
+    "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
+    "empreinte": "e733c324f004e3fd42fe0ec64bdeeadf244aeddf0737c9c28e2ce1fd0c3a92a6",
+    "vu_le": "2026-11-03T12:49:41.438Z",
+    "version": 1
+  },
+  "RSS-CERTFRANSSI-2ec6d9ec13": {
+    "id": "RSS-CERTFRANSSI-2ec6d9ec13",
+    "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
+    "empreinte": "c12b657bd8379f658534f60451bd169159d0cfedfaa4f10c1ad37e27b3822035",
+    "vu_le": "2026-11-03T12:49:41.438Z",
+    "version": 1
+  },
+  "RSS-CERTFRANSSI-27f0e46aeb": {
+    "id": "RSS-CERTFRANSSI-27f0e46aeb",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
+    "empreinte": "f8d08d1eadc00988f250609f46fe6006afb08c7caef7fc93b4c582462528c749",
+    "vu_le": "2026-11-03T12:49:41.438Z",
+    "version": 1
   }
 }
