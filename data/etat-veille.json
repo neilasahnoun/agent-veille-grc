@@ -187,5 +187,26 @@
     "empreinte": "f8d08d1eadc00988f250609f46fe6006afb08c7caef7fc93b4c582462528c749",
     "vu_le": "2026-11-03T12:49:41.438Z",
     "version": 1
+  },
+  "LF-JORFTEXT000055058145_01-01-2999": {
+    "id": "LF-JORFTEXT000055058145_01-01-2999",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055058145_01-01-2999",
+    "empreinte": "aff16b677c9e11e104d3e34298e5dc8de89194eeda63044268985278b49b17ef",
+    "vu_le": "2026-11-05T13:15:11.590Z",
+    "version": 1
+  },
+  "RSS-SNAT-5919ca222b": {
+    "id": "RSS-SNAT-5919ca222b",
+    "url": "http://www.senat.fr/leg/ppl26-134.html",
+    "empreinte": "43f5899c52bf8aa9788c464360de3504597beefcc192b05c87e78684269b508d",
+    "vu_le": "2026-11-05T13:15:11.590Z",
+    "version": 1
+  },
+  "RSS-SNAT-60b3d8cb3d": {
+    "id": "RSS-SNAT-60b3d8cb3d",
+    "url": "http://www.senat.fr/leg/ppl26-142.html",
+    "empreinte": "c2873240805f3a6e2e585625d3e9a23f48a7702dd08904d8471b22c3f4465054",
+    "vu_le": "2026-11-05T13:15:11.590Z",
+    "version": 1
   }
 }
