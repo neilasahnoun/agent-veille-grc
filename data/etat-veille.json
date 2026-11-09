@@ -208,5 +208,12 @@
     "empreinte": "c2873240805f3a6e2e585625d3e9a23f48a7702dd08904d8471b22c3f4465054",
     "vu_le": "2026-11-05T13:15:11.590Z",
     "version": 1
+  },
+  "RSS-CNIL-5ffba83b7d": {
+    "id": "RSS-CNIL-5ffba83b7d",
+    "url": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+    "empreinte": "b76fd915b7d5616718bd9c3f46eecf66025087da6a8d4f260d18458fbcbbd5bb",
+    "vu_le": "2026-11-09T13:56:57.571Z",
+    "version": 1
   }
 }
