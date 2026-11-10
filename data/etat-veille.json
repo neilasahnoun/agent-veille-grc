@@ -215,5 +215,12 @@
     "empreinte": "b76fd915b7d5616718bd9c3f46eecf66025087da6a8d4f260d18458fbcbbd5bb",
     "vu_le": "2026-11-09T13:56:57.571Z",
     "version": 1
+  },
+  "RSS-CERTFRANSSI-bd692089ca": {
+    "id": "RSS-CERTFRANSSI-bd692089ca",
+    "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-047/",
+    "empreinte": "662ce980d7be8d3d2deb98a3a9e1416769dff1d5d58df5a5b415ab6558281aac",
+    "vu_le": "2026-11-10T13:30:04.516Z",
+    "version": 1
   }
 }
