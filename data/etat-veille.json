@@ -222,5 +222,40 @@
     "empreinte": "662ce980d7be8d3d2deb98a3a9e1416769dff1d5d58df5a5b415ab6558281aac",
     "vu_le": "2026-11-10T13:30:04.516Z",
     "version": 1
+  },
+  "RSS-SNAT-df016c290a": {
+    "id": "RSS-SNAT-df016c290a",
+    "url": "http://www.senat.fr/leg/ppr26-154.html",
+    "empreinte": "28b8fdc716e2c1d44027f9a8a3f26ec08ab4f5d3ca64d4222b4fc3fec2c103de",
+    "vu_le": "2026-11-11T12:45:02.345Z",
+    "version": 1
+  },
+  "RSS-SNAT-8bc82bba7d": {
+    "id": "RSS-SNAT-8bc82bba7d",
+    "url": "http://www.senat.fr/leg/pjl26-163.html",
+    "empreinte": "1d1e3baa63f241b81a2baa11a0c39f7b6bcb6fcd95cecabb53c45a7892102dc8",
+    "vu_le": "2026-11-11T12:45:02.345Z",
+    "version": 1
+  },
+  "RSS-SNAT-c3f66f10be": {
+    "id": "RSS-SNAT-c3f66f10be",
+    "url": "http://www.senat.fr/leg/pjl26-164.html",
+    "empreinte": "b68854263abd75aff8c406563bf9569ab72f2b0e0a4172779bfcf65a7f51177e",
+    "vu_le": "2026-11-11T12:45:02.345Z",
+    "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-ef7ae879d2": {
+    "id": "PAGE-ASSEMBLENATIONALE-ef7ae879d2",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/rendre_effective_interdiction_creation_nouveaux_aeroports_extension_aeroports_existants_17e",
+    "empreinte": "9e8f1ebe08ce2c9c04c9f336813c936dcd2b55226397f89150866f9d241989d6",
+    "vu_le": "2026-11-11T12:45:02.346Z",
+    "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-8e0f573c32": {
+    "id": "PAGE-ASSEMBLENATIONALE-8e0f573c32",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/encadrer_interruption_reseaux_sociaux_etat_urgence_17e",
+    "empreinte": "237592104d125a437c3a93db936081a2c7f0cf2dc660120fc140777d5c0ee8e9",
+    "vu_le": "2026-11-11T12:45:02.346Z",
+    "version": 1
   }
 }

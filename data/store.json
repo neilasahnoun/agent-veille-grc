@@ -1,7 +1,57 @@
 {
-  "genere_le": "2026-11-10T13:30:04.528Z",
+  "genere_le": "2026-11-11T12:45:02.359Z",
   "organisation": "Hydréa",
   "signaux": [
+    {
+      "id": "PAGE-ASSEMBLENATIONALE-8e0f573c32",
+      "titre": "Encadrer l'interruption des réseaux sociaux pendant l'état d'urgence",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/encadrer_interruption_reseaux_sociaux_etat_urgence_17e",
+      "date_publication": "",
+      "detecte_le": "2026-11-11T12:45:02.346Z",
+      "statut": "nouveau",
+      "extrait": "Encadrer l'interruption des réseaux sociaux pendant l'état d'urgence"
+    },
+    {
+      "id": "PAGE-ASSEMBLENATIONALE-ef7ae879d2",
+      "titre": "Rendre effective l’interdiction de création de nouveaux aéroports et d’extension des aéroports existants",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/rendre_effective_interdiction_creation_nouveaux_aeroports_extension_aeroports_existants_17e",
+      "date_publication": "",
+      "detecte_le": "2026-11-11T12:45:02.346Z",
+      "statut": "nouveau",
+      "extrait": "Rendre effective l’interdiction de création de nouveaux aéroports et d’extension des aéroports existants"
+    },
+    {
+      "id": "RSS-SNAT-c3f66f10be",
+      "titre": "Diverses dispositions relatives � l'int�grit� publique (PJLO) - texte N� 164",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/pjl26-164.html",
+      "date_publication": "Wed,11 Nov 2026 02:03:32 GMT",
+      "detecte_le": "2026-11-11T12:45:02.345Z",
+      "statut": "nouveau",
+      "extrait": "Diverses dispositions relatives � l'int�grit� publique (PJLO) - texte N� 164\nProjet de loi organique portant diverses dispositions relatives � l'int�grit� publique : texte N� 164 de M. S�bastien LECORNU, Premier ministre, d�pos� au S�nat le 10 novembre 2026"
+    },
+    {
+      "id": "RSS-SNAT-8bc82bba7d",
+      "titre": "Diverses dispositions relatives � l'int�grit� publique (PJL) - texte N� 163",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/pjl26-163.html",
+      "date_publication": "Wed,11 Nov 2026 02:03:32 GMT",
+      "detecte_le": "2026-11-11T12:45:02.345Z",
+      "statut": "nouveau",
+      "extrait": "Diverses dispositions relatives � l'int�grit� publique (PJL) - texte N� 163\nProjet de loi portant diverses dispositions relatives � l'int�grit� publique : texte N� 163 de M. S�bastien LECORNU, Premier ministre, d�pos� au S�nat le 10 novembre 2026"
+    },
+    {
+      "id": "RSS-SNAT-df016c290a",
+      "titre": "Garantir un acc�s continu � l'eau potable dans les territoires ultramarins - texte N� 154",
+      "source": "Sénat",
+      "url": "http://www.senat.fr/leg/ppr26-154.html",
+      "date_publication": "Wed,11 Nov 2026 02:03:32 GMT",
+      "detecte_le": "2026-11-11T12:45:02.345Z",
+      "statut": "nouveau",
+      "extrait": "Garantir un acc�s continu � l'eau potable dans les territoires ultramarins - texte N� 154\nProposition de r�solution en application de l'article 34-1 de la Constitution, visant � garantir un acc�s continu � l'eau potable dans les territoires ultramarins : texte N� 154 de Mme Edwige DIAZ et plusieurs de ses coll�gues, d�pos� au S�nat le 5 novembre 2026"
+    },
     {
       "id": "RSS-CERTFRANSSI-bd692089ca",
       "titre": "Bulletin d'actualité CERTFR-2026-ACT-047 (09 novembre 2026)",
@@ -5312,7 +5362,7 @@
         "REQ-NIS2-021-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-POLITIQUE-FOURNISSEU-0S1-01 : Authentification multifacteur accès distant SCADA | REQ-NIS2-021-11 : MFA et communications sécurisées"
@@ -5329,7 +5379,7 @@
         "REQ-NIS2-021-12"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "Achats + RSSI",
       "statut": "À lancer",
       "description": "REQ-POLITIQUE-FOURNISSEU-0S1-02 : Clause de notification d'incident fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-03 : Audit annuel des fournisseurs critiques | REQ-POLITIQUE-FOURNISSEU-0S1-04 : Révocation des accès prestataires | REQ-NIS2-021-05 : Sécurité de la chaîne d'approvisionnement | REQ-NIS2-021-12 : Prise en compte des vulnérabilités fournisseurs"
@@ -5347,7 +5397,7 @@
         "REQ-NIS2-033-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-03 : Gestion des risques et information | REQ-NIS2-004-01 : Exemption pour actes sectoriels équivalents | REQ-NIS2-021-01 : Mise en place de mesures de gestion des risques | REQ-NIS2-021-02 : Politiques d'analyse des risques et sécurité SI | REQ-NIS2-021-13 : Mesures correctives en cas de non-conformité | REQ-NIS2-033-10 : Mise en conformité des mesures de gestion des risques"
@@ -5360,7 +5410,7 @@
         "REQ-NIS2-021-06"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-06 : Sécurité d'acquisition et des vulnérabilités"
@@ -5373,7 +5423,7 @@
         "REQ-NIS2-021-10"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-10 : Sécurité RH, contrôle d'accès et actifs"
@@ -5395,7 +5445,7 @@
         "REQ-NIS2-033-11"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-023-01 : Notification d'incident important | REQ-NIS2-023-02 : Notification aux destinataires des services | REQ-NIS2-023-03 : Signalement d'impact transfrontière | REQ-NIS2-023-04 : Communication sur les cybermenaces importantes | REQ-NIS2-023-05 : Soumission d'une alerte précoce | REQ-NIS2-023-06 : Soumission d'une notification d'incident | REQ-NIS2-023-07 : Fourniture d'un rapport intermédiaire | REQ-NIS2-023-08 : Soumission du rapport final d'incident | REQ-NIS2-023-09 : Rapports pour incident en cours | REQ-NIS2-033-11 : Information des personnes concernées en cas de menace"
@@ -5409,7 +5459,7 @@
         "REQ-NIS2-030-01"
       ],
       "priorite": "P1",
-      "echeance": "2027-02-10",
+      "echeance": "2027-02-11",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-029-04 : Notification de participation ou retrait d'accords de partage | REQ-NIS2-030-01 : Transmission de notifications volontaires"
@@ -5427,7 +5477,7 @@
         "REQ-NIS2-033-05"
       ],
       "priorite": "P2",
-      "echeance": "2027-05-10",
+      "echeance": "2027-05-11",
       "responsable": "Direction générale",
       "statut": "À lancer",
       "description": "REQ-NIS2-001-04 : Partage d'informations | REQ-NIS2-003-02 : Communication d'informations d'enregistrement | REQ-NIS2-020-01 : Approbation et supervision de la gestion des risques par la direction | REQ-NIS2-024-01 : Utilisation de produits et services certifiés | REQ-NIS2-032-04 : Responsabilité des dirigeants | REQ-NIS2-033-05 : Communication des politiques et informations"
@@ -5441,7 +5491,7 @@
         "REQ-NIS2-021-08"
       ],
       "priorite": "P2",
-      "echeance": "2027-05-10",
+      "echeance": "2027-05-11",
       "responsable": "RSSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-020-02 : Formation obligatoire de la direction et du personnel | REQ-NIS2-021-08 : Cyberhygiène et formation"
@@ -5454,7 +5504,7 @@
         "REQ-NIS2-033-04"
       ],
       "priorite": "P2",
-      "echeance": "2027-05-10",
+      "echeance": "2027-05-11",
       "responsable": "DSI",
       "statut": "À lancer",
       "description": "REQ-NIS2-033-04 : Scans de sécurité"
@@ -5468,7 +5518,7 @@
         "REQ-NIS2-033-12"
       ],
       "priorite": "P3",
-      "echeance": "2027-11-10",
+      "echeance": "2027-11-11",
       "responsable": "Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-021-07 : Évaluation de l'efficacité des mesures | REQ-NIS2-033-12 : Mise en œuvre des recommandations d'audit"
@@ -5487,7 +5537,7 @@
         "REQ-NIS2-033-13"
       ],
       "priorite": "P3",
-      "echeance": "2027-11-10",
+      "echeance": "2027-11-11",
       "responsable": "Direction générale + Audit interne",
       "statut": "À lancer",
       "description": "REQ-NIS2-032-02 : Pouvoirs de supervision des autorités | REQ-NIS2-032-03 : Exécution des mesures correctives et injonctions | REQ-NIS2-033-06 : Accès aux données et documents | REQ-NIS2-033-07 : Preuves de mise en œuvre des politiques | REQ-NIS2-033-08 : Exécution des instructions contraignantes | REQ-NIS2-033-09 : Cessation des comportements illicites | REQ-NIS2-033-13 : Publicité des violations"
