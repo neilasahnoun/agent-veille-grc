@@ -257,5 +257,12 @@
     "empreinte": "237592104d125a437c3a93db936081a2c7f0cf2dc660120fc140777d5c0ee8e9",
     "vu_le": "2026-11-11T12:45:02.346Z",
     "version": 1
+  },
+  "RSS-CERTFRANSSI-01d0117fb4": {
+    "id": "RSS-CERTFRANSSI-01d0117fb4",
+    "url": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
+    "empreinte": "1d306052c61779e8ba88937d98a1529a961ccd1af207cd00d0359615c9e5573c",
+    "vu_le": "2026-11-12T13:48:44.400Z",
+    "version": 1
   }
 }
