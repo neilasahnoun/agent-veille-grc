@@ -264,5 +264,19 @@
     "empreinte": "1d306052c61779e8ba88937d98a1529a961ccd1af207cd00d0359615c9e5573c",
     "vu_le": "2026-11-12T13:48:44.400Z",
     "version": 1
+  },
+  "RSS-CERTFRANSSI-3110120cdb": {
+    "id": "RSS-CERTFRANSSI-3110120cdb",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1499/",
+    "empreinte": "66da76cfc71be2fe87f94a6887696f62d00e8361d69278d93734e0a643169410",
+    "vu_le": "2026-11-13T13:09:51.188Z",
+    "version": 1
+  },
+  "RSS-CERTFRANSSI-1a85f8f02a": {
+    "id": "RSS-CERTFRANSSI-1a85f8f02a",
+    "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1506/",
+    "empreinte": "8e8c88002a882e3d9f11384b6a3bf47c581ff8c3e2b47aaf5bd79fcd72de9aaf",
+    "vu_le": "2026-11-13T13:09:51.188Z",
+    "version": 1
   }
 }
