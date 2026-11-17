@@ -278,5 +278,26 @@
     "empreinte": "8e8c88002a882e3d9f11384b6a3bf47c581ff8c3e2b47aaf5bd79fcd72de9aaf",
     "vu_le": "2026-11-13T13:09:51.188Z",
     "version": 1
+  },
+  "RSS-CNIL-929ea3f13d": {
+    "id": "RSS-CNIL-929ea3f13d",
+    "url": "https://www.cnil.fr/fr/38-sanctions-simplifiees",
+    "empreinte": "27110baed5947707e4ae922566e5e174ceb25bfce618aad166ba32ee92c3085a",
+    "vu_le": "2026-11-17T14:28:44.168Z",
+    "version": 1
+  },
+  "RSS-CERTFRANSSI-cdc4334d6e": {
+    "id": "RSS-CERTFRANSSI-cdc4334d6e",
+    "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-048/",
+    "empreinte": "1dfb70b45f20ddd7824c2e3080d5c1482aad74bf1ad05e3e87ee59ca38602e73",
+    "vu_le": "2026-11-17T14:28:44.168Z",
+    "version": 1
+  },
+  "PAGE-ASSEMBLENATIONALE-96f1191571": {
+    "id": "PAGE-ASSEMBLENATIONALE-96f1191571",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/interdire_toute_relation_commerciale_colonies_israeliennes_illegales_territoire_palestinien_occupe_plateau_Golan",
+    "empreinte": "3bd79ed198de24ea9916ff2693704691a533416c9a5ee67d35c762ea169ba54e",
+    "vu_le": "2026-11-17T14:28:44.168Z",
+    "version": 1
   }
 }
