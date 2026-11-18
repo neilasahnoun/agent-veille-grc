@@ -299,5 +299,12 @@
     "empreinte": "3bd79ed198de24ea9916ff2693704691a533416c9a5ee67d35c762ea169ba54e",
     "vu_le": "2026-11-17T14:28:44.168Z",
     "version": 1
+  },
+  "RSS-CNIL-3a6d805cfc": {
+    "id": "RSS-CNIL-3a6d805cfc",
+    "url": "https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros",
+    "empreinte": "a281e158fe7f3c0e1f17b91e708affe836cc245079b340c56f24efa18aa5cab5",
+    "vu_le": "2026-11-18T14:03:57.898Z",
+    "version": 1
   }
 }
