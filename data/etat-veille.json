@@ -306,5 +306,12 @@
     "empreinte": "a281e158fe7f3c0e1f17b91e708affe836cc245079b340c56f24efa18aa5cab5",
     "vu_le": "2026-11-18T14:03:57.898Z",
     "version": 1
+  },
+  "RSS-CNIL-e0150b4606": {
+    "id": "RSS-CNIL-e0150b4606",
+    "url": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
+    "empreinte": "c760f2e62d22fa557c201507710b93f64eb3215011b951d638419c8b6636d6f0",
+    "vu_le": "2026-11-20T14:03:55.412Z",
+    "version": 1
   }
 }
