@@ -355,5 +355,19 @@
     "empreinte": "26c366a57d16b0496a3871cfd8f5925470d61be312b1a742dc50d639ee89fd51",
     "vu_le": "2026-11-23T16:01:59.223Z",
     "version": 1
+  },
+  "RSS-CNIL-e92050c61f": {
+    "id": "RSS-CNIL-e92050c61f",
+    "url": "https://www.cnil.fr/fr/controles-de-la-cnil-une-charte-pour-tout-comprendre",
+    "empreinte": "c4f2bd467488cf210827990f5c0f9fb904be7b085feff756d81846188a1deda8",
+    "vu_le": "2026-11-24T15:55:40.689Z",
+    "version": 1
+  },
+  "RSS-SNAT-b0c4d9df3c": {
+    "id": "RSS-SNAT-b0c4d9df3c",
+    "url": "http://www.senat.fr/leg/ppl26-171.html",
+    "empreinte": "894462d804afaac3447852a77c2e248d64c70156078cd26a67365d313f20329b",
+    "vu_le": "2026-11-24T15:55:40.690Z",
+    "version": 1
   }
 }
