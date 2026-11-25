@@ -369,5 +369,12 @@
     "empreinte": "894462d804afaac3447852a77c2e248d64c70156078cd26a67365d313f20329b",
     "vu_le": "2026-11-24T15:55:40.690Z",
     "version": 1
+  },
+  "RSS-CERTFRANSSI-dab8b621b7": {
+    "id": "RSS-CERTFRANSSI-dab8b621b7",
+    "url": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2026-DUR-001/",
+    "empreinte": "b0265760e53686bd9f03e7bbdaa15c30139c34e739385320edd87797c16362e1",
+    "vu_le": "2026-11-25T15:38:57.326Z",
+    "version": 1
   }
 }
