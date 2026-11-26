@@ -376,5 +376,12 @@
     "empreinte": "b0265760e53686bd9f03e7bbdaa15c30139c34e739385320edd87797c16362e1",
     "vu_le": "2026-11-25T15:38:57.326Z",
     "version": 1
+  },
+  "RSS-SNAT-326129a55a": {
+    "id": "RSS-SNAT-326129a55a",
+    "url": "http://www.senat.fr/leg/ppr26-193.html",
+    "empreinte": "1cb8b5018d691f71c41affd2b7f466b2eee53e79349d77cb5c61855c84c5befc",
+    "vu_le": "2026-11-26T15:21:26.027Z",
+    "version": 1
   }
 }
