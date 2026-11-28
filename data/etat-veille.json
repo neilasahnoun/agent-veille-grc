@@ -383,5 +383,12 @@
     "empreinte": "1cb8b5018d691f71c41affd2b7f466b2eee53e79349d77cb5c61855c84c5befc",
     "vu_le": "2026-11-26T15:21:26.027Z",
     "version": 1
+  },
+  "RSS-SNAT-94149155a5": {
+    "id": "RSS-SNAT-94149155a5",
+    "url": "http://www.senat.fr/leg/pjl26-192.html",
+    "empreinte": "76672cec7fd60a27da42372625467f8e60e23465365b91ab116b6dbf5a590d2c",
+    "vu_le": "2026-11-28T14:14:39.965Z",
+    "version": 1
   }
 }
